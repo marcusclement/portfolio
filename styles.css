@@ -260,7 +260,8 @@ body {
 
 .file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) p strong {
   color: var(--text);
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) p,
@@ -309,8 +310,11 @@ body {
   margin: 8px 0 0;
 }
 
-.file-panel[data-file="experience"] .resume-role {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-role {
   text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--muted);
 }
 
 .project-entry {
