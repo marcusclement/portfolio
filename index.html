@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcus Clement | Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="sidebar-header">EXPLORER</div>
+        <div class="sidebar-section">MARCUS CLEMENT'S PORTFOLIO</div>
+        <ul class="file-list" id="fileList" aria-label="File list">
+          <li class="file-item" data-file="about">
+            <span class="file-icon file-icon--md" aria-hidden="true"></span>
+            about.md
+          </li>
+          <li class="file-item" data-file="experience">
+            <span class="file-icon file-icon--md" aria-hidden="true"></span>
+            experience.md
+          </li>
+          <li class="file-item" data-file="resume_pdf">
+            <span class="file-icon file-icon--pdf" aria-hidden="true"></span>
+            resume.pdf
+          </li>
+          <li class="file-item" data-file="projects">
+            <span class="file-icon file-icon--md" aria-hidden="true"></span>
+            projects.md
+          </li>
+          <li class="file-item" data-file="contact">
+            <span class="file-icon file-icon--md" aria-hidden="true"></span>
+            contact.md
+          </li>
+          <li class="file-item" data-file="linkedin">
+            <span class="file-icon file-icon--link" aria-hidden="true"></span>
+            linkedin.url
+          </li>
+          <li class="file-item" data-file="community">
+            <span class="file-icon file-icon--md" aria-hidden="true"></span>
+            community.md
+          </li>
+        </ul>
+      </aside>
+
+      <main class="editor">
+        <div class="editor-titlebar">
+          <div class="title-left">Marcus Clement — Portfolio</div>
+          <div class="title-right">Cursor UI Mock</div>
+        </div>
+        <div class="tabs" id="tabs" role="tablist" aria-label="Open files"></div>
+        <section class="editor-pane" id="editorPane">
+          <div class="welcome">
+            <h1>Welcome</h1>
+            <p>
+              Open a file on the left to learn more about me. This layout mimics
+              the Cursor editor so you can browse my info like a codebase.
+            </p>
+          </div>
+        </section>
+        <footer class="status-bar">
+          <div class="status-left">main • portfolio</div>
+          <div class="status-right">Ln 1, Col 1 • Spaces: 2</div>
+        </footer>
+      </main>
+
+      <aside class="ai-sidebar" aria-label="Mock AI chat">
+        <div class="ai-titlebar">
+          <div class="ai-title">
+            Portfolio website with file layout
+          </div>
+          <div class="ai-actions">
+            <button class="icon-button" aria-label="New chat">＋</button>
+            <button class="icon-button" aria-label="History">⟳</button>
+            <button class="icon-button" aria-label="Settings">⚙</button>
+          </div>
+        </div>
+        <div class="ai-pane">
+          <div class="ai-messages" id="aiMessages">
+            <div class="ai-message ai-message--bot">
+              <div class="ai-label">CURSOR</div>
+              <div class="ai-bubble">
+                Ask me anything about this portfolio.
+              </div>
+            </div>
+          </div>
+          <form class="ai-input" id="aiForm">
+            <div class="ai-input-toolbar">
+              <button class="chip-button" type="button">∞</button>
+              <button class="chip-button" type="button">GPT-5.2</button>
+              <button class="chip-button" type="button">Web</button>
+            </div>
+            <div class="ai-input-row">
+              <input
+                id="aiInput"
+                type="text"
+                placeholder="Ask Cursor AI..."
+                autocomplete="off"
+              />
+              <button type="submit" class="send-button" aria-label="Send message">
+                ➤
+              </button>
+            </div>
+          </form>
+        </div>
+      </aside>
+    </div>
+
+    <template id="tabTemplate">
+      <button class="tab" role="tab" aria-selected="false">
+        <span class="tab-title"></span>
+        <span class="tab-close" aria-label="Close tab">×</span>
+      </button>
+    </template>
+
+    <template id="panelTemplate">
+      <article class="file-panel" role="tabpanel"></article>
+    </template>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
