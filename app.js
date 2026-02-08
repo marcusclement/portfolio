@@ -19,8 +19,8 @@ const FILES = {
     </p>
     <p>
       Outside of school and work, I'm into running, lifting, hiking, and golfing (even though I suck).
-      I'm currently looking for internships across data, analytics, and product
-      engineering where I can keep shipping and learning.
+      I'm currently looking for internships across data, software, and product
+      engineering where I can continue delivering value and learning.
     </p>
     <h2>Core Skills</h2>
     <ul>
@@ -414,17 +414,9 @@ const FILES = {
   </li>
 </ul>
 <p class="resume-company">
-  <span class="resume-hint">// click on the DubsTech logo</span>
-  <a
-    class="resume-company-link"
-    href="https://careers.uw.edu/organizations/dubstech-2/"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img class="resume-logo" src="./dubs.jpeg" alt="DubsTech logo" />
-    <strong>DubsTech</strong>
-  </a>
-  <span class="resume-role">— Member (Sep 2025 - Present)</span>
+  <img class="resume-logo" src="./claude.png" alt="Claude Builder Club logo" />
+  <strong>Claude Builder Club</strong>
+  <span class="resume-role">— Member (Jan 2026 - Present)</span>
 </p>
 <ul>
   <li>
