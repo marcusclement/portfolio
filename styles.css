@@ -174,27 +174,18 @@ body {
 }
 
 .welcome {
-  max-width: 640px;
+  max-width: none;
 }
 
 .file-panel {
-  max-width: 720px;
+  max-width: none;
   line-height: 1.6;
-}
-
-.file-panel[data-file="about"] .about-photo {
-  width: min(220px, 60vw);
-  border-radius: 14px;
-  margin: 12px 0 18px;
-  display: block;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .about-layout {
   display: grid;
-  grid-template-columns: minmax(520px, 1fr) 1fr;
-  gap: 24px;
+  grid-template-columns: minmax(380px, 1fr) 1.2fr;
+  gap: 32px;
   align-items: start;
 }
 
@@ -208,25 +199,38 @@ body {
   flex-direction: row;
   gap: 16px;
   justify-self: stretch;
-  justify-content: flex-end;
   align-items: flex-start;
 }
 
-.about-media-photo,
-.about-media-video {
-  width: 180px;
-  height: 180px;
-  border-radius: 14px;
-  object-fit: cover;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
-}
-
+/* All three media wrappers share the same flex sizing */
+.about-photo-wrap,
 .about-media-photo-wrap,
 .about-media-video-wrap {
+  flex: 1 1 0;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 6px;
   align-items: center;
+}
+
+/* All media items fill their wrapper and stay square */
+.about-photo,
+.about-media-photo,
+.about-media-video {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-photo:hover,
+.about-media-photo:hover,
+.about-media-video:hover {
+  transform: scale(1.04);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
 }
 
 .about-media-caption {
@@ -236,22 +240,17 @@ body {
   text-align: center;
 }
 
-.file-panel[data-file="about"] .about-photo:hover {
-  transform: scale(1.04);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
-}
-
-.file-panel:is([data-file="experience"], [data-file="community"]) {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) {
   text-align: center;
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) h1 {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) h1 {
   font-size: 32px;
   letter-spacing: 0.02em;
   color: var(--text);
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) h2 {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) h2 {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -259,21 +258,21 @@ body {
   margin-top: 26px;
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) p strong {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) p strong {
   color: var(--text);
   font-weight: 600;
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) p,
-.file-panel:is([data-file="experience"], [data-file="community"]) li {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) p,
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) li {
   font-size: 16px;
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) .resume-hint {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-hint {
   font-size: 13px;
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) .resume-company {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-company {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -282,14 +281,14 @@ body {
   margin: 10px 0 0;
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) .resume-hint {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-hint {
   color: var(--muted);
   font-size: 12px;
   font-style: italic;
   text-align: center;
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) .resume-company-link {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-company-link {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -298,11 +297,11 @@ body {
   text-decoration: none;
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) .resume-company-link:hover {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-company-link:hover {
   color: var(--accent);
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) .resume-edu {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-edu {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -446,22 +445,22 @@ body {
   transform: translateY(-2px);
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) .resume-logo {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-logo {
   width: 64px;
   height: 64px;
   object-fit: contain;
   border-radius: 4px;
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) ul {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) ul {
   margin: 10px auto 0;
-  max-width: 600px;
+  max-width: 80%;
   text-align: center;
   list-style-position: inside;
   padding-left: 0;
 }
 
-.file-panel:is([data-file="experience"], [data-file="community"]) li {
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) li {
   margin-bottom: 6px;
 }
 
@@ -707,5 +706,16 @@ body {
 
   .about-layout {
     grid-template-columns: 1fr;
+  }
+
+  .about-media {
+    flex-wrap: wrap;
+  }
+
+  .about-photo-wrap,
+  .about-media-photo-wrap,
+  .about-media-video-wrap {
+    flex: 1 1 calc(33% - 12px);
+    min-width: 140px;
   }
 }

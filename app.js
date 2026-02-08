@@ -31,14 +31,16 @@ const FILES = {
     </ul>
   </div>
   <div class="about-media">
-    <img
-      class="about-photo"
-      src="./DSC06990.jpeg"
-      alt="Marcus Clement headshot"
-    />
+    <div class="about-photo-wrap">
+      <img
+        class="about-photo"
+        src="./DSC06990.jpeg"
+        alt="Marcus Clement headshot"
+      />
+    </div>
     <div class="about-media-photo-wrap">
       <img class="about-media-photo" src="./hike.jpg" alt="Hiking photo" />
-      <div class="about-media-caption">// hiking in washington 🌲</div>
+      <div class="about-media-caption">// Beautiful hike in Washington!</div>
     </div>
     <div class="about-media-video-wrap">
       <video
@@ -49,7 +51,7 @@ const FILES = {
         loop
         playsinline
       ></video>
-      <div class="about-media-caption">// FORE.</div>
+      <div class="about-media-caption">// FORE!</div>
     </div>
   </div>
 </div>
@@ -66,12 +68,15 @@ const FILES = {
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" title="Tailwind CSS" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" title="Azure" />
   <img src="./aws.png" alt="AWS" title="AWS" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="SQL (PostgreSQL)" title="SQL (PostgreSQL)" />
+  <img src="./sql.png" alt="SQL" title="SQL" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" />
   <img src="./tableau.jpg" alt="Tableau" title="Tableau" />
   <img src="./GCP.png" alt="Google Cloud Platform" title="Google Cloud Platform" />
   <img src="./excel.png" alt="Excel" title="Excel" />
   <img src="https://cdn.simpleicons.org/snowflake/29B5E8" alt="Snowflake" title="Snowflake" />
   <img src="./gpt.png" alt="AI" title="AI / LLMs" />
+  <img src="./bi.png" alt="Power BI" title="Power BI" />
+  <img src="./htmlcss.jpg" alt="HTML & CSS" title="HTML & CSS" />
 </div>
 `,
   },
@@ -231,41 +236,56 @@ const FILES = {
     title: "projects.md",
     content: `
 <h1>Projects</h1>
+
 <h2>Cursor-Inspired Portfolio</h2>
-<p>
-  This website! A  portfolio that uses editor metaphors to make browsing feel
-  familiar to developers. Built with Next.js, TypeScript, Tailwind CSS, and meant to mimic my favorite IDE, Cursor.
+<p class="resume-company">
+  <strong>https://marcusclementportfolio.vercel.app/</strong>
+  <span class="resume-role">— Personal Portfolio</span>
 </p>
+<ul>
+  <li>This website! A portfolio that uses editor metaphors to make browsing feel familiar to developers.</li>
+  <li>Built with HTML, CSS, JavaScript, and deployed on Vercel, designed to mimic my current favorite IDE, Cursor.</li>
+</ul>
+
 <h2>Nick-Blendz.com — Online Booking Application</h2>
-<p class="project-entry">
-  <span class="project-row">
-    <span class="resume-hint">// click here to see Nick-Blendz →</span>
-    <a
-      class="project-link"
-      href="https://nick-blendz.com"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <img class="project-logo" src="./nickblendz.webp" alt="Nick-Blendz logo" />
-      <span class="project-title">Nick-Blendz.com</span>
-    </a>
-  </span>
-  Built and deployed a full-stack booking platform with Next.js, TypeScript, and AWS
-  (EC2, S3, RDS) supporting 100+ users. Designed the database schema and backend to
-  manage scheduling and client data, cutting manual booking work by 80%.
+<p class="resume-company">
+  <span class="resume-hint">// click on the Nick-Blendz logo</span>
+  <a
+    class="resume-company-link"
+    href="https://nick-blendz.com"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img class="resume-logo" src="./nickblendz.webp" alt="Nick-Blendz logo" />
+    <strong>Nick-Blendz.com</strong>
+  </a>
+  <span class="resume-role">— Full-Stack Booking Platform</span>
 </p>
+<ul>
+  <li>Built and deployed a full-stack booking platform with Next.js, TypeScript, and AWS (EC2, S3, RDS) supporting 100+ users.</li>
+  <li>Designed the database schema and backend to manage scheduling and client data, cutting manual booking work by 80%.</li>
+  <li>Integrated scheduling API and analytics dashboards.</li>
+</ul>
+
 <h2>Medi-Scribe — AI Medical Transcriber</h2>
-<p>
-  Developing a HIPAA-compliant transcription system using AWS (S3, Lambda, Transcribe
-  Medical, Bedrock) and React to automate audio capture, transcription, and clinical
-  summarization.
+<p class="resume-company">
+  <strong>Medi-Scribe</strong>
+  <span class="resume-role">— HIPAA-Compliant Transcription System</span>
 </p>
+<ul>
+  <li>Developing a HIPAA-compliant transcription system using AWS (S3, Lambda, Transcribe Medical, Bedrock) and React.</li>
+  <li>Automates audio capture, transcription, and clinical summarization.</li>
+</ul>
+
 <h2>Document Management System</h2>
-<p>
-  Built a PostgreSQL-based document management system for a real estate investor.
-  Designed a relational schema and SQL backend using JSON to streamline property and
-  record management.
+<p class="resume-company">
+  <strong>Document Management System</strong>
+  <span class="resume-role">— PostgreSQL Backend</span>
 </p>
+<ul>
+  <li>Built a PostgreSQL-based document management system for a real estate investor.</li>
+  <li>Designed a relational schema and SQL backend using JSON to streamline property and record management.</li>
+</ul>
 `,
   },
   contact: {
@@ -311,8 +331,16 @@ const FILES = {
     content: `
 <h1>Community Engagement</h1>
 <p class="resume-company">
-  <img class="resume-logo" src="./big.jpeg" alt="Business Impact Group logo" />
-  <strong>Business Impact Group</strong>
+  <span class="resume-hint">// click on the Business Impact Group logo</span>
+  <a
+    class="resume-company-link"
+    href="https://www.uwbig.com/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img class="resume-logo" src="./big.jpeg" alt="Business Impact Group logo" />
+    <strong>Business Impact Group</strong>
+  </a>
   <span class="resume-role">— Consultant (Jan 2026 - Present)</span>
 </p>
 <ul>
