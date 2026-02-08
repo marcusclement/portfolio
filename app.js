@@ -414,8 +414,16 @@ const FILES = {
   </li>
 </ul>
 <p class="resume-company">
-  <img class="resume-logo" src="./claude.png" alt="Claude Builder Club logo" />
-  <strong>Claude Builder Club</strong>
+  <span class="resume-hint">// click on the Claude Builder Club logo</span>
+  <a
+    class="resume-company-link"
+    href="https://claude.com/programs/campus"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img class="resume-logo" src="./claude.png" alt="Claude Builder Club logo" />
+    <strong>Claude Builder Club</strong>
+  </a>
   <span class="resume-role">— Member (Jan 2026 - Present)</span>
 </p>
 <ul>
