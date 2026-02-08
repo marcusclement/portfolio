@@ -22,6 +22,9 @@ const FILES = {
       I'm currently looking for internships across data, software, and product
       engineering where I can continue delivering value and learning.
     </p>
+    <p>
+      Feel free to brows through my porfolio using the files on the left!
+    </p>
     <h2>Core Skills</h2>
     <ul>
       <li>Full Stack Development, Data/DBs, Cloud Computing</li>
@@ -243,7 +246,7 @@ const FILES = {
   <span class="resume-role">— Personal Portfolio</span>
 </p>
 <ul>
-  <li>This website! A portfolio that uses editor metaphors to make browsing feel familiar to developers.</li>
+  <li>This website! A personal portfolio that makes browsing feel familiar to developers.</li>
   <li>Built with HTML, CSS, JavaScript, and deployed on Vercel, designed to mimic my current favorite IDE, Cursor.</li>
 </ul>
 
@@ -658,10 +661,37 @@ const appendAiMessage = (role, text) => {
   aiMessages.scrollTop = aiMessages.scrollHeight;
 };
 
+const playBigDataEasterEgg = () => {
+  const overlay = document.createElement("div");
+  overlay.style.cssText =
+    "position:fixed;inset:0;z-index:99999;background:#000;display:flex;align-items:center;justify-content:center;";
+
+  const video = document.createElement("video");
+  video.src = "./bigdata.mp4";
+  video.style.cssText = "width:100%;height:100%;object-fit:cover;";
+  video.autoplay = true;
+  video.playsInline = true;
+
+  overlay.appendChild(video);
+  document.body.appendChild(overlay);
+
+  video.play().catch(() => {});
+
+  video.addEventListener("ended", () => overlay.remove());
+  overlay.addEventListener("click", () => overlay.remove());
+};
+
 aiForm.addEventListener("submit", (event) => {
   event.preventDefault();
   const text = aiInput.value.trim();
   if (!text) return;
+
+  if (text.toLowerCase() === "big data") {
+    aiInput.value = "";
+    playBigDataEasterEgg();
+    return;
+  }
+
   appendAiMessage("user", text);
   appendAiMessage("bot", aiReplies[aiReplyIndex % aiReplies.length]);
   aiReplyIndex += 1;
