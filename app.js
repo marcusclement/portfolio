@@ -43,18 +43,6 @@ const FILES = {
     <div class="about-media-video-wrap">
       <video
         class="about-media-video"
-        autoplay
-        muted
-        loop
-        playsinline
-      >
-        <source src="./hike.mp4" type="video/mp4" />
-      </video>
-      <div class="about-media-caption">⛰️</div>
-    </div>
-    <div class="about-media-video-wrap">
-      <video
-        class="about-media-video"
         src="./golf.mov"
         autoplay
         muted
@@ -229,7 +217,7 @@ const FILES = {
     content: `
 <h1>My Resume</h1>
 <div class="pdf-link-wrap">
-  <a class="pdf-link" href="/MarcusClementResume.pdf" target="_blank" rel="noreferrer" aria-label="Open resume PDF">
+  <a class="pdf-link" href="MarcusClementResume.pdf" target="_blank" rel="noreferrer" aria-label="Open resume PDF">
     <span class="pdf-icon">PDF</span>
     <span class="pdf-text">Open MarcusClementResume.pdf</span>
   </a>
