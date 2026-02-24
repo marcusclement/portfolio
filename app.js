@@ -222,13 +222,13 @@ const FILES = {
 `,
   },
   resume_pdf: {
-    title: "MarcusClementResume.pdf",
+    title: "resume.pdf",
     content: `
-<h1>MarcusClementResume</h1>
+<h1>My Resume</h1>
 <div class="pdf-link-wrap">
-  <a class="pdf-link" href="DS_RESUME.pdf" target="_blank" rel="noreferrer" aria-label="Open resume PDF">
+  <a class="pdf-link" href="MarcusClementResume.pdf" target="_blank" rel="noreferrer" aria-label="Open resume PDF">
     <span class="pdf-icon">PDF</span>
-    <span class="pdf-text">Open MarcusClementResume.pdf</span>
+    <span class="pdf-text">Open resume.pdf</span>
   </a>
 </div>
 <p class="muted">
