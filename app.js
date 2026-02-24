@@ -109,11 +109,12 @@ const FILES = {
     <img class="resume-logo" src="./airplai.jpeg" alt="AirPLAi logo" />
     <strong>AirPLAi</strong>
   </a>
-  <span class="resume-role">— AI Product Engineer Intern (Jan 2026 - Present)</span>
+  <span class="resume-role">— Data and AI Product Engineer Intern (Jan 2026 - Present)</span>
 </p>
 <ul>
-  <li>Running builds/tests, building UI features, debugging, and resolving CI/Dev issues (GCP, Docker, React / Next.js).</li>
-  <li>Improving LLM workflow quality by tuning prompt logic and SQL backed retrieval in Python and FastAPI.</li>
+  <li>Tuning AI chatbot prompt workflows and data retrieval logic in Python (FastAPI / LangGraph).</li>
+  <li>Creating UI + backend features, debugging, running tests, and resolving CI/Dev issues (GCP, Docker, React / Next.js).</li>
+  <li>Building a Python queue worker on Google Cloud Run to automate video ingestion and tagging workflows.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Web Impact logo</span>
