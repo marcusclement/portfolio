@@ -112,8 +112,8 @@ const FILES = {
   <span class="resume-role">— AI Product Engineer Intern (Jan 2026 - Present)</span>
 </p>
 <ul>
-  <li>Running builds/tests, building UI features, debugging CI/Dev issues.</li>
-  <li>Improving LLM workflow quality with prompt logic and SQL retrieval.</li>
+  <li>Running builds/tests, building UI features, debugging, and resolving CI/Dev issues (GCP, Docker, React / Next.js).</li>
+  <li>Improving LLM workflow quality by tuning prompt logic and SQL backed retrieval in Python and FastAPI.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Web Impact logo</span>
@@ -129,9 +129,9 @@ const FILES = {
   <span class="resume-role">— Full Stack Developer (Jan 2026 - Present)</span>
 </p>
 <ul>
-  <li>Developing features across React frontend, API routes, and backend.</li>
-  <li>Collaborating with design and product leads for client solutions.</li>
-  <li>Implementing UI components with best practices via GitHub workflows.</li>
+  <li>Developing features across React frontend, API routes, and backend, owning implementation to deployment under deadlines.</li>
+  <li>Collaborating cross functionally with design and product leads to deliver user focused web solutions for external clients.</li>
+  <li>Implementing UI components with shadcn and delivering maintainable code with best practices through GitHub workflows.</li>
 </ul>
 <p class="resume-company">
   <img class="resume-logo" src="./everlane.jpeg" alt="Everlane logo" />
@@ -139,9 +139,9 @@ const FILES = {
   <span class="resume-role">— Data Science Intern (Aug 2025 - Nov 2025)</span>
 </p>
 <ul>
-  <li>Built automated Python pipeline to process 100+ monthly logs.</li>
-  <li>Created Tableau dashboards improving reporting accuracy by 25%.</li>
-  <li>Modeled data to identify high-value segments, boosting retention 12%.</li>
+  <li>Built automated Python pipeline to process 100+ monthly logs, optimizing routing, reducing job-time by 15%.</li>
+  <li>Developed Tableau dashboards that improved reporting accuracy by 25%, visualizing demand and crew performance.</li>
+  <li>Conducted data modeling to identify high-value customer segments, leading to a 12% increase in customer retention.</li>
 </ul>
 <p class="resume-company">
   <img class="resume-logo" src="./costco.png" alt="Costco Wholesale logo" />
@@ -149,8 +149,8 @@ const FILES = {
   <span class="resume-role">— Member Service Agent (Jan 2024 - Present)</span>
 </p>
 <ul>
-  <li>Provided technical ops support for ecommerce availability.</li>
-  <li>Analyzed weekly KPI dashboards to optimize service performance.</li>
+  <li>Provided technical operations support for e-commerce, diagnosing connectivity to ensure system availability for end-users.</li>
+  <li>Analyzed weekly performance dashboards, interpreting KPIs to identify improvement areas and optimize service.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the DECA logo</span>
@@ -166,8 +166,8 @@ const FILES = {
   <span class="resume-role">— Business Operations Analyst (Sep 2021 - Jun 2023)</span>
 </p>
 <ul>
-  <li>Produced three 20-page operations research reports.</li>
-  <li>Shared insights that informed strategic decisions for clients.</li>
+  <li>Analyzed business performance data using Excel and Power BI to produce three 20-page operations research reports.</li>
+  <li>Informed strategic decisions for local car dealership and dental clinic; communicated clearly to stakeholders.</li>
 </ul>
 <h2>Projects</h2>
 <p class="project-entry">
