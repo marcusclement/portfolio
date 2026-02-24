@@ -114,7 +114,7 @@ const FILES = {
 <ul>
   <li>Tuning AI chatbot prompt workflows and data retrieval logic in Python (FastAPI / LangGraph).</li>
   <li>Creating UI + backend features, debugging, running tests, and resolving CI/Dev issues (GCP, Docker, React / Next.js).</li>
-  <li>Building a Python queue worker on Google Cloud Run to automate video ingestion and tagging workflows.</li>
+  <li>Building cloud based data pipelines and features that improve data reliability and operational workflows.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Web Impact logo</span>
