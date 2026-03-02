@@ -106,7 +106,7 @@ const FILES = {
     target="_blank"
     rel="noreferrer"
   >
-    <img class="resume-logo" src="./airplai.jpeg" alt="AirPLAi logo" />
+    <img class="resume-logo" src="./AirPLAi_Sports.jpeg" alt="AirPLAi logo" />
     <strong>AirPLAi</strong>
   </a>
   <span class="resume-role">— Data and AI Product Engineer Intern (Jan 2026 - Present)</span>
@@ -227,7 +227,7 @@ const FILES = {
 <h1>My Resume</h1>
 <div class="pdf-link-wrap">
   <a class="pdf-link" href="MarcusClementResume.pdf" target="_blank" rel="noreferrer" aria-label="Open resume PDF">
-    <span class="pdf-icon">PDF</span>
+    <img class="pdf-preview" src="./resume.png" alt="Preview of Marcus Clement resume" />
     <span class="pdf-text">Open resume.pdf</span>
   </a>
 </div>
