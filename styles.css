@@ -412,7 +412,7 @@ body {
 .pdf-link-wrap {
   display: flex;
   justify-content: center;
-  margin: 20px 0 10px;
+  margin: 12px 0 10px;
 }
 
 .pdf-link {
@@ -425,7 +425,9 @@ body {
 }
 
 .pdf-preview {
-  width: min(320px, 70vw);
+  width: min(980px, 88vw);
+  max-height: calc(100vh - 240px);
+  object-fit: contain;
   border-radius: 12px;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
   display: block;

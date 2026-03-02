@@ -172,16 +172,11 @@ const FILES = {
 </ul>
 <h2>Projects</h2>
 <p class="project-entry">
-  <span class="resume-hint">// click on the Nick-Blendz logo</span>
-  <a
-    class="project-link project-link--stacked"
-    href="https://nick-blendz.com"
-    target="_blank"
-    rel="noreferrer"
-  >
+  <span class="resume-hint">// Nick-Blendz logo</span>
+  <span class="project-link project-link--stacked">
     <img class="project-logo" src="./nickblendz.webp" alt="Nick-Blendz logo" />
     <span class="project-title">Nick-Blendz.com — Online Booking Application (Jun 2025 - Jul 2025)</span>
-  </a>
+  </span>
 </p>
 <ul>
   <li>Built and deployed full stack platform with Next.js and AWS.</li>
@@ -253,16 +248,11 @@ const FILES = {
 
 <h2>Nick-Blendz.com — Online Booking Application</h2>
 <p class="resume-company">
-  <span class="resume-hint">// click on the Nick-Blendz logo</span>
-  <a
-    class="resume-company-link"
-    href="https://nick-blendz.com"
-    target="_blank"
-    rel="noreferrer"
-  >
+  <span class="resume-hint">// Nick-Blendz logo</span>
+  <span class="resume-company-link">
     <img class="resume-logo" src="./nickblendz.webp" alt="Nick-Blendz logo" />
     <strong>Nick-Blendz.com</strong>
-  </a>
+  </span>
   <span class="resume-role">— Full-Stack Booking Platform</span>
 </p>
 <ul>
