@@ -29,7 +29,7 @@ const FILES = {
     <ul>
       <li>Full Stack Development, Data/DBs, Cloud Computing</li>
       <li>Agile Methodologies, Data Visualization, LLMs</li>
-      <li>Python, R, SQL, Tableau, Power BI, Excel, AWS, Azure, Java</li>
+      <li>Python, R, SQL, Tableau, Power BI, AWS, Azure, GCP, Java</li>
       <li>TypeScript, Next.js, React, Git, AI, Snowflake, Tailwind CSS</li>
     </ul>
   </div>
@@ -289,7 +289,6 @@ const FILES = {
 <p>Let's get in touch!</p>
 <ul>
   <li>Email: mvcus8235@gmail.com</li>
-  <li>Phone: 425-757-6331</li>
   <li>
     LinkedIn:
     <a href="https://www.linkedin.com/in/marcus-clement27" target="_blank" rel="noreferrer">
@@ -373,6 +372,15 @@ const FILES = {
   <li>Implementing UI components with best practices via GitHub workflows.</li>
 </ul>
 <p class="resume-company">
+  <img class="resume-logo" src="./networkai.PNG" alt="NetworkAI logo" />
+  <strong>NetworkAI</strong>
+  <span class="resume-role">— Director of Technology (Jan 2026 - Present)</span>
+</p>
+<ul>
+  <li>Directing workshops aimed to teach AI principles and development practices.</li>
+  <li>Leading all club workshop events tied to technology and AI.</li>
+</ul>
+<p class="resume-company">
   <span class="resume-hint">// click on the Kappa Theta Pi logo</span>
   <a
     class="resume-company-link"
@@ -386,7 +394,7 @@ const FILES = {
   <span class="resume-role">— Fraternity Member (Jan 2026 - Present)</span>
 </p>
 <ul>
-  <li>Led pledge education workshops.</li>
+  <li>Leading meetings on topics such as professional development, resume/LinkedIn help and more.</li>
   <li>Attended professional development workshops and networking events.</li>
 </ul>
 <p class="resume-company">
@@ -440,14 +448,6 @@ const FILES = {
 </p>
 <ul>
   <li>Helped lead and coordinate events for local Newman Center.</li>
-</ul>
-<p class="resume-company">
-  <img class="resume-logo" src="./network.jpeg" alt="NetworkAI logo" />
-  <strong>NetworkAI</strong>
-  <span class="resume-role">— Director of Technology (Jan 2026 - Present)</span>
-</p>
-<ul>
-  <li>Leading AI workshops for club and directing technical member development content.</li>
 </ul>
 `,
   },
