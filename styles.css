@@ -517,6 +517,29 @@ body {
   transform: scale(1.08);
 }
 
+.tech-item--light-bg {
+  position: relative;
+}
+
+.tech-item--light-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 56px;
+  height: 54px;
+  background: #fff;
+  border-radius: 8px;
+  z-index: 0;
+}
+
+.tech-item--light-bg img {
+  position: relative;
+  z-index: 1;
+  filter: none;
+}
+
 .tech-label {
   font-size: 0.7rem;
   font-weight: 500;

@@ -76,16 +76,16 @@ const FILES = {
       <div class="tech-item"><img src="./next.jpg" alt="Next.js" /><span class="tech-label">Next.js</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" /><span class="tech-label">Tailwind CSS</span></div>
       <div class="tech-item"><img src="./htmlcss.jpg" alt="HTML & CSS" /><span class="tech-label">HTML & CSS</span></div>
-      <div class="tech-item"><img src="https://cdn.simpleicons.org/shadcnui/000000" alt="shadcn/ui" /><span class="tech-label">shadcn/ui</span></div>
+      <div class="tech-item tech-item--light-bg"><img src="https://cdn.simpleicons.org/shadcnui/000000" alt="shadcn/ui" /><span class="tech-label">shadcn/ui</span></div>
     </div>
   </div>
   <div class="tech-row">
     <span class="tech-row-label">Tools</span>
     <div class="tech-grid">
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" /><span class="tech-label">Git</span></div>
-      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" /><span class="tech-label">GitHub</span></div>
+      <div class="tech-item tech-item--light-bg"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" /><span class="tech-label">GitHub</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" /><span class="tech-label">Docker</span></div>
-      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" alt="Vercel" /><span class="tech-label">Vercel</span></div>
+      <div class="tech-item tech-item--light-bg"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" alt="Vercel" /><span class="tech-label">Vercel</span></div>
     </div>
   </div>
   <div class="tech-row">
@@ -115,7 +115,7 @@ const FILES = {
       <div class="tech-item"><img src="./gemini.png" alt="Gemini" /><span class="tech-label">Gemini</span></div>
       <div class="tech-item"><img src="./cursor.png" alt="Cursor" /><span class="tech-label">Cursor</span></div>
       <div class="tech-item"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="LangGraph" /><span class="tech-label">LangGraph</span></div>
-      <div class="tech-item"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mcp.svg" alt="MCP" /><span class="tech-label">MCP</span></div>
+      <div class="tech-item tech-item--light-bg"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mcp.svg" alt="MCP" /><span class="tech-label">MCP</span></div>
     </div>
   </div>
 </div>
