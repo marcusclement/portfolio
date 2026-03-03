@@ -29,8 +29,6 @@ const FILES = {
     <ul>
       <li>Full Stack Development, Data/DBs, Cloud Computing</li>
       <li>Agile Methodologies, Data Visualization, LLMs</li>
-      <li>Python, R, SQL, Tableau, Power BI, AWS, Azure, GCP, Java</li>
-      <li>TypeScript, Next.js, React, Git, AI, Snowflake, Tailwind CSS</li>
     </ul>
   </div>
   <div class="about-media">
@@ -60,26 +58,26 @@ const FILES = {
 </div>
 <h2>Tech Stack</h2>
 <div class="tech-grid" aria-label="Technologies">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" title="Python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" title="R" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
-  <img src="./next.jpg" alt="Next.js" title="Next.js" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" title="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" title="Git" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" title="Tailwind CSS" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" title="Azure" />
-  <img src="./aws.png" alt="AWS" title="AWS" />
-  <img src="./sql.png" alt="SQL" title="SQL" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" />
-  <img src="./tableau.jpg" alt="Tableau" title="Tableau" />
-  <img src="./GCP.png" alt="Google Cloud Platform" title="Google Cloud Platform" />
-  <img src="./excel.png" alt="Excel" title="Excel" />
-  <img src="https://cdn.simpleicons.org/snowflake/29B5E8" alt="Snowflake" title="Snowflake" />
-  <img src="./gpt.png" alt="AI" title="AI / LLMs" />
-  <img src="./bi.png" alt="Power BI" title="Power BI" />
-  <img src="./htmlcss.jpg" alt="HTML & CSS" title="HTML & CSS" />
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" /><span class="tech-label">Python</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" /><span class="tech-label">R</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" /><span class="tech-label">JavaScript</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" /><span class="tech-label">TypeScript</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" /><span class="tech-label">React</span></div>
+  <div class="tech-item"><img src="./next.jpg" alt="Next.js" /><span class="tech-label">Next.js</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" /><span class="tech-label">Java</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" /><span class="tech-label">Git</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" /><span class="tech-label">Tailwind CSS</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" /><span class="tech-label">Azure</span></div>
+  <div class="tech-item"><img src="./aws.png" alt="AWS" /><span class="tech-label">AWS</span></div>
+  <div class="tech-item"><img src="./sql.png" alt="SQL" /><span class="tech-label">SQL</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" /><span class="tech-label">PostgreSQL</span></div>
+  <div class="tech-item"><img src="./tableau.jpg" alt="Tableau" /><span class="tech-label">Tableau</span></div>
+  <div class="tech-item"><img src="./GCP.png" alt="Google Cloud Platform" /><span class="tech-label">GCP</span></div>
+  <div class="tech-item"><img src="./excel.png" alt="Excel" /><span class="tech-label">Excel</span></div>
+  <div class="tech-item"><img src="https://cdn.simpleicons.org/snowflake/29B5E8" alt="Snowflake" /><span class="tech-label">Snowflake</span></div>
+  <div class="tech-item"><img src="./gpt.png" alt="AI" /><span class="tech-label">AI</span></div>
+  <div class="tech-item"><img src="./bi.png" alt="Power BI" /><span class="tech-label">Power BI</span></div>
+  <div class="tech-item"><img src="./htmlcss.jpg" alt="HTML & CSS" /><span class="tech-label">HTML & CSS</span></div>
 </div>
 `,
   },
@@ -372,7 +370,7 @@ const FILES = {
   <li>Implementing UI components with best practices via GitHub workflows.</li>
 </ul>
 <p class="resume-company">
-  <img class="resume-logo" src="./networkai.PNG" alt="NetworkAI logo" />
+  <img class="resume-logo resume-logo--networkai" src="./networkai.PNG" alt="NetworkAI logo" />
   <strong>NetworkAI</strong>
   <span class="resume-role">— Director of Technology (Jan 2026 - Present)</span>
 </p>
