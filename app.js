@@ -58,26 +58,35 @@ const FILES = {
 </div>
 <h2>Tech Stack</h2>
 <div class="tech-grid" aria-label="Technologies">
+  <!-- Languages -->
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" /><span class="tech-label">Python</span></div>
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" /><span class="tech-label">R</span></div>
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" /><span class="tech-label">JavaScript</span></div>
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" /><span class="tech-label">TypeScript</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" /><span class="tech-label">Java</span></div>
+  <!-- Frontend -->
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" /><span class="tech-label">React</span></div>
   <div class="tech-item"><img src="./next.jpg" alt="Next.js" /><span class="tech-label">Next.js</span></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" /><span class="tech-label">Java</span></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" /><span class="tech-label">Git</span></div>
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" /><span class="tech-label">Tailwind CSS</span></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" /><span class="tech-label">Azure</span></div>
-  <div class="tech-item"><img src="./aws.png" alt="AWS" /><span class="tech-label">AWS</span></div>
-  <div class="tech-item"><img src="./sql.png" alt="SQL" /><span class="tech-label">SQL</span></div>
-  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" /><span class="tech-label">PostgreSQL</span></div>
-  <div class="tech-item"><img src="./tableau.jpg" alt="Tableau" /><span class="tech-label">Tableau</span></div>
-  <div class="tech-item"><img src="./GCP.png" alt="Google Cloud Platform" /><span class="tech-label">GCP</span></div>
-  <div class="tech-item"><img src="./excel.png" alt="Excel" /><span class="tech-label">Excel</span></div>
-  <div class="tech-item"><img src="https://cdn.simpleicons.org/snowflake/29B5E8" alt="Snowflake" /><span class="tech-label">Snowflake</span></div>
-  <div class="tech-item"><img src="./gpt.png" alt="AI" /><span class="tech-label">AI</span></div>
-  <div class="tech-item"><img src="./bi.png" alt="Power BI" /><span class="tech-label">Power BI</span></div>
   <div class="tech-item"><img src="./htmlcss.jpg" alt="HTML & CSS" /><span class="tech-label">HTML & CSS</span></div>
+  <!-- Tools -->
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" /><span class="tech-label">Git</span></div>
+  <!-- Cloud -->
+  <div class="tech-item"><img src="./aws.png" alt="AWS" /><span class="tech-label">AWS</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" /><span class="tech-label">Azure</span></div>
+  <div class="tech-item"><img src="./GCP.png" alt="Google Cloud Platform" /><span class="tech-label">GCP</span></div>
+  <!-- Data & databases -->
+  <div class="tech-item"><img src="./sql.png" alt="SQL" /><span class="tech-label">SQL</span></div>
+  <div class="tech-item"><img src="https://cdn.simpleicons.org/snowflake/29B5E8" alt="Snowflake" /><span class="tech-label">Snowflake</span></div>
+  <!-- Analytics & BI -->
+  <div class="tech-item"><img src="./tableau.jpg" alt="Tableau" /><span class="tech-label">Tableau</span></div>
+  <div class="tech-item"><img src="./bi.png" alt="Power BI" /><span class="tech-label">Power BI</span></div>
+  <div class="tech-item"><img src="./excel.png" alt="Excel" /><span class="tech-label">Excel</span></div>
+  <!-- LLMs & AI -->
+  <div class="tech-item"><img src="./gpt.png" alt="ChatGPT" /><span class="tech-label">ChatGPT</span></div>
+  <div class="tech-item"><img src="./claude.png" alt="Claude" /><span class="tech-label">Claude</span></div>
+  <div class="tech-item"><img src="./gemini.png" alt="Gemini" /><span class="tech-label">Gemini</span></div>
+  <div class="tech-item"><img src="./cursor.png" alt="Cursor" /><span class="tech-label">Cursor</span></div>
 </div>
 `,
   },
