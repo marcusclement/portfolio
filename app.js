@@ -64,13 +64,19 @@ const FILES = {
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" /><span class="tech-label">JavaScript</span></div>
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" /><span class="tech-label">TypeScript</span></div>
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" /><span class="tech-label">Java</span></div>
+  <!-- Backend -->
+  <div class="tech-item"><img src="https://cdn.simpleicons.org/fastapi/009688" alt="FastAPI" /><span class="tech-label">FastAPI</span></div>
   <!-- Frontend -->
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" /><span class="tech-label">React</span></div>
   <div class="tech-item"><img src="./next.jpg" alt="Next.js" /><span class="tech-label">Next.js</span></div>
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" /><span class="tech-label">Tailwind CSS</span></div>
   <div class="tech-item"><img src="./htmlcss.jpg" alt="HTML & CSS" /><span class="tech-label">HTML & CSS</span></div>
+  <div class="tech-item"><img src="https://cdn.simpleicons.org/shadcnui/000000" alt="shadcn/ui" /><span class="tech-label">shadcn/ui</span></div>
   <!-- Tools -->
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" /><span class="tech-label">Git</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" /><span class="tech-label">GitHub</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" /><span class="tech-label">Docker</span></div>
+  <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" alt="Vercel" /><span class="tech-label">Vercel</span></div>
   <!-- Cloud -->
   <div class="tech-item"><img src="./aws.png" alt="AWS" /><span class="tech-label">AWS</span></div>
   <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" /><span class="tech-label">Azure</span></div>
@@ -87,6 +93,7 @@ const FILES = {
   <div class="tech-item"><img src="./claude.png" alt="Claude" /><span class="tech-label">Claude</span></div>
   <div class="tech-item"><img src="./gemini.png" alt="Gemini" /><span class="tech-label">Gemini</span></div>
   <div class="tech-item"><img src="./cursor.png" alt="Cursor" /><span class="tech-label">Cursor</span></div>
+  <div class="tech-item"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="LangGraph" /><span class="tech-label">LangGraph</span></div>
 </div>
 `,
   },
