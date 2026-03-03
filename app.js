@@ -76,7 +76,6 @@ const FILES = {
       <div class="tech-item"><img src="./next.jpg" alt="Next.js" /><span class="tech-label">Next.js</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" /><span class="tech-label">Tailwind CSS</span></div>
       <div class="tech-item"><img src="./htmlcss.jpg" alt="HTML & CSS" /><span class="tech-label">HTML & CSS</span></div>
-      <div class="tech-item tech-item--light-bg"><img src="https://cdn.simpleicons.org/shadcnui/000000" alt="shadcn/ui" /><span class="tech-label">shadcn/ui</span></div>
     </div>
   </div>
   <div class="tech-row">
