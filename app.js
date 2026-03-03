@@ -92,7 +92,7 @@ const FILES = {
     <span class="tech-row-label">Cloud</span>
     <div class="tech-grid">
       <div class="tech-item"><img src="./aws.png" alt="AWS" /><span class="tech-label">AWS</span></div>
-      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="Quick Suite" /><span class="tech-label">Quick Suite</span></div>
+      <div class="tech-item"><img src="./quicksuite.jpg" alt="Quick Suite" /><span class="tech-label">Quick Suite</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" /><span class="tech-label">Azure</span></div>
       <div class="tech-item"><img src="./GCP.png" alt="Google Cloud Platform" /><span class="tech-label">GCP</span></div>
     </div>
