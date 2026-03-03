@@ -59,18 +59,13 @@ const FILES = {
 <h2>Tech Stack</h2>
 <div class="tech-stack" aria-label="Technologies">
   <div class="tech-row">
-    <span class="tech-row-label">Languages</span>
+    <span class="tech-row-label">Languages & backend</span>
     <div class="tech-grid">
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" /><span class="tech-label">Python</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" /><span class="tech-label">R</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" /><span class="tech-label">JavaScript</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" /><span class="tech-label">TypeScript</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" /><span class="tech-label">Java</span></div>
-    </div>
-  </div>
-  <div class="tech-row">
-    <span class="tech-row-label">Backend</span>
-    <div class="tech-grid">
       <div class="tech-item"><img src="https://cdn.simpleicons.org/fastapi/009688" alt="FastAPI" /><span class="tech-label">FastAPI</span></div>
     </div>
   </div>
@@ -97,20 +92,16 @@ const FILES = {
     <span class="tech-row-label">Cloud</span>
     <div class="tech-grid">
       <div class="tech-item"><img src="./aws.png" alt="AWS" /><span class="tech-label">AWS</span></div>
+      <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="Quick Suite" /><span class="tech-label">Quick Suite</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" /><span class="tech-label">Azure</span></div>
       <div class="tech-item"><img src="./GCP.png" alt="Google Cloud Platform" /><span class="tech-label">GCP</span></div>
     </div>
   </div>
   <div class="tech-row">
-    <span class="tech-row-label">Data & databases</span>
+    <span class="tech-row-label">Data & analytics</span>
     <div class="tech-grid">
       <div class="tech-item"><img src="./sql.png" alt="SQL" /><span class="tech-label">SQL</span></div>
       <div class="tech-item"><img src="https://cdn.simpleicons.org/snowflake/29B5E8" alt="Snowflake" /><span class="tech-label">Snowflake</span></div>
-    </div>
-  </div>
-  <div class="tech-row">
-    <span class="tech-row-label">Analytics & BI</span>
-    <div class="tech-grid">
       <div class="tech-item"><img src="./tableau.jpg" alt="Tableau" /><span class="tech-label">Tableau</span></div>
       <div class="tech-item"><img src="./bi.png" alt="Power BI" /><span class="tech-label">Power BI</span></div>
       <div class="tech-item"><img src="./excel.png" alt="Excel" /><span class="tech-label">Excel</span></div>
@@ -124,6 +115,7 @@ const FILES = {
       <div class="tech-item"><img src="./gemini.png" alt="Gemini" /><span class="tech-label">Gemini</span></div>
       <div class="tech-item"><img src="./cursor.png" alt="Cursor" /><span class="tech-label">Cursor</span></div>
       <div class="tech-item"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="LangGraph" /><span class="tech-label">LangGraph</span></div>
+      <div class="tech-item"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mcp.svg" alt="MCP" /><span class="tech-label">MCP</span></div>
     </div>
   </div>
 </div>
