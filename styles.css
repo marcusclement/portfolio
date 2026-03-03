@@ -467,12 +467,34 @@ body {
   margin-bottom: 6px;
 }
 
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 560px;
+  margin: 12px 0 8px;
+}
+
+.tech-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tech-row-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted, rgba(255, 255, 255, 0.6));
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--border, rgba(255, 255, 255, 0.12));
+}
+
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(72px, 1fr));
-  gap: 20px 16px;
-  max-width: 560px;
-  margin: 12px 0 8px;
+  gap: 16px 14px;
 }
 
 .tech-item {
