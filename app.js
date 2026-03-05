@@ -383,7 +383,7 @@ const FILES = {
   <span class="resume-role">— Technical Consultant (Jan 2026 - Present)</span>
 </p>
 <ul>
-  <li>Currently working with a vertical AI fintech startup on strengthening the UI on tabular data exports.</li>
+  <li>Currently working with <a href="https://socratics.ai" target="_blank" rel="noreferrer">Socratics.ai</a> on strengthening the UI on tabular data exports.</li>
   <li>Building a React/TypeScript financial data mapping prototype with drag-and-drop reordering, inline editing, and AI-suggested classifications to automate Excel-based line item reconciliation across multi-period statements.</li>
 </ul>
 <p class="resume-company">
