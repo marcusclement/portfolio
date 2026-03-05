@@ -518,8 +518,7 @@ body {
 }
 
 .tech-item--group {
-  gap: 6px;
-  min-width: 130px;
+  min-width: 120px;
 }
 
 .tech-item--group .tech-group-icons {
@@ -540,11 +539,6 @@ body {
 
 .tech-item--group .tech-group-icons img:hover {
   transform: scale(1.06);
-}
-
-.tech-item--group .tech-label {
-  max-width: 140px;
-  font-size: 0.65rem;
 }
 
 .tech-item--light-bg {

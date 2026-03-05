@@ -114,7 +114,6 @@ const FILES = {
           <img src="./claude.png" alt="Claude" />
           <img src="./gemini.png" alt="Gemini" />
         </div>
-        <span class="tech-label">ChatGPT · Claude · Gemini</span>
       </div>
       <div class="tech-item"><img src="./gems.png" alt="Gemini Gems" /><span class="tech-label">Gemini Gems</span></div>
       <div class="tech-item"><img src="./quicksuite.jpg" alt="Quick Suite" /><span class="tech-label">Quick Suite</span></div>
