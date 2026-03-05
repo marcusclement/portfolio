@@ -519,6 +519,7 @@ body {
 
 .tech-item--group {
   min-width: 120px;
+  margin-right: 14px;
 }
 
 .tech-item--group .tech-group-icons {
