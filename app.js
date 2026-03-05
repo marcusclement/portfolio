@@ -380,24 +380,11 @@ const FILES = {
     <img class="resume-logo" src="./big.jpeg" alt="Business Impact Group logo" />
     <strong>Business Impact Group</strong>
   </a>
-  <span class="resume-role">— Consultant (Jan 2026 - Present)</span>
+  <span class="resume-role">— Technical Consultant (Jan 2026 - Present)</span>
 </p>
 <ul>
-  <li>
-    Currently working with
-    <a href="https://socratics.ai" target="_blank" rel="noreferrer">Socratics.ai</a>
-    a vertical AI fintech startup designed to
-    automate complex data ingestion and financial modeling workflows for private capital
-    markets.
-  </li>
-  <li>
-    Synthesizing technical findings into concise, client facing insights to support model
-    remediation and decision making.
-  </li>
-  <li>
-    Collaborating with cross functional student consulting teams to analyze client
-    business problems and translate them into data driven insights and recommendations.
-  </li>
+  <li>Currently working with a vertical AI fintech startup on strengthening the UI on tabular data exports.</li>
+  <li>Building a React/TypeScript financial data mapping prototype with drag-and-drop reordering, inline editing, and AI-suggested classifications to automate Excel-based line item reconciliation across multi-period statements.</li>
 </ul>
 <p class="resume-company">
   <span class="resume-hint">// click on the Web Impact logo</span>
