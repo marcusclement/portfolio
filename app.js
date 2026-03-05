@@ -91,7 +91,6 @@ const FILES = {
     <span class="tech-row-label">Cloud</span>
     <div class="tech-grid">
       <div class="tech-item"><img src="./aws.png" alt="AWS" /><span class="tech-label">AWS</span></div>
-      <div class="tech-item"><img src="./quicksuite.jpg" alt="Quick Suite" /><span class="tech-label">Quick Suite</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" /><span class="tech-label">Azure</span></div>
       <div class="tech-item"><img src="./GCP.png" alt="Google Cloud Platform" /><span class="tech-label">GCP</span></div>
     </div>
@@ -109,11 +108,16 @@ const FILES = {
   <div class="tech-row">
     <span class="tech-row-label">LLMs & AI</span>
     <div class="tech-grid">
-      <div class="tech-item"><img src="./gpt.png" alt="ChatGPT" /><span class="tech-label">ChatGPT</span></div>
-      <div class="tech-item"><img src="./claude.png" alt="Claude" /><span class="tech-label">Claude</span></div>
-      <div class="tech-item"><img src="./gemini.png" alt="Gemini" /><span class="tech-label">Gemini</span></div>
+      <div class="tech-item tech-item--group">
+        <div class="tech-group-icons">
+          <img src="./gpt.png" alt="ChatGPT" />
+          <img src="./claude.png" alt="Claude" />
+          <img src="./gemini.png" alt="Gemini" />
+        </div>
+        <span class="tech-label">ChatGPT · Claude · Gemini</span>
+      </div>
       <div class="tech-item"><img src="./gems.png" alt="Gemini Gems" /><span class="tech-label">Gemini Gems</span></div>
-      <div class="tech-item"><img src="./cursor.png" alt="Cursor" /><span class="tech-label">Cursor</span></div>
+      <div class="tech-item"><img src="./quicksuite.jpg" alt="Quick Suite" /><span class="tech-label">Quick Suite</span></div>
       <div class="tech-item"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="LangGraph" /><span class="tech-label">LangGraph</span></div>
       <div class="tech-item tech-item--light-bg"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mcp.svg" alt="MCP" /><span class="tech-label">MCP</span></div>
     </div>
