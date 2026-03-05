@@ -106,7 +106,16 @@ const FILES = {
     </div>
   </div>
   <div class="tech-row">
-    <span class="tech-row-label">LLMs & AI</span>
+    <span class="tech-row-label">AI</span>
+    <div class="tech-grid">
+      <div class="tech-item"><img src="./quicksuite.jpg" alt="Quick Suite" /><span class="tech-label">Quick Suite</span></div>
+      <div class="tech-item"><img src="./gems.png" alt="Gemini Gems" /><span class="tech-label">Gemini Gems</span></div>
+      <div class="tech-item"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="LangGraph" /><span class="tech-label">LangGraph</span></div>
+      <div class="tech-item tech-item--light-bg"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mcp.svg" alt="MCP" /><span class="tech-label">MCP</span></div>
+    </div>
+  </div>
+  <div class="tech-row">
+    <span class="tech-row-label">LLMs</span>
     <div class="tech-grid">
       <div class="tech-item tech-item--group">
         <div class="tech-group-icons">
@@ -115,10 +124,6 @@ const FILES = {
           <img src="./gemini.png" alt="Gemini" />
         </div>
       </div>
-      <div class="tech-item"><img src="./gems.png" alt="Gemini Gems" /><span class="tech-label">Gemini Gems</span></div>
-      <div class="tech-item"><img src="./quicksuite.jpg" alt="Quick Suite" /><span class="tech-label">Quick Suite</span></div>
-      <div class="tech-item"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="LangGraph" /><span class="tech-label">LangGraph</span></div>
-      <div class="tech-item tech-item--light-bg"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mcp.svg" alt="MCP" /><span class="tech-label">MCP</span></div>
     </div>
   </div>
 </div>
