@@ -27,8 +27,8 @@ const FILES = {
     </p>
     <h2>Core Skills</h2>
     <ul>
-      <li>Full Stack Development, Data/DBs, Cloud Computing</li>
-      <li>Agile Methodologies, Data Visualization, LLMs</li>
+      <li>Cloud Architecture, Full Stack Development, Data</li>
+      <li>AI/LLM Integration, Consulting, LLMs</li>
     </ul>
   </div>
   <div class="about-media">
@@ -112,6 +112,7 @@ const FILES = {
       <div class="tech-item"><img src="./gpt.png" alt="ChatGPT" /><span class="tech-label">ChatGPT</span></div>
       <div class="tech-item"><img src="./claude.png" alt="Claude" /><span class="tech-label">Claude</span></div>
       <div class="tech-item"><img src="./gemini.png" alt="Gemini" /><span class="tech-label">Gemini</span></div>
+      <div class="tech-item"><img src="./gems.png" alt="Gemini Gems" /><span class="tech-label">Gemini Gems</span></div>
       <div class="tech-item"><img src="./cursor.png" alt="Cursor" /><span class="tech-label">Cursor</span></div>
       <div class="tech-item"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="LangGraph" /><span class="tech-label">LangGraph</span></div>
       <div class="tech-item tech-item--light-bg"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mcp.svg" alt="MCP" /><span class="tech-label">MCP</span></div>
