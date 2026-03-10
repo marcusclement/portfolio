@@ -519,10 +519,26 @@ body {
 
 .tech-item--group {
   min-width: 120px;
+  max-width: 130px;
 }
 
-.tech-item--spaced {
-  margin-right: 28px;
+.tech-item--claude-code {
+  margin-left: 48px;
+  margin-right: 56px;
+  min-width: 80px;
+}
+
+.tech-item--claude-code .tech-label {
+  max-width: 85px;
+}
+
+.tech-item--cursor {
+  margin-left: 56px;
+  min-width: 60px;
+}
+
+.tech-item--cursor .tech-label {
+  white-space: nowrap;
 }
 
 .tech-item--group .tech-group-icons {
