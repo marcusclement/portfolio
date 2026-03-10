@@ -117,14 +117,14 @@ const FILES = {
   <div class="tech-row">
     <span class="tech-row-label">LLMs</span>
     <div class="tech-grid">
-      <div class="tech-item tech-item--group">
+      <div class="tech-item tech-item--group tech-item--spaced">
         <div class="tech-group-icons">
           <img src="./gpt.png" alt="ChatGPT" />
           <img src="./claude.png" alt="Claude" />
           <img src="./gemini.png" alt="Gemini" />
         </div>
       </div>
-      <div class="tech-item"><img src="./claudecode.png" alt="Claude Code" /><span class="tech-label">Claude Code</span></div>
+      <div class="tech-item tech-item--spaced"><img src="./claudecode.png" alt="Claude Code" /><span class="tech-label">Claude Code</span></div>
       <div class="tech-item"><img src="./cursor.png" alt="Cursor" /><span class="tech-label">Cursor</span></div>
     </div>
   </div>

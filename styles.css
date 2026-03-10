@@ -521,6 +521,10 @@ body {
   min-width: 120px;
 }
 
+.tech-item--spaced {
+  margin-right: 28px;
+}
+
 .tech-item--group .tech-group-icons {
   display: flex;
   align-items: center;
