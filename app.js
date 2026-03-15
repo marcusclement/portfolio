@@ -148,6 +148,23 @@ const FILES = {
 <p>Associate's in Arts and Sciences (Sep 2023 - Jun 2025)</p>
 <h2>Experience</h2>
 <p class="resume-company">
+<span class="resume-hint">// click on the Socratics.ai logo</span>
+  <a
+    class="resume-company-link"
+    href="https://socratics.ai"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img class="resume-logo" src="./socratics.jpeg" alt="Socratics.ai logo" />
+    <strong>Socratics.ai</strong>
+  </a>
+  <span class="resume-role">— Software Engineer Intern (Mar 2026 - Present)</span>
+</p>
+<ul>
+  <li>Building a full-stack financial document processing pipeline supporting Excel ingestion, AI-suggested classifications, HITL interface, and structured data export.</li>
+  <li>Collaborating with cross-functional team and product stakeholders throughout process.</li>
+</ul>
+<p class="resume-company">
 <span class="resume-hint">// click on the AirPLAi logo</span>
   <a
     class="resume-company-link"
@@ -164,23 +181,6 @@ const FILES = {
   <li>Tuning AI chatbot prompt workflows and data retrieval logic in Python (FastAPI / LangGraph).</li>
   <li>Creating UI + backend features, debugging, running tests, and resolving CI/Dev issues (GCP, Docker, React / Next.js).</li>
   <li>Building cloud-based data pipelines and features that improve data reliability and operational workflows.</li>
-</ul>
-<p class="resume-company">
-<span class="resume-hint">// click on the Socratics.ai logo</span>
-  <a
-    class="resume-company-link"
-    href="https://socratics.ai"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img class="resume-logo" src="./socratics.jpeg" alt="Socratics.ai logo" />
-    <strong>Socratics.ai</strong>
-  </a>
-  <span class="resume-role">— Product Engineer Intern (Mar 2026 - Present)</span>
-</p>
-<ul>
-  <li>Building a full-stack financial document processing pipeline supporting Excel ingestion, AI-suggested classifications, HITL interface, and structured data export.</li>
-  <li>Collaborating with cross-functional team and product stakeholders throughout process.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Web Impact logo</span>
