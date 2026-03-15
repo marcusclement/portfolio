@@ -23,7 +23,7 @@ const FILES = {
       engineering where I can continue delivering value and learning.
     </p>
     <p>
-      Feel free to brows through my porfolio using the files on the left!
+      Feel free to browse through my portfolio using the files on the left!
     </p>
     <h2>Core Skills</h2>
     <ul>
@@ -51,6 +51,7 @@ const FILES = {
         muted
         loop
         playsinline
+        preload="none"
       ></video>
       <div class="about-media-caption">// FORE!</div>
     </div>
@@ -90,7 +91,7 @@ const FILES = {
   <div class="tech-row">
     <span class="tech-row-label">Cloud</span>
     <div class="tech-grid">
-      <div class="tech-item"><img src="./aws.png" alt="AWS" /><span class="tech-label">AWS</span></div>
+      <div class="tech-item"><img src="./awsreal.webp" alt="AWS" /><span class="tech-label">AWS</span></div>
       <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" /><span class="tech-label">Azure</span></div>
       <div class="tech-item"><img src="./GCP.png" alt="Google Cloud Platform" /><span class="tech-label">GCP</span></div>
     </div>
@@ -112,6 +113,8 @@ const FILES = {
       <div class="tech-item"><img src="./gems.png" alt="Gemini Gems" /><span class="tech-label">Gemini Gems</span></div>
       <div class="tech-item"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="LangGraph" /><span class="tech-label">LangGraph</span></div>
       <div class="tech-item tech-item--light-bg"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mcp.svg" alt="MCP" /><span class="tech-label">MCP</span></div>
+      <div class="tech-item tech-item--claude-code"><img src="./claudecode.png" alt="Claude Code" /><span class="tech-label">Claude Code</span></div>
+      <div class="tech-item tech-item--cursor"><img src="./cursor.png" alt="Cursor" /><span class="tech-label">Cursor</span></div>
     </div>
   </div>
   <div class="tech-row">
@@ -124,8 +127,6 @@ const FILES = {
           <img src="./gemini.png" alt="Gemini" />
         </div>
       </div>
-      <div class="tech-item tech-item--claude-code"><img src="./claudecode.png" alt="Claude Code" /><span class="tech-label">Claude Code</span></div>
-      <div class="tech-item tech-item--cursor"><img src="./cursor.png" alt="Cursor" /><span class="tech-label">Cursor</span></div>
     </div>
   </div>
 </div>
@@ -155,14 +156,29 @@ const FILES = {
     rel="noreferrer"
   >
     <img class="resume-logo" src="./AirPLAi_Sports.jpeg" alt="AirPLAi logo" />
-    <strong>AirPLAi</strong>
+    <strong>AirPLAi Sports</strong>
   </a>
-  <span class="resume-role">— Data and AI Product Engineer Intern (Jan 2026 - Present)</span>
+  <span class="resume-role">— AI Product Engineer Intern (Jan 2026 - Present)</span>
 </p>
 <ul>
   <li>Tuning AI chatbot prompt workflows and data retrieval logic in Python (FastAPI / LangGraph).</li>
   <li>Creating UI + backend features, debugging, running tests, and resolving CI/Dev issues (GCP, Docker, React / Next.js).</li>
-  <li>Building cloud based data pipelines and features that improve data reliability and operational workflows.</li>
+  <li>Building cloud-based data pipelines and features that improve data reliability and operational workflows.</li>
+</ul>
+<p class="resume-company">
+  <a
+    class="resume-company-link"
+    href="https://socratics.ai"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <strong>Socratics.ai</strong>
+  </a>
+  <span class="resume-role">— Product Engineer Intern (Mar 2026 - Present)</span>
+</p>
+<ul>
+  <li>Building a full-stack financial document processing pipeline supporting Excel ingestion, AI-suggested classifications, HITL interface, and structured data export.</li>
+  <li>Collaborating with cross-functional team and product stakeholders throughout process.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Web Impact logo</span>
@@ -183,6 +199,15 @@ const FILES = {
   <li>Implementing UI components with shadcn and delivering maintainable code with best practices through GitHub workflows.</li>
 </ul>
 <p class="resume-company">
+  <img class="resume-logo" src="./costco.png" alt="Costco Wholesale logo" />
+  <strong>Costco Wholesale</strong>
+  <span class="resume-role">— Member Service Agent (Feb 2024 - Mar 2026)</span>
+</p>
+<ul>
+  <li>Assisted customers through complex issues via chat/phone, translating technical processes into clear explanations.</li>
+  <li>Consistently exceeded performance expectations by over 50% through strong communication and problem-solving.</li>
+</ul>
+<p class="resume-company">
   <img class="resume-logo" src="./everlane.jpeg" alt="Everlane logo" />
 <strong>Everlane Landscaping</strong>
   <span class="resume-role">— Data Science Intern (Aug 2025 - Nov 2025)</span>
@@ -191,32 +216,6 @@ const FILES = {
   <li>Built automated Python pipeline to process 100+ monthly logs, optimizing routing, reducing job-time by 15%.</li>
   <li>Developed Tableau dashboards that improved reporting accuracy by 25%, visualizing demand and crew performance.</li>
   <li>Conducted data modeling to identify high-value customer segments, leading to a 12% increase in customer retention.</li>
-</ul>
-<p class="resume-company">
-  <img class="resume-logo" src="./costco.png" alt="Costco Wholesale logo" />
-  <strong>Costco Wholesale</strong>
-  <span class="resume-role">— Member Service Agent (Jan 2024 - Present)</span>
-</p>
-<ul>
-  <li>Provided technical operations support for e-commerce, diagnosing connectivity to ensure system availability for end-users.</li>
-  <li>Analyzed weekly performance dashboards, interpreting KPIs to identify improvement areas and optimize service.</li>
-</ul>
-<p class="resume-company">
-<span class="resume-hint">// click on the DECA logo</span>
-  <a
-    class="resume-company-link"
-    href="https://www.deca.org/"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img class="resume-logo" src="./deca.png" alt="DECA logo" />
-    <strong>DECA</strong>
-  </a>
-  <span class="resume-role">— Business Operations Analyst (Sep 2021 - Jun 2023)</span>
-</p>
-<ul>
-  <li>Analyzed business performance data using Excel and Power BI to produce three 20-page operations research reports.</li>
-  <li>Informed strategic decisions for local car dealership and dental clinic; communicated clearly to stakeholders.</li>
 </ul>
 <h2>Projects</h2>
 <p class="project-entry">
@@ -244,7 +243,7 @@ const FILES = {
 <h2>Certifications</h2>
 <div class="cert-grid">
   <div class="cert-card">
-    <img class="cert-logo cert-logo--aws" src="./aws.png" alt="AWS logo" />
+    <img class="cert-logo cert-logo--aws" src="./awsreal.webp" alt="AWS logo" />
     <div class="cert-label">AWS</div>
     <ul>
       <li>Cloud Practitioner (CLF-C02)</li>
@@ -269,7 +268,7 @@ const FILES = {
     content: `
 <h1>My Resume</h1>
 <div class="pdf-link-wrap">
-  <a class="pdf-link" href="MarcusClementResume.pdf" target="_blank" rel="noreferrer" aria-label="Open resume PDF">
+  <a class="pdf-link" href="DS_RESUME.pdf" download rel="noreferrer" aria-label="Download resume PDF">
     <img class="pdf-preview" src="./resume.png" alt="Preview of Marcus Clement resume" />
     <span class="pdf-text">Open resume.pdf</span>
   </a>
@@ -382,11 +381,10 @@ const FILES = {
     <img class="resume-logo" src="./big.jpeg" alt="Business Impact Group logo" />
     <strong>Business Impact Group</strong>
   </a>
-  <span class="resume-role">— Technical Consultant (Jan 2026 - Present)</span>
+  <span class="resume-role">— Consultant (Jan 2026 - Mar 2026)</span>
 </p>
 <ul>
-  <li>Currently working with <a href="https://socratics.ai" target="_blank" rel="noreferrer">Socratics.ai</a> on strengthening the UI on tabular data exports.</li>
-  <li>Building a React/TypeScript financial data mapping prototype with drag-and-drop reordering, inline editing, and AI-suggested classifications to automate Excel-based line item reconciliation across multi-period statements.</li>
+  <li>Collaborated with client <a href="https://socratics.ai" target="_blank" rel="noreferrer">Socratics.ai</a>. Was invited to return after engagement for internship.</li>
 </ul>
 <p class="resume-company">
   <span class="resume-hint">// click on the Web Impact logo</span>
@@ -407,8 +405,16 @@ const FILES = {
   <li>Implementing UI components with best practices via GitHub workflows.</li>
 </ul>
 <p class="resume-company">
-  <img class="resume-logo resume-logo--networkai" src="./networkai.PNG" alt="NetworkAI logo" />
-  <strong>NetworkAI</strong>
+<span class="resume-hint">// click on the NetworkAI logo</span>
+  <a
+    class="resume-company-link"
+    href="https://uwnetworkai.com/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img class="resume-logo resume-logo--networkai" src="./networkai.PNG" alt="NetworkAI logo" />
+    <strong>NetworkAI</strong>
+  </a>
   <span class="resume-role">— Director of Technology (Jan 2026 - Present)</span>
 </p>
 <ul>
@@ -429,8 +435,7 @@ const FILES = {
   <span class="resume-role">— Fraternity Member (Jan 2026 - Present)</span>
 </p>
 <ul>
-  <li>Leading meetings on topics such as professional development, resume/LinkedIn help and more.</li>
-  <li>Attended professional development workshops and networking events.</li>
+  <li>Worked in a cross-functional team to create and deploy webpage for professional fraternity.</li>
 </ul>
 <p class="resume-company">
   <span class="resume-hint">// click on the AWS Cloud Club logo</span>
