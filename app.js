@@ -166,12 +166,14 @@ const FILES = {
   <li>Building cloud-based data pipelines and features that improve data reliability and operational workflows.</li>
 </ul>
 <p class="resume-company">
+<span class="resume-hint">// click on the Socratics.ai logo</span>
   <a
     class="resume-company-link"
     href="https://socratics.ai"
     target="_blank"
     rel="noreferrer"
   >
+    <img class="resume-logo" src="./socratics.jpeg" alt="Socratics.ai logo" />
     <strong>Socratics.ai</strong>
   </a>
   <span class="resume-role">— Product Engineer Intern (Mar 2026 - Present)</span>
