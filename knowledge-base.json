@@ -1,0 +1,77 @@
+[
+  {
+    "key": "about",
+    "keywords": ["about", "marcus", "who", "introduction", "bio", "background", "yourself", "tell me"],
+    "content": "Marcus Clement is a University of Washington Informatics student focused on data science with a business minor. He builds practical things that make work easier — features, workflows, and automated systems. His work sits between software and analytics. He enjoys owning problems end to end: understanding needs, building simple solutions, then iterating until reliable. Lately that means cloud and data work plus LLM-powered tooling. Outside school and work he enjoys running, lifting, hiking, and golfing. Core skills: Cloud Architecture, Full Stack Development, Data, AI/LLM Integration, Consulting."
+  },
+  {
+    "key": "education",
+    "keywords": ["education", "school", "university", "college", "degree", "gpa", "uw", "bellevue", "informatics", "study"],
+    "content": "Marcus attends the University of Washington (GPA 3.9) in Seattle, pursuing a B.S. in Informatics (Data Science) with a Minor in Business (Sep 2025 - Jun 2027). Before that he completed an Associate's in Arts and Sciences at Bellevue College (Sep 2023 - Jun 2025)."
+  },
+  {
+    "key": "experience_socratics",
+    "keywords": ["socratics", "software engineer", "financial", "document", "pipeline", "intern", "current"],
+    "content": "Software Engineer Intern at Socratics.ai (Mar 2026 - Present). Building a full-stack financial document processing pipeline supporting Excel ingestion, AI-suggested classifications, human-in-the-loop interface, and structured data export. Collaborating with cross-functional team and product stakeholders."
+  },
+  {
+    "key": "experience_airplai",
+    "keywords": ["airplai", "ai product", "chatbot", "langraph", "fastapi", "gcp", "docker", "sports"],
+    "content": "AI Product Engineer Intern at AirPLAi Sports (Jan 2026 - Present). Tuning AI chatbot prompt workflows and data retrieval logic in Python (FastAPI / LangGraph). Creating UI and backend features, debugging, running tests, resolving CI/Dev issues (GCP, Docker, React / Next.js). Building cloud-based data pipelines that improve data reliability and operational workflows."
+  },
+  {
+    "key": "experience_webimpact",
+    "keywords": ["web impact", "full stack", "developer", "react", "shadcn", "client"],
+    "content": "Full Stack Developer at Web Impact UW (Jan 2026 - Present). Developing features across React frontend, API routes, and backend. Collaborating cross-functionally with design and product leads to deliver user-focused web solutions for external clients. Implementing UI components with shadcn and delivering maintainable code through GitHub workflows."
+  },
+  {
+    "key": "experience_costco",
+    "keywords": ["costco", "customer", "service", "agent", "communication"],
+    "content": "Member Service Agent at Costco Wholesale (Feb 2024 - Mar 2026). Assisted customers through complex issues via chat/phone, translating technical processes into clear explanations. Consistently exceeded performance expectations by over 50% through strong communication and problem-solving."
+  },
+  {
+    "key": "experience_everlane",
+    "keywords": ["everlane", "landscaping", "data science", "tableau", "pipeline", "routing", "dashboards"],
+    "content": "Data Science Intern at Everlane Landscaping (Aug 2025 - Nov 2025). Built automated Python pipeline to process 100+ monthly logs, optimizing routing and reducing job-time by 15%. Developed Tableau dashboards that improved reporting accuracy by 25%. Conducted data modeling to identify high-value customer segments, leading to 12% increase in customer retention."
+  },
+  {
+    "key": "project_portfolio",
+    "keywords": ["portfolio", "website", "cursor", "ide", "html", "css", "javascript", "this"],
+    "content": "Cursor-Inspired Portfolio (marcusclementportfolio.vercel.app). A personal portfolio that makes browsing feel familiar to developers. Built with HTML, CSS, JavaScript, and deployed on Vercel, designed to mimic the Cursor IDE."
+  },
+  {
+    "key": "project_nickblendz",
+    "keywords": ["nick", "blendz", "booking", "next.js", "aws", "scheduling", "barber"],
+    "content": "Nick-Blendz.com — Online Booking Application (Jun 2025 - Jul 2025). Built and deployed a full-stack booking platform with Next.js, TypeScript, and AWS (EC2, S3, RDS) supporting 100+ users. Designed the database schema and backend to manage scheduling and client data, cutting manual booking work by 80%. Integrated scheduling API and analytics dashboards."
+  },
+  {
+    "key": "project_mediscribe",
+    "keywords": ["medi", "scribe", "medical", "transcription", "hipaa", "aws", "health"],
+    "content": "Medi-Scribe — AI Medical Transcriber (Sep 2025 - Present). Developing a HIPAA-compliant transcription system using AWS (S3, Lambda, Transcribe Medical, Bedrock) and React. Automates audio capture, transcription, and clinical summarization."
+  },
+  {
+    "key": "project_dms",
+    "keywords": ["document management", "postgresql", "real estate", "sql", "database"],
+    "content": "Document Management System (Jun 2024 - Jul 2024). Built a PostgreSQL-based document management system for a real estate investor. Designed a relational schema and SQL backend using JSON to streamline property and record management."
+  },
+  {
+    "key": "certifications",
+    "keywords": ["certification", "certified", "aws", "azure", "cloud practitioner", "az-900", "exam"],
+    "content": "AWS Certifications: Cloud Practitioner (CLF-C02), AI Practitioner (AIF-C01), preparing for Solutions Architect Associate (SAA-C03). Azure Certifications: AZ-900 (Azure Fundamentals), AI-900 (Azure AI Fundamentals), DP-900 (Azure Data Fundamentals)."
+  },
+  {
+    "key": "tech_stack",
+    "keywords": ["tech", "stack", "technologies", "tools", "languages", "skills", "programming", "framework"],
+    "content": "Languages & backend: Python, R, JavaScript, TypeScript, Java, FastAPI. Frontend: React, Next.js, Tailwind CSS, HTML & CSS. Tools: Git, GitHub, Docker, Vercel. Cloud: AWS, Azure, GCP. Data & analytics: SQL, Snowflake, Tableau, Power BI, Excel. AI: Quick Suite, Gemini Gems, LangGraph, MCP, Claude Code, Cursor. LLMs: ChatGPT, Claude, Gemini."
+  },
+  {
+    "key": "contact",
+    "keywords": ["contact", "email", "reach", "linkedin", "connect", "hire", "touch"],
+    "content": "Email: mvcus8235@gmail.com. LinkedIn: linkedin.com/in/marcus-clement27."
+  },
+  {
+    "key": "community",
+    "keywords": ["community", "club", "organization", "volunteer", "fraternity", "extracurricular", "leadership"],
+    "content": "Community involvement: Business Impact Group (Consultant, Jan-Mar 2026, collaborated with Socratics.ai and was invited back for internship), Web Impact UW (Full Stack Developer), NetworkAI (Director of Technology, leading AI workshops), Kappa Theta Pi (professional fraternity member), AWS Cloud Club (member), Claude Builder Club (member), Newman Center (Student Ministry Team Member)."
+  }
+]

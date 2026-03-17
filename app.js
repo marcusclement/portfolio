@@ -506,27 +506,7 @@ const aiMessages = document.getElementById("aiMessages");
 
 const openTabs = new Map();
 let activeTabId = null;
-const aiReplies = [
-  "Sorry I'm just for show :)",
-  "Mock response: I don't have model access yet.",
-  "I'm a decorative panel, but I look convincing.",
-  "Pretend I just summarized your resume perfectly.",
-  "This is a fake AI pane to match the Cursor vibe.",
-  "I can only respond with good vibes today.",
-  "Not connected, but happy to sit here.",
-  "Ask again later — still just a UI demo.",
-  "I wish I could help, but I'm just a mock.",
-  "This chat is for aesthetics only, sorry!",
-  "If this were real, I'd say: nice projects.",
-  "Beep boop — placeholder response.",
-  "Design-forward, data-driven, and still fake.",
-  "I'm just here to make the UI feel familiar.",
-  "No tokens were spent answering this.",
-  "Imagine I just fixed your bug instantly.",
-  "This pane is for show, not for answers.",
-  "Mock AI: try the tabs on the left.",
-];
-let aiReplyIndex = 0;
+let chatLoading = false;
 let draggedTab = null;
 let draggedFileItem = null;
 
@@ -714,10 +694,28 @@ const playBigDataEasterEgg = () => {
   overlay.addEventListener("click", () => overlay.remove());
 };
 
-aiForm.addEventListener("submit", (event) => {
+const appendStreamingMessage = () => {
+  const message = document.createElement("div");
+  message.className = "ai-message ai-message--bot";
+
+  const label = document.createElement("div");
+  label.className = "ai-label";
+  label.textContent = "CURSOR";
+
+  const bubble = document.createElement("div");
+  bubble.className = "ai-bubble";
+  bubble.textContent = "...";
+
+  message.append(label, bubble);
+  aiMessages.appendChild(message);
+  aiMessages.scrollTop = aiMessages.scrollHeight;
+  return bubble;
+};
+
+aiForm.addEventListener("submit", async (event) => {
   event.preventDefault();
   const text = aiInput.value.trim();
-  if (!text) return;
+  if (!text || chatLoading) return;
 
   if (text.toLowerCase() === "big data") {
     aiInput.value = "";
@@ -725,8 +723,63 @@ aiForm.addEventListener("submit", (event) => {
     return;
   }
 
+  if (text.length > 300) return;
+
   appendAiMessage("user", text);
-  appendAiMessage("bot", aiReplies[aiReplyIndex % aiReplies.length]);
-  aiReplyIndex += 1;
   aiInput.value = "";
+
+  const bubble = appendStreamingMessage();
+  chatLoading = true;
+
+  try {
+    const res = await fetch("/api/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: text }),
+    });
+
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      bubble.textContent = err.error || "Something went wrong. Try again.";
+      chatLoading = false;
+      return;
+    }
+
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    bubble.textContent = "";
+    let buffer = "";
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split("\n");
+      buffer = lines.pop();
+
+      for (const line of lines) {
+        if (!line.startsWith("data: ")) continue;
+        const payload = line.slice(6);
+        if (payload === "[DONE]") break;
+        try {
+          const parsed = JSON.parse(payload);
+          if (parsed.error) {
+            bubble.textContent += " [Error]";
+            break;
+          }
+          bubble.textContent += parsed.text;
+          aiMessages.scrollTop = aiMessages.scrollHeight;
+        } catch {}
+      }
+    }
+
+    if (!bubble.textContent) {
+      bubble.textContent = "No response received. Try again.";
+    }
+  } catch (err) {
+    bubble.textContent = "Network error. Please try again.";
+  } finally {
+    chatLoading = false;
+  }
 });
