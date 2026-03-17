@@ -65,6 +65,16 @@
     "content": "Languages & backend: Python, R, JavaScript, TypeScript, Java, FastAPI. Frontend: React, Next.js, Tailwind CSS, HTML & CSS. Tools: Git, GitHub, Docker, Vercel. Cloud: AWS, Azure, GCP. Data & analytics: SQL, Snowflake, Tableau, Power BI, Excel. AI: Quick Suite, Gemini Gems, LangGraph, MCP, Claude Code, Cursor. LLMs: ChatGPT, Claude, Gemini."
   },
   {
+    "key": "quicksuite",
+    "keywords": ["quicksuite", "quick suite", "quick", "suite", "servicenow"],
+    "content": "Marcus does not have hands-on experience working with Quick Suite, but he has done extensive research and watched many demos on best practices. He understands how to create things like workflows, custom chatbots, and how to use features like connectors, MCP, and utilize best practices in agentic workflows."
+  },
+  {
+    "key": "gemini_gems",
+    "keywords": ["gemini gems", "gems", "gemini gem", "gem", "google gems"],
+    "content": "Marcus has played around with Gemini Gems on his personal account and has watched demos on the enterprise version. He has seen hands-on how to work with that tool."
+  },
+  {
     "key": "contact",
     "keywords": ["contact", "email", "reach", "linkedin", "connect", "hire", "touch"],
     "content": "Email: mvcus8235@gmail.com. LinkedIn: linkedin.com/in/marcus-clement27."
