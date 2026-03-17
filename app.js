@@ -657,6 +657,16 @@ fileList.addEventListener("dragover", (event) => {
 
 openFile("about");
 
+const isNearBottom = () =>
+  aiMessages.scrollHeight - aiMessages.clientHeight - aiMessages.scrollTop < 30;
+
+const scrollToBottom = (smooth) => {
+  aiMessages.scrollTo({
+    top: aiMessages.scrollHeight,
+    behavior: smooth ? "smooth" : "instant",
+  });
+};
+
 const appendAiMessage = (role, text) => {
   const message = document.createElement("div");
   message.className = `ai-message ai-message--${role}`;
@@ -671,7 +681,7 @@ const appendAiMessage = (role, text) => {
 
   message.append(label, bubble);
   aiMessages.appendChild(message);
-  aiMessages.scrollTop = aiMessages.scrollHeight;
+  scrollToBottom(false);
 };
 
 const playBigDataEasterEgg = () => {
@@ -708,7 +718,7 @@ const appendStreamingMessage = () => {
 
   message.append(label, bubble);
   aiMessages.appendChild(message);
-  aiMessages.scrollTop = aiMessages.scrollHeight;
+  scrollToBottom(false);
   return bubble;
 };
 
@@ -769,7 +779,7 @@ aiForm.addEventListener("submit", async (event) => {
             break;
           }
           bubble.textContent += parsed.text;
-          aiMessages.scrollTop = aiMessages.scrollHeight;
+          if (isNearBottom()) scrollToBottom(false);
         } catch {}
       }
     }
@@ -782,4 +792,29 @@ aiForm.addEventListener("submit", async (event) => {
   } finally {
     chatLoading = false;
   }
+});
+
+// --- Resize handle for AI sidebar ---
+const resizeHandle = document.getElementById("resizeHandle");
+const appEl = document.querySelector(".app");
+
+resizeHandle.addEventListener("mousedown", (e) => {
+  e.preventDefault();
+  resizeHandle.classList.add("active");
+  document.body.classList.add("resizing");
+
+  const onMouseMove = (e) => {
+    const newWidth = Math.min(600, Math.max(200, window.innerWidth - e.clientX));
+    appEl.style.setProperty("--ai-width", newWidth + "px");
+  };
+
+  const onMouseUp = () => {
+    resizeHandle.classList.remove("active");
+    document.body.classList.remove("resizing");
+    document.removeEventListener("mousemove", onMouseMove);
+    document.removeEventListener("mouseup", onMouseUp);
+  };
+
+  document.addEventListener("mousemove", onMouseMove);
+  document.addEventListener("mouseup", onMouseUp);
 });
