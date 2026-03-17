@@ -102,9 +102,9 @@
                 <button class="info-modal-close" id="infoClose" aria-label="Close">&times;</button>
               </div>
               <div class="info-modal-body">
-                <p>This chat is powered by <strong>Claude 3.5 Haiku</strong> via the Anthropic API.</p>
-                <p>Messages are sent to a Vercel serverless function that streams responses back in real time using SSE.</p>
-                <p>The model has full context on Marcus's background, experience, projects, and skills.</p>
+                <p>Powered by <strong>Claude 3.5 Haiku</strong> via the Anthropic API with <strong>RAG</strong> (Retrieval-Augmented Generation).</p>
+                <p>Each query retrieves relevant context from a structured JSON knowledge base containing Marcus's experience, projects, skills, and certifications — then injects it into the prompt for grounded, accurate responses.</p>
+                <p>Responses are streamed in real time via <strong>SSE</strong> through a Vercel serverless function.</p>
               </div>
             </div>
             <div class="ai-input-row">
