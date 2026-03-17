@@ -81,15 +81,31 @@
             <div class="ai-message ai-message--bot">
               <div class="ai-label">CURSOR</div>
               <div class="ai-bubble">
-                Ask me anything about this portfolio.
+                Hi! I'm an AI assistant that knows all about Marcus. Ask me anything!
               </div>
+            </div>
+            <div class="starter-prompts" id="starterPrompts">
+              <button class="starter-chip" type="button">Who is Marcus?</button>
+              <button class="starter-chip" type="button">What are his projects?</button>
+              <button class="starter-chip" type="button">Tell me about his experience</button>
+              <button class="starter-chip" type="button">What's his tech stack?</button>
             </div>
           </div>
           <form class="ai-input" id="aiForm">
             <div class="ai-input-toolbar">
-              <button class="chip-button" type="button">∞</button>
-              <button class="chip-button" type="button">GPT-5.2</button>
-              <button class="chip-button" type="button">Web</button>
+              <span class="chip-button chip-button--model">Claude Haiku</span>
+              <button class="chip-button chip-button--info" type="button" id="infoBtn" aria-label="Architecture info">i</button>
+            </div>
+            <div class="info-modal" id="infoModal" hidden>
+              <div class="info-modal-header">
+                <span>Architecture</span>
+                <button class="info-modal-close" id="infoClose" aria-label="Close">&times;</button>
+              </div>
+              <div class="info-modal-body">
+                <p>This chat is powered by <strong>Claude 3.5 Haiku</strong> via the Anthropic API.</p>
+                <p>Messages are sent to a Vercel serverless function that streams responses back in real time using SSE.</p>
+                <p>The model has full context on Marcus's background, experience, projects, and skills.</p>
+              </div>
             </div>
             <div class="ai-input-row">
               <input

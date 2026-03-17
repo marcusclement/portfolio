@@ -782,6 +782,117 @@ body.resizing video {
   background: #151b26;
 }
 
+.chip-button--model {
+  border-color: rgba(76, 139, 245, 0.3);
+  background: rgba(76, 139, 245, 0.1);
+  color: var(--accent);
+  cursor: default;
+  font-weight: 500;
+}
+
+.chip-button--info {
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: Georgia, serif;
+}
+
+.ai-input-toolbar {
+  position: relative;
+}
+
+.info-modal {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background: #141821;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0;
+  z-index: 20;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.info-modal[hidden] {
+  display: none;
+}
+
+.info-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.info-modal-close {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 2px;
+  line-height: 1;
+}
+
+.info-modal-close:hover {
+  color: var(--text);
+}
+
+.info-modal-body {
+  padding: 10px 12px;
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.info-modal-body p {
+  margin: 0 0 6px;
+}
+
+.info-modal-body p:last-child {
+  margin-bottom: 0;
+}
+
+.info-modal-body strong {
+  color: var(--text);
+}
+
+.starter-prompts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 4px 0;
+}
+
+.starter-chip {
+  border: 1px solid var(--border);
+  background: #111724;
+  color: var(--muted);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.starter-chip:hover {
+  color: var(--text);
+  border-color: var(--accent);
+  background: rgba(76, 139, 245, 0.1);
+}
+
 .ai-input-row {
   display: flex;
   gap: 8px;

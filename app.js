@@ -738,6 +738,10 @@ aiForm.addEventListener("submit", async (event) => {
   appendAiMessage("user", text);
   aiInput.value = "";
 
+  // Hide starter prompts after first message
+  const sp = document.getElementById("starterPrompts");
+  if (sp) sp.remove();
+
   const bubble = appendStreamingMessage();
   chatLoading = true;
 
@@ -818,3 +822,33 @@ resizeHandle.addEventListener("mousedown", (e) => {
   document.addEventListener("mousemove", onMouseMove);
   document.addEventListener("mouseup", onMouseUp);
 });
+
+// --- Info modal ---
+const infoBtn = document.getElementById("infoBtn");
+const infoModal = document.getElementById("infoModal");
+const infoClose = document.getElementById("infoClose");
+
+infoBtn.addEventListener("click", () => {
+  infoModal.hidden = !infoModal.hidden;
+});
+
+infoClose.addEventListener("click", () => {
+  infoModal.hidden = true;
+});
+
+document.addEventListener("click", (e) => {
+  if (!infoModal.hidden && !infoModal.contains(e.target) && e.target !== infoBtn) {
+    infoModal.hidden = true;
+  }
+});
+
+// --- Starter prompts ---
+const starterPrompts = document.getElementById("starterPrompts");
+
+starterPrompts.addEventListener("click", (e) => {
+  const chip = e.target.closest(".starter-chip");
+  if (!chip || chatLoading) return;
+  aiInput.value = chip.textContent;
+  aiForm.requestSubmit();
+});
+
