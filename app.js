@@ -272,6 +272,8 @@ const FILES = {
 <ul>
   <li>This website! A personal portfolio that makes browsing feel familiar to developers.</li>
   <li>Built with HTML, CSS, JavaScript, and deployed on Vercel, designed to mimic my current favorite IDE, Cursor.</li>
+  <li>Implemented a fully functional AI chatbar powered by Claude Haiku 4.5 via the Anthropic API, using RAG (Retrieval-Augmented Generation) to ground responses in a structured JSON knowledge base of 14 topic chunks covering experience, projects, skills, and certifications.</li>
+  <li>Built keyword-based retrieval to score and inject the top 3 relevant chunks into the system prompt, streamed responses in real time via SSE through a Vercel serverless function, and added rate limiting, starter prompts, and auto-scroll for a polished UX.</li>
 </ul>
 
 <h2>Nick-Blendz.com — Online Booking Application</h2>
