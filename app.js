@@ -221,29 +221,6 @@ const FILES = {
   <li>Developed Tableau dashboards that improved reporting accuracy by 25%, visualizing demand and crew performance.</li>
   <li>Conducted data modeling to identify high-value customer segments, leading to a 12% increase in customer retention.</li>
 </ul>
-<h2>Projects</h2>
-<p class="project-entry">
-  <span class="resume-hint">// Nick-Blendz logo</span>
-  <span class="project-link project-link--stacked">
-    <img class="project-logo" src="./nickblendz.webp" alt="Nick-Blendz logo" />
-    <span class="project-title">Nick-Blendz.com — Online Booking Application (Jun 2025 - Jul 2025)</span>
-  </span>
-</p>
-<ul>
-  <li>Built and deployed full stack platform with Next.js and AWS.</li>
-  <li>Designed database schema to reduce manual booking by 80%.</li>
-  <li>Integrated scheduling API and analytics dashboards.</li>
-</ul>
-<p><strong>Medi-Scribe</strong> — AI Medical Transcriber (Sep 2025 - Present)</p>
-<ul>
-  <li>Building HIPAA-compliant transcription on AWS and React.</li>
-  <li>Automating audio capture, transcription, and summarization.</li>
-</ul>
-<p><strong>Document Management System</strong> (Jun 2024 - Jul 2024)</p>
-<ul>
-  <li>Built PostgreSQL system for a real estate investor.</li>
-  <li>Designed relational schema and SQL backend using JSON.</li>
-</ul>
 <h2>Certifications</h2>
 <div class="cert-grid">
   <div class="cert-card">
@@ -299,7 +276,6 @@ const FILES = {
 
 <h2>Nick-Blendz.com — Online Booking Application</h2>
 <p class="resume-company">
-  <span class="resume-hint">// Nick-Blendz logo</span>
   <span class="resume-company-link">
     <img class="resume-logo" src="./nickblendz.webp" alt="Nick-Blendz logo" />
     <strong>Nick-Blendz.com</strong>
