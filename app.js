@@ -204,8 +204,9 @@ const FILES = {
 <p class="resume-company">
   <img class="resume-logo" src="./costco.png" alt="Costco Wholesale logo" />
   <strong>Costco Wholesale</strong>
-  <span class="resume-role">— Member Service Agent (Feb 2024 - Mar 2026)</span>
+  <span class="resume-role">— Member Service Agent (Feb 2024 - Present)</span>
 </p>
+<p style="font-style: italic; margin-top: 2px; font-size: 13px; color: #8a8f98;">College Retention Program since Sep 2025</p>
 <ul>
   <li>Assisted customers through complex issues via chat/phone, translating technical processes into clear explanations.</li>
   <li>Consistently exceeded performance expectations by over 50% through strong communication and problem-solving.</li>
