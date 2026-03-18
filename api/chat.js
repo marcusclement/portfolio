@@ -61,10 +61,41 @@ Rules:
 - You may mention that visitors can explore the files on the left sidebar for more details.
 - Always present Marcus in the best light possible. Lead with his strengths, what he knows, and what he can do. Never volunteer weaknesses, caveats, or disclaimers about gaps in experience. If he has researched a tool rather than used it in production, frame that positively — emphasize his knowledge, initiative, and readiness rather than what he hasn't done yet. Be an advocate, not a neutral reporter.`;
 
+const ALLOWED_ORIGINS = [
+  "https://marcusclementportfolio.vercel.app",
+  "http://localhost:8766",
+  "http://localhost:3000",
+];
+
+function setSecurityHeaders(res, origin) {
+  if (origin && ALLOWED_ORIGINS.includes(origin)) {
+    res.setHeader("Access-Control-Allow-Origin", origin);
+  }
+  res.setHeader("X-Content-Type-Options", "nosniff");
+  res.setHeader("X-Frame-Options", "DENY");
+  res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
+}
+
 export default async function handler(req, res) {
+  const origin = req.headers.origin;
+
+  if (req.method === "OPTIONS") {
+    setSecurityHeaders(res, origin);
+    res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+    res.setHeader("Access-Control-Max-Age", "3600");
+    return res.status(204).end();
+  }
+
+  setSecurityHeaders(res, origin);
+
   if (req.method !== "POST") {
     res.setHeader("Allow", "POST");
     return res.status(405).json({ error: "Method not allowed" });
+  }
+
+  if (origin && !ALLOWED_ORIGINS.includes(origin)) {
+    return res.status(403).json({ error: "Forbidden" });
   }
 
   const ip =
@@ -84,7 +115,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Message is required." });
   }
 
-  const trimmed = message.trim();
+  const trimmed = message.trim().normalize("NFC").replace(/[\x00-\x1F\x7F]/g, "");
   if (trimmed.length === 0 || trimmed.length > 300) {
     return res
       .status(400)
