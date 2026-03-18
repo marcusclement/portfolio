@@ -46,7 +46,7 @@ const FILES = {
     <div class="about-media-video-wrap">
       <video
         class="about-media-video"
-        src="./golf.mov"
+        src="./golf.mp4"
         autoplay
         muted
         loop
@@ -115,7 +115,6 @@ const FILES = {
       <div class="tech-item tech-item--light-bg"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mcp.svg" alt="MCP" /><span class="tech-label">MCP</span></div>
       <div class="tech-item"><img src="./RAG.png" alt="RAG" /><span class="tech-label">RAG</span></div>
       <div class="tech-item tech-item--claude-code"><img src="./claudecode.png" alt="Claude Code" /><span class="tech-label">Claude Code</span></div>
-      <div class="tech-item tech-item--cursor"><img src="./cursor.png" alt="Cursor" /><span class="tech-label">Cursor</span></div>
     </div>
   </div>
   <div class="tech-row">
