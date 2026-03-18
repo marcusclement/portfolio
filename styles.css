@@ -323,43 +323,9 @@ body {
   color: var(--muted);
 }
 
-.project-entry {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.project-row {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.project-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: inherit;
-  text-decoration: none;
-}
-
-.project-link--stacked {
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-}
-
-.project-link:hover {
-  color: var(--accent);
-}
-
-.project-logo {
-  width: 192px;
-  height: 192px;
-  display: inline-block;
-  object-fit: contain;
-  border-radius: 6px;
+.tab.dragging,
+.file-item.dragging {
+  opacity: 0.5;
 }
 
 .cert-grid {
@@ -589,9 +555,6 @@ body {
   word-break: break-word;
 }
 
-.about-links {
-  margin-top: 10px;
-}
 
 .icon-link {
   display: inline-flex;

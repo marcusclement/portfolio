@@ -744,7 +744,8 @@ aiForm.addEventListener("submit", async (event) => {
     bubble.textContent = "";
     let buffer = "";
 
-    while (true) {
+    let streamDone = false;
+    while (!streamDone) {
       const { done, value } = await reader.read();
       if (done) break;
 
@@ -755,16 +756,19 @@ aiForm.addEventListener("submit", async (event) => {
       for (const line of lines) {
         if (!line.startsWith("data: ")) continue;
         const payload = line.slice(6);
-        if (payload === "[DONE]") break;
+        if (payload === "[DONE]") { streamDone = true; break; }
         try {
           const parsed = JSON.parse(payload);
           if (parsed.error) {
             bubble.textContent += " [Error]";
+            streamDone = true;
             break;
           }
           bubble.textContent += parsed.text;
           if (isNearBottom()) scrollToBottom(false);
-        } catch {}
+        } catch (e) {
+          console.warn("SSE parse error:", e.message);
+        }
       }
     }
 
@@ -818,6 +822,12 @@ infoClose.addEventListener("click", () => {
 
 document.addEventListener("click", (e) => {
   if (!infoModal.hidden && !infoModal.contains(e.target) && e.target !== infoBtn) {
+    infoModal.hidden = true;
+  }
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && !infoModal.hidden) {
     infoModal.hidden = true;
   }
 });
