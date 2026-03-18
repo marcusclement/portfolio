@@ -26,8 +26,8 @@
   },
   {
     "key": "experience_costco",
-    "keywords": ["costco", "customer", "service", "agent", "communication"],
-    "content": "Member Service Agent at Costco Wholesale (Feb 2024 - Mar 2026). Assisted customers through complex issues via chat/phone, translating technical processes into clear explanations. Consistently exceeded performance expectations by over 50% through strong communication and problem-solving."
+    "keywords": ["costco", "customer", "service", "agent", "communication", "retention"],
+    "content": "Member Service Agent at Costco Wholesale (Feb 2024 - Present). On the College Retention Program since Sep 2025. Assisted customers through complex issues via chat/phone, translating technical processes into clear explanations. Consistently exceeded performance expectations by over 50% through strong communication and problem-solving."
   },
   {
     "key": "experience_everlane",
@@ -36,8 +36,13 @@
   },
   {
     "key": "project_portfolio",
-    "keywords": ["portfolio", "website", "cursor", "ide", "html", "css", "javascript", "this"],
-    "content": "Cursor-Inspired Portfolio (marcusclementportfolio.vercel.app). A personal portfolio that makes browsing feel familiar to developers. Built with HTML, CSS, JavaScript, and deployed on Vercel, designed to mimic the Cursor IDE."
+    "keywords": ["portfolio", "website", "cursor", "ide", "html", "css", "javascript", "this", "site"],
+    "content": "Cursor-Inspired Portfolio (marcusclementportfolio.vercel.app). A personal portfolio that makes browsing feel familiar and intuitive to developers. Built with vanilla HTML, CSS, and JavaScript — no frameworks — and deployed on Vercel. Designed to mimic the Cursor IDE with a file explorer sidebar, tabbed editor pane, and AI chat panel. Features include drag-and-drop tab reordering, a resizable AI sidebar, and a fully functional AI chatbot."
+  },
+  {
+    "key": "chatbot_architecture",
+    "keywords": ["chatbot", "chat", "ai chat", "rag", "retrieval", "how", "built", "made", "work", "haiku", "anthropic", "api", "streaming", "sse", "knowledge base", "architecture", "implemented"],
+    "content": "The portfolio chatbot is powered by Claude Haiku 4.5 via the Anthropic API with RAG (Retrieval-Augmented Generation). It uses a structured JSON knowledge base with topic chunks covering Marcus's experience, projects, skills, and certifications. When a user sends a message, keyword-based retrieval scores each chunk against the query and injects the top 3 most relevant chunks into the system prompt for grounded, accurate responses. Responses are streamed in real time via Server-Sent Events (SSE) through a Vercel serverless function. The backend includes rate limiting, CORS validation, input sanitization, and security headers. The frontend features starter prompts, auto-scroll during streaming, and an info modal explaining the architecture. The entire implementation uses no frameworks — just vanilla JavaScript on the frontend and a single serverless function on the backend."
   },
   {
     "key": "project_nickblendz",
@@ -62,7 +67,7 @@
   {
     "key": "tech_stack",
     "keywords": ["tech", "stack", "technologies", "tools", "languages", "skills", "programming", "framework"],
-    "content": "Languages & backend: Python, R, JavaScript, TypeScript, Java, FastAPI. Frontend: React, Next.js, Tailwind CSS, HTML & CSS. Tools: Git, GitHub, Docker, Vercel. Cloud: AWS, Azure, GCP. Data & analytics: SQL, Snowflake, Tableau, Power BI, Excel. AI: Quick Suite, Gemini Gems, LangGraph, MCP, Claude Code, Cursor. LLMs: ChatGPT, Claude, Gemini."
+    "content": "Languages & backend: Python, R, JavaScript, TypeScript, Java, FastAPI. Frontend: React, Next.js, Tailwind CSS, HTML & CSS. Tools: Git, GitHub, Docker, Vercel. Cloud: AWS, Azure, GCP. Data & analytics: SQL, Snowflake, Tableau, Power BI, Excel. AI: Quick Suite, Gemini Gems, LangGraph, MCP, RAG, Claude Code. LLMs: ChatGPT, Claude, Gemini."
   },
   {
     "key": "quicksuite",
@@ -82,6 +87,21 @@
   {
     "key": "community",
     "keywords": ["community", "club", "organization", "volunteer", "fraternity", "extracurricular", "leadership"],
-    "content": "Community involvement: Business Impact Group (Consultant, Jan-Mar 2026, collaborated with Socratics.ai and was invited back for internship), Web Impact UW (Full Stack Developer), NetworkAI (Director of Technology, leading AI workshops), Kappa Theta Pi (professional fraternity member), AWS Cloud Club (member), Claude Builder Club (member), Newman Center (Student Ministry Team Member)."
+    "content": "Community involvement: Business Impact Group (Consultant, Jan-Mar 2026, collaborated with Socratics.ai and was invited back for internship), Web Impact UW (Full Stack Developer), NetworkAI (Director of Technology, leading AI workshops and all club tech events), Kappa Theta Pi (professional technology fraternity, worked in cross-functional team to create and deploy fraternity webpage), AWS Cloud Club (member, building projects and attending workshops/hackathons), Claude Builder Club (member, building projects and attending workshops/hackathons), Newman Center (Student Ministry Team Member since Sep 2025)."
+  },
+  {
+    "key": "website_design",
+    "keywords": ["design", "layout", "ui", "interface", "look", "theme", "dark", "tabs", "sidebar", "explorer", "editor", "pane"],
+    "content": "The portfolio is designed to mimic the Cursor IDE interface with a dark theme. It has three main panels: a file explorer sidebar on the left listing pages as files (about.md, experience.md, projects.md, etc.), a central editor pane with a tab system for switching between pages, and an AI chat sidebar on the right. Users can drag and drop to reorder tabs, resize the AI panel, and interact with the chatbot. The site is fully responsive — on mobile it collapses to a single-column layout. All content is rendered client-side from a JavaScript data object with no build step or framework."
+  },
+  {
+    "key": "hobbies",
+    "keywords": ["hobby", "hobbies", "fun", "free time", "interests", "outside", "personal", "running", "hiking", "golf", "lifting"],
+    "content": "Outside of school and work, Marcus enjoys running, lifting, hiking, and golfing (even though he admits he's not great at it yet). He's active and outdoorsy, and balances his technical work with physical activities."
+  },
+  {
+    "key": "internship",
+    "keywords": ["internship", "looking", "seeking", "hiring", "job", "opportunity", "available", "open to"],
+    "content": "Marcus is currently looking for internships across data, software, and product engineering where he can continue delivering value and learning. He has experience in full-stack development, data science, cloud architecture, and AI/LLM integration. He's currently interning at Socratics.ai and AirPLAi Sports while attending UW."
   }
 ]
