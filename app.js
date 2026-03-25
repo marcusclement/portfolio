@@ -19,7 +19,7 @@ const FILES = {
     </p>
     <p>
       Outside of school and work, I'm into running, lifting, hiking, and golfing (even though I suck).
-      I'm currently looking for internships across data, software, and product
+      I'm currently looking for full time roles following graduation across data, software, and product
       engineering where I can continue delivering value and learning.
     </p>
     <p>
@@ -147,6 +147,22 @@ const FILES = {
 </p>
 <p>Associate's in Arts and Sciences (Sep 2023 - Jun 2025)</p>
 <h2>Experience</h2>
+<p class="resume-company">
+<span class="resume-hint">// click on the Proofpoint logo</span>
+  <a
+    class="resume-company-link"
+    href="https://www.proofpoint.com"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img class="resume-logo" src="./proofpoint.png" alt="Proofpoint logo" />
+    <strong>Proofpoint</strong>
+  </a>
+  <span class="resume-role">— AI Integration Engineer Intern (Jun 2026 - Sep 2026)</span>
+</p>
+<ul>
+  <li>Incoming Summer 2026.</li>
+</ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Socratics.ai logo</span>
   <a
