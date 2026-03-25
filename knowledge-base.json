@@ -2,12 +2,12 @@
   {
     "key": "about",
     "keywords": ["about", "marcus", "who", "introduction", "bio", "background", "yourself", "tell me"],
-    "content": "Marcus Clement is a University of Washington Informatics student focused on data science with a business minor. He builds practical things that make work easier — features, workflows, and automated systems. His work sits between software and analytics. He enjoys owning problems end to end: understanding needs, building simple solutions, then iterating until reliable. Lately that means cloud and data work plus LLM-powered tooling. Outside school and work he enjoys running, lifting, hiking, and golfing. Core skills: Cloud Architecture, Full Stack Development, Data, AI/LLM Integration, Consulting."
+    "content": "Marcus Clement is a University of Washington Informatics student focused on data science. He builds practical things that make work easier — features, workflows, and automated systems. His work sits between software and analytics. He enjoys owning problems end to end: understanding needs, building simple solutions, then iterating until reliable. Lately that means cloud and data work plus LLM-powered tooling. Outside school and work he enjoys running, lifting, hiking, and golfing. Core skills: Cloud Architecture, Full Stack Development, Data, AI/LLM Integration, Consulting."
   },
   {
     "key": "education",
     "keywords": ["education", "school", "university", "college", "degree", "gpa", "uw", "bellevue", "informatics", "study"],
-    "content": "Marcus attends the University of Washington (GPA 3.9) in Seattle, pursuing a B.S. in Informatics (Data Science) with a Minor in Business (Sep 2025 - Jun 2027). Before that he completed an Associate's in Arts and Sciences at Bellevue College (Sep 2023 - Jun 2025)."
+    "content": "Marcus attends the University of Washington (GPA 3.9) in Seattle, pursuing a B.S. in Informatics (Data Science) (Sep 2025 - Jun 2027). Before that he completed an Associate's in Arts and Sciences at Bellevue College (Sep 2023 - Jun 2025)."
   },
   {
     "key": "experience_socratics",

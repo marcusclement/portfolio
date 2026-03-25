@@ -7,7 +7,7 @@ const FILES = {
   <div class="about-right">
     <p>
       Hi, I'm Marcus Clement. I'm a University of Washington Informatics student focused
-      on data science with a business minor. I like building practical things that make
+      on data science. I like building practical things that make
       work easier, whether that is a feature, a workflow, or an automated system that
       replaces something manual.
     </p>
@@ -140,7 +140,7 @@ const FILES = {
   <img class="resume-logo" src="./uw.png" alt="University of Washington logo" />
   <strong>University of Washington</strong> (GPA 3.9) — Seattle, WA
 </p>
-<p>Pursuing B.S. Informatics (Data Science), Minor in Business (Sep 2025 - Jun 2027)</p>
+<p>Pursuing B.S. Informatics (Data Science) (Sep 2025 - Jun 2027)</p>
 <p class="resume-edu">
   <img class="resume-logo" src="./bc.png" alt="Bellevue College logo" />
   <strong>Bellevue College</strong> — Bellevue, WA
@@ -368,22 +368,6 @@ const FILES = {
     content: `
 <h1>Community Engagement</h1>
 <p class="resume-company">
-  <span class="resume-hint">// click on the Business Impact Group logo</span>
-  <a
-    class="resume-company-link"
-    href="https://www.uwbig.com/"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img class="resume-logo" src="./big.jpeg" alt="Business Impact Group logo" />
-    <strong>Business Impact Group</strong>
-  </a>
-  <span class="resume-role">— Consultant (Jan 2026 - Mar 2026)</span>
-</p>
-<ul>
-  <li>Collaborated with client <a href="https://socratics.ai" target="_blank" rel="noreferrer">Socratics.ai</a>. Was invited to return after engagement for internship.</li>
-</ul>
-<p class="resume-company">
   <span class="resume-hint">// click on the Web Impact logo</span>
   <a
     class="resume-company-link"
@@ -432,7 +416,23 @@ const FILES = {
   <span class="resume-role">— Fraternity Member (Jan 2026 - Present)</span>
 </p>
 <ul>
-  <li>Worked in a cross-functional team to create and deploy webpage for professional fraternity.</li>
+  <li>Created content for professional development and education for professional tech focused fraternity.</li>
+</ul>
+<p class="resume-company">
+  <span class="resume-hint">// click on the Business Impact Group logo</span>
+  <a
+    class="resume-company-link"
+    href="https://www.uwbig.com/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img class="resume-logo" src="./big.jpeg" alt="Business Impact Group logo" />
+    <strong>Business Impact Group</strong>
+  </a>
+  <span class="resume-role">— Consultant (Jan 2026 - Mar 2026)</span>
+</p>
+<ul>
+  <li>Collaborated with client <a href="https://socratics.ai" target="_blank" rel="noreferrer">Socratics.ai</a>. Was invited to return after engagement for internship.</li>
 </ul>
 <p class="resume-company">
   <span class="resume-hint">// click on the AWS Cloud Club logo</span>
