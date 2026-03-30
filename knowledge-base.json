@@ -11,13 +11,13 @@
   },
   {
     "key": "experience_socratics",
-    "keywords": ["socratics", "software engineer", "financial", "document", "pipeline", "intern", "current"],
-    "content": "Software Engineer Intern at Socratics.ai (Mar 2026 - Present). Building a full-stack financial document processing pipeline supporting Excel ingestion, AI-suggested classifications, human-in-the-loop interface, and structured data export. Collaborating with cross-functional team and product stakeholders."
+    "keywords": ["socratics", "software engineer", "financial", "document", "pipeline", "intern", "current", "startup"],
+    "content": "Software Engineer Intern at Socratics.ai (Mar 2026 - Present). Socratics.ai is a startup — Marcus has direct startup experience here. Building a full-stack financial document processing pipeline supporting Excel ingestion, AI-suggested classifications, human-in-the-loop interface, and structured data export. Collaborating with cross-functional team and product stakeholders. Marcus originally consulted for Socratics.ai through the Business Impact Group and was invited back for a full internship based on his performance."
   },
   {
     "key": "experience_airplai",
-    "keywords": ["airplai", "ai product", "chatbot", "langraph", "fastapi", "gcp", "docker", "sports"],
-    "content": "AI Product Engineer Intern at AirPLAi Sports (Jan 2026 - Present). Tuning AI chatbot prompt workflows and data retrieval logic in Python (FastAPI / LangGraph). Creating UI and backend features, debugging, running tests, resolving CI/Dev issues (GCP, Docker, React / Next.js). Building cloud-based data pipelines that improve data reliability and operational workflows."
+    "keywords": ["airplai", "ai product", "chatbot", "langraph", "fastapi", "gcp", "docker", "sports", "startup"],
+    "content": "AI Product Engineer Intern at AirPLAi Sports (Jan 2026 - Mar 2026). AirPLAi is a startup — Marcus has direct startup experience here. Tuning AI chatbot prompt workflows and data retrieval logic in Python (FastAPI / LangGraph). Creating UI and backend features, debugging, running tests, resolving CI/Dev issues (GCP, Docker, React / Next.js). Building cloud-based data pipelines that improve data reliability and operational workflows."
   },
   {
     "key": "experience_webimpact",
@@ -101,7 +101,52 @@
   },
   {
     "key": "internship",
-    "keywords": ["internship", "looking", "seeking", "hiring", "job", "opportunity", "available", "open to"],
-    "content": "Marcus is currently looking for internships across data, software, and product engineering where he can continue delivering value and learning. He has experience in full-stack development, data science, cloud architecture, and AI/LLM integration. He's currently interning at Socratics.ai and AirPLAi Sports while attending UW."
+    "keywords": ["internship", "looking", "seeking", "hiring", "job", "opportunity", "available", "open to", "full time"],
+    "content": "Marcus is currently looking for full-time roles following graduation across data, software, and product engineering where he can continue delivering value and learning. He has experience in full-stack development, data science, cloud architecture, and AI/LLM integration. He's currently interning at Socratics.ai while attending UW and previously interned at AirPLAi Sports, and has an incoming internship at Proofpoint for Summer 2026."
+  },
+  {
+    "key": "experience_proofpoint",
+    "keywords": ["proofpoint", "cybersecurity", "security", "ai integration", "summer", "incoming", "2026"],
+    "content": "Incoming AI Integration Engineer Intern at Proofpoint (Jun 2026 - Sep 2026). Proofpoint is a leading cybersecurity and compliance company. Marcus will be joining their team for a summer internship focused on AI integration engineering."
+  },
+  {
+    "key": "startup_experience",
+    "keywords": ["startup", "startups", "early stage", "founder", "entrepreneurial", "small company", "venture"],
+    "content": "Marcus has direct startup experience through two roles. AirPLAi Sports is a startup where he worked as an AI Product Engineer Intern, building AI chatbot systems and cloud data pipelines. Socratics.ai is a startup where he currently works as a Software Engineer Intern, building a full-stack financial document processing pipeline. He originally consulted for Socratics.ai through the Business Impact Group and was invited back for an internship. Working at startups has given Marcus experience wearing multiple hats, moving fast, collaborating closely with founders and stakeholders, and owning features end to end."
+  },
+  {
+    "key": "consulting",
+    "keywords": ["consulting", "consultant", "business impact", "big", "client", "strategy", "advisory"],
+    "content": "Marcus served as a Consultant at the Business Impact Group (Jan 2026 - Mar 2026), a student consulting organization at UW. He collaborated directly with the startup Socratics.ai as a client, delivering enough value that he was invited back for a full software engineering internship after the engagement ended. This experience gave him skills in client communication, problem scoping, and delivering actionable recommendations."
+  },
+  {
+    "key": "leadership",
+    "keywords": ["leadership", "leader", "lead", "director", "manage", "mentor", "teach", "workshop"],
+    "content": "Marcus holds leadership roles in multiple organizations. He is the Director of Technology at NetworkAI (Jan 2026 - Present), where he directs workshops teaching AI principles and development practices and leads all club technology and AI events. He is also a Full Stack Developer at Web Impact UW, where he collaborates cross-functionally with design and product leads. At Kappa Theta Pi, he created content for professional development and education. These roles demonstrate his ability to lead teams, teach technical concepts, and drive initiatives."
+  },
+  {
+    "key": "ai_experience",
+    "keywords": ["ai", "artificial intelligence", "machine learning", "ml", "llm", "large language model", "prompt", "nlp", "chatgpt", "claude", "gemini", "prompt engineering"],
+    "content": "Marcus has extensive AI/LLM experience across multiple roles and projects. At AirPLAi he tunes AI chatbot prompt workflows and data retrieval logic using LangGraph and FastAPI. At Socratics.ai he builds AI-suggested classification systems with human-in-the-loop interfaces. He built this portfolio's AI chatbot using Claude Haiku 4.5 with RAG (Retrieval-Augmented Generation) and streaming via SSE. He's working on Medi-Scribe, which uses AWS Bedrock and Transcribe Medical for AI-powered clinical summarization. He holds an AWS AI Practitioner certification and an Azure AI Fundamentals certification. He's proficient with LangGraph, MCP, RAG, Claude Code, Quick Suite, and Gemini Gems. He regularly uses ChatGPT, Claude, and Gemini as development tools."
+  },
+  {
+    "key": "cloud_experience",
+    "keywords": ["cloud", "aws", "azure", "gcp", "infrastructure", "deployment", "serverless", "lambda", "ec2", "s3", "devops"],
+    "content": "Marcus has hands-on cloud experience across AWS, Azure, and GCP. AWS: Built Nick-Blendz with EC2, S3, and RDS; building Medi-Scribe with S3, Lambda, Transcribe Medical, and Bedrock; holds Cloud Practitioner and AI Practitioner certifications, preparing for Solutions Architect Associate. Azure: Holds AZ-900, AI-900, and DP-900 certifications. GCP: Works with GCP and Docker at AirPLAi for CI/CD and cloud data pipelines. He also deploys projects on Vercel (this portfolio) and has experience with Docker containerization."
+  },
+  {
+    "key": "data_experience",
+    "keywords": ["data", "analytics", "data science", "analysis", "visualization", "tableau", "power bi", "snowflake", "excel", "sql", "statistics", "modeling"],
+    "content": "Marcus has strong data science and analytics experience. At Everlane Landscaping he built automated Python pipelines processing 100+ monthly logs, developed Tableau dashboards improving reporting accuracy by 25%, and conducted data modeling that increased customer retention by 12%. At Socratics.ai he works on financial document processing with structured data export. He's proficient in SQL, Snowflake, Tableau, Power BI, and Excel. His degree at UW is a B.S. in Informatics with a Data Science focus (GPA 3.9)."
+  },
+  {
+    "key": "teamwork",
+    "keywords": ["teamwork", "team", "collaboration", "collaborate", "cross-functional", "communication", "group", "together", "work with"],
+    "content": "Marcus consistently works in cross-functional team environments. At Socratics.ai he collaborates with cross-functional teams and product stakeholders on a financial document pipeline. At AirPLAi he works across frontend, backend, and DevOps in a startup setting. At Web Impact UW he collaborates with design and product leads to deliver client web solutions. At Costco he translates technical processes into clear explanations for customers. As a consultant at the Business Impact Group, he worked directly with a startup client. As Director of Technology at NetworkAI, he leads and coordinates with club members on workshops and events."
+  },
+  {
+    "key": "strengths",
+    "keywords": ["why", "hire", "strengths", "strength", "stand out", "unique", "different", "best", "good at", "value", "bring"],
+    "content": "Marcus stands out because he combines software engineering, data science, cloud architecture, and AI/LLM skills — a rare intersection. He has a 3.9 GPA at UW, 6 cloud certifications across AWS and Azure, direct startup experience at two companies (AirPLAi and Socratics.ai), an incoming internship at Proofpoint, and leadership experience as Director of Technology at NetworkAI. He's built production systems used by real users (Nick-Blendz with 100+ users), automated pipelines that saved measurable time (15% job-time reduction, 80% less manual booking), and AI-powered tools (this portfolio chatbot, Medi-Scribe). He owns problems end to end and consistently gets invited back — his Socratics.ai internship came from a consulting engagement where he proved his value."
   }
 ]
