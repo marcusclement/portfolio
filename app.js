@@ -291,6 +291,18 @@ const FILES = {
   <li>Built keyword-based retrieval to score and inject relevant chunks into the system prompt, streamed responses in real time via SSE through a Vercel serverless function.</li>
 </ul>
 
+<h2>Personal Productivity System</h2>
+<p class="resume-company">
+  <strong>Personal Productivity System</strong>
+  <span class="resume-role">— Custom Dashboard (Apr 2026)</span>
+</p>
+<ul>
+  <li>Built a custom dashboard aggregating task management, goal tracking, and live health metrics in a single view.</li>
+  <li>Integrated the WHOOP REST API using OAuth 2.0 with automated token refresh, building a Python/Bash launchd pipeline to sync daily sleep, recovery, and HRV metrics.</li>
+  <li>Deployed a Dockerized MCP server to connect Claude AI to the vault, enabling natural language note management and file operations.</li>
+  <li>Embedded a live Google Calendar day view by registering an OAuth 2.0 client in Google Cloud Console and configuring API scopes and redirect URIs.</li>
+</ul>
+
 <h2>Nick-Blendz.com — Online Booking Application</h2>
 <p class="resume-company">
   <span class="resume-company-link">
@@ -332,7 +344,7 @@ const FILES = {
 <h1>Contact</h1>
 <p>Let's get in touch!</p>
 <ul>
-  <li>Email: mvcus8235@gmail.com</li>
+  <li>Email: marcus20@uw.edu</li>
   <li>
     LinkedIn:
     <a href="https://www.linkedin.com/in/marcus-clement27" target="_blank" rel="noreferrer">
@@ -401,6 +413,7 @@ const FILES = {
 <ul>
   <li>Directing workshops aimed to teach AI principles and development practices.</li>
   <li>Leading all club workshop events tied to technology and AI.</li>
+  <li>Built, deployed, and maintained club website. <a href="https://uwnetworkai.com/" target="_blank" rel="noreferrer">uwnetworkai.com</a></li>
 </ul>
 <p class="resume-company">
   <span class="resume-hint">// click on the Kappa Theta Pi logo</span>
@@ -413,7 +426,7 @@ const FILES = {
   <img class="resume-logo" src="./ktp.jpg" alt="Kappa Theta Pi logo" />
   <strong>Kappa Theta Pi</strong>
   </a>
-  <span class="resume-role">— Fraternity Member (Jan 2026 - Present)</span>
+  <span class="resume-role">— Director of Pledge Education (Jan 2026 - Present)</span>
 </p>
 <ul>
   <li>Created content for professional development and education for professional tech focused fraternity.</li>
