@@ -228,7 +228,7 @@ const FILES = {
 <p class="resume-company">
   <img class="resume-logo" src="./everlane.jpeg" alt="Everlane logo" />
 <strong>Everlane Landscaping</strong>
-  <span class="resume-role">— Data Science Intern (Aug 2025 - Nov 2025)</span>
+  <span class="resume-role">— Data Science Intern (Jul 2025 - Sep 2025)</span>
 </p>
 <ul>
   <li>Built automated Python pipeline to process 100+ monthly logs, optimizing routing, reducing job-time by 15%.</li>
