@@ -397,8 +397,10 @@ body {
 }
 
 .pdf-preview {
-  width: min(980px, 88vw);
-  max-height: calc(100vh - 240px);
+  width: min(680px, 88vw);
+  aspect-ratio: 8.5 / 11;
+  height: auto;
+  max-height: calc(100vh - 200px);
   object-fit: contain;
   border-radius: 12px;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
