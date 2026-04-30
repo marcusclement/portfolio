@@ -403,6 +403,9 @@ body {
   border-radius: 12px;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
   display: block;
+  background: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
 .pdf-text {
