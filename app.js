@@ -190,7 +190,7 @@ const FILES = {
     <img class="resume-logo" src="./AirPLAi_Sports.jpeg" alt="AirPLAi logo" />
     <strong>AirPLAi Sports</strong>
   </a>
-  <span class="resume-role">— AI Product Engineer Intern (Jan 2026 - Apr 2026)</span>
+  <span class="resume-role">— AI Product Engineer Intern (Jan 2026 - Mar 2026)</span>
 </p>
 <ul>
   <li>Tuned AI chatbot prompt workflows and data retrieval logic in Python (FastAPI / LangGraph).</li>
