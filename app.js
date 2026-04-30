@@ -113,7 +113,6 @@ const FILES = {
       <div class="tech-item"><img src="./gems.png" alt="Gemini Gems" /><span class="tech-label">Gemini Gems</span></div>
       <div class="tech-item"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="LangGraph" /><span class="tech-label">LangGraph</span></div>
       <div class="tech-item tech-item--light-bg"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mcp.svg" alt="MCP" /><span class="tech-label">MCP</span></div>
-      <div class="tech-item"><img src="./RAG.png" alt="RAG" /><span class="tech-label">RAG</span></div>
       <div class="tech-item tech-item--claude-code"><img src="./claudecode.png" alt="Claude Code" /><span class="tech-label">Claude Code</span></div>
     </div>
   </div>
@@ -174,11 +173,11 @@ const FILES = {
     <img class="resume-logo" src="./socratics.jpeg" alt="Socratics.ai logo" />
     <strong>Socratics.ai</strong>
   </a>
-  <span class="resume-role">— Software Engineer Intern (Mar 2026 - Present)</span>
+  <span class="resume-role">— Software Engineer Intern (Mar 2026 - May 2026)</span>
 </p>
 <ul>
-  <li>Building a full-stack financial document processing pipeline supporting Excel ingestion, AI-suggested classifications, HITL interface, and structured data export.</li>
-  <li>Collaborating with cross-functional team and product stakeholders throughout process.</li>
+  <li>Built full-stack financial document processing pipeline supporting data ingestion, AI classifications & HITL interface.</li>
+  <li>Presented executive team with system architecture + determined key features for product implementation.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the AirPLAi logo</span>
@@ -191,12 +190,12 @@ const FILES = {
     <img class="resume-logo" src="./AirPLAi_Sports.jpeg" alt="AirPLAi logo" />
     <strong>AirPLAi Sports</strong>
   </a>
-  <span class="resume-role">— AI Product Engineer Intern (Jan 2026 - Mar 2026)</span>
+  <span class="resume-role">— AI Product Engineer Intern (Jan 2026 - Apr 2026)</span>
 </p>
 <ul>
-  <li>Tuning AI chatbot prompt workflows and data retrieval logic in Python (FastAPI / LangGraph).</li>
-  <li>Creating UI + backend features, debugging, running tests, and resolving CI/Dev issues (GCP, Docker, React / Next.js).</li>
-  <li>Building cloud-based data pipelines and features that improve data reliability and operational workflows.</li>
+  <li>Tuned AI chatbot prompt workflows and data retrieval logic in Python (FastAPI / LangGraph).</li>
+  <li>Created UI + backend features, debugged, ran tests, and resolved CI/Dev issues (GCP, Docker, React / Next.js).</li>
+  <li>Built cloud-based data pipelines and features that improved data reliability and operational workflows.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Web Impact logo</span>
