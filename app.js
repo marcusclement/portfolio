@@ -208,7 +208,7 @@ const FILES = {
     <img class="resume-logo" src="./webimpact.jpeg" alt="Web Impact UW logo" />
     <strong>Web Impact UW</strong>
   </a>
-  <span class="resume-role">— Full Stack Developer (Jan 2026 - Present)</span>
+  <span class="resume-role">— Full Stack Developer (Jan 2026 - Jun 2026)</span>
 </p>
 <ul>
   <li>Developing features across React frontend, API routes, and backend, owning implementation to deployment under deadlines.</li>
@@ -218,7 +218,7 @@ const FILES = {
 <p class="resume-company">
   <img class="resume-logo" src="./costco.png" alt="Costco Wholesale logo" />
   <strong>Costco Wholesale</strong>
-  <span class="resume-role">— Member Service Agent (Feb 2024 - Present)</span>
+  <span class="resume-role">— Member Service Agent (Feb 2024 - Jun 2026)</span>
 </p>
 <p style="font-style: italic; margin-top: 2px; font-size: 13px; color: #8a8f98;">College Retention Program since Sep 2025</p>
 <ul>
@@ -425,7 +425,7 @@ const FILES = {
   <img class="resume-logo" src="./ktp.jpg" alt="Kappa Theta Pi logo" />
   <strong>Kappa Theta Pi</strong>
   </a>
-  <span class="resume-role">— Director of Pledge Education (Jan 2026 - Present)</span>
+  <span class="resume-role">— Education Committee Director (Jan 2026 - Present)</span>
 </p>
 <ul>
   <li>Created content for professional development and education for professional tech focused fraternity.</li>
