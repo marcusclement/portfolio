@@ -1,6 +1,10 @@
 {
   "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.39.0"
+    "@anthropic-ai/sdk": "^0.96.0"
   }
 }
