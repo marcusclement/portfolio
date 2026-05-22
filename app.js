@@ -176,8 +176,8 @@ const FILES = {
   <span class="resume-role">— Software Engineer Intern (Mar 2026 - May 2026)</span>
 </p>
 <ul>
-  <li>Built full-stack financial document processing pipeline supporting data ingestion, AI classifications & HITL interface.</li>
-  <li>Presented executive team with system architecture + determined key features for product implementation.</li>
+  <li>Engineered AI document processing pipeline for financial data ingestion, model-driven classification, and HITL validation.</li>
+  <li>Presented AI workflow architecture to executive team, defining automation strategy and feature priorities for production.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the AirPLAi logo</span>
