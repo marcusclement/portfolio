@@ -173,7 +173,7 @@ const FILES = {
     <img class="resume-logo" src="./socratics.jpeg" alt="Socratics.ai logo" />
     <strong>Socratics.ai</strong>
   </a>
-  <span class="resume-role">— Software Engineer Intern (Mar 2026 - May 2026)</span>
+  <span class="resume-role">— AI Systems Engineer Intern (Mar 2026 - May 2026)</span>
 </p>
 <ul>
   <li>Engineered AI document processing pipeline for financial data ingestion, model-driven classification, and HITL validation.</li>
