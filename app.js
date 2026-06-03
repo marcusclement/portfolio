@@ -157,10 +157,11 @@ const FILES = {
     <img class="resume-logo" src="./proofpoint.png" alt="Proofpoint logo" />
     <strong>Proofpoint</strong>
   </a>
-  <span class="resume-role">— AI Integration Engineer Intern (Jun 2026 - Sep 2026)</span>
+  <span class="resume-role">— AI Integrations Engineer Intern (Jun 2026 - Sep 2026)</span>
 </p>
 <ul>
-  <li>Incoming Summer 2026.</li>
+  <li>Building and deploying agentic AI workflows and multi-agent orchestration systems on Amazon Q Business / Quick Suite.</li>
+  <li>Engineering prompt and context strategies to optimize AI agent behavior and security guardrails.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Socratics.ai logo</span>
@@ -241,9 +242,9 @@ const FILES = {
     <img class="cert-logo cert-logo--aws" src="./awsreal.webp" alt="AWS logo" />
     <div class="cert-label">AWS</div>
     <ul>
+      <li>Solutions Architect Associate (SAA-C03)</li>
       <li>Cloud Practitioner (CLF-C02)</li>
       <li>AI Practitioner (AIF-C01)</li>
-      <li>Preparing for Solutions Architect Associate (SAA-C03)</li>
     </ul>
   </div>
   <div class="cert-card">
