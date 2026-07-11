@@ -160,8 +160,9 @@ const FILES = {
   <span class="resume-role">— AI Integrations Engineer Intern (Jun 2026 - Sep 2026)</span>
 </p>
 <ul>
-  <li>Building and deploying agentic AI workflows and multi-agent orchestration systems on Amazon Q Business / Quick Suite.</li>
-  <li>Engineering prompt and context strategies to optimize AI agent behavior and security guardrails.</li>
+  <li>Analyzed agent behavior and user feedback to refine prompt and context strategies, hardening security guardrails.</li>
+  <li>Authored integration documentation and presented AI capabilities to cross-functional partners to align on goals.</li>
+  <li>Translated stakeholder needs into agentic AI workflows on Amazon Quick, informing feature scope and priorities.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Socratics.ai logo</span>
@@ -214,7 +215,6 @@ const FILES = {
 <ul>
   <li>Developing features across React frontend, API routes, and backend, owning implementation to deployment under deadlines.</li>
   <li>Collaborating cross functionally with design and product leads to deliver user focused web solutions for external clients.</li>
-  <li>Implementing UI components with shadcn and delivering maintainable code with best practices through GitHub workflows.</li>
 </ul>
 <p class="resume-company">
   <img class="resume-logo" src="./costco.png" alt="Costco Wholesale logo" />
@@ -233,7 +233,6 @@ const FILES = {
 </p>
 <ul>
   <li>Built automated Python pipeline to process 100+ monthly logs, optimizing routing, reducing job-time by 15%.</li>
-  <li>Developed Tableau dashboards that improved reporting accuracy by 25%, visualizing demand and crew performance.</li>
   <li>Conducted data modeling to identify high-value customer segments, leading to a 12% increase in customer retention.</li>
 </ul>
 <h2>Certifications</h2>
