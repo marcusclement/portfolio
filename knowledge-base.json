@@ -2,17 +2,17 @@
   {
     "key": "about",
     "keywords": ["about", "marcus", "who", "introduction", "bio", "background", "yourself", "tell me"],
-    "content": "Marcus Clement is a University of Washington Informatics student focused on data science. He builds practical things that make work easier — features, workflows, and automated systems. His work sits between software and analytics. He enjoys owning problems end to end: understanding needs, building simple solutions, then iterating until reliable. Lately that means cloud and data work plus LLM-powered tooling. Outside school and work he enjoys running, lifting, hiking, and golfing. Core skills: Cloud Architecture, Full Stack Development, Data, AI/LLM Integration, Consulting."
+    "content": "Marcus Clement is a University of Washington Informatics student focused on data science. He builds practical things that make work easier — features, workflows, and automated systems. His work sits between software, data, and the people who use it. He enjoys owning problems end to end: sitting down with stakeholders to scope what they actually need, shipping a simple version, then iterating until it is reliable and genuinely useful. Lately that means applied AI and automation built on cloud infrastructure, plus the analytics and product work that decides what gets built in the first place. Outside school and work he enjoys running, lifting, hiking, and golfing. Core skills: Applied AI, Cloud Architecture, Business Intelligence, Automation, Consulting, Product Management."
   },
   {
     "key": "education",
     "keywords": ["education", "school", "university", "college", "degree", "gpa", "uw", "bellevue", "informatics", "study"],
-    "content": "Marcus attends the University of Washington (GPA 3.9) in Seattle, pursuing a B.S. in Informatics (Data Science) (Sep 2025 - Jun 2027). Before that he completed an Associate's in Arts and Sciences at Bellevue College (Sep 2023 - Jun 2025)."
+    "content": "Marcus attends the University of Washington (GPA 3.93) in Seattle, pursuing a B.S. in Informatics (Data Science) (Sep 2025 - Jun 2027). Before that he completed an Associate's in Arts and Sciences at Bellevue College (Sep 2023 - Jun 2025)."
   },
   {
     "key": "experience_socratics",
-    "keywords": ["socratics", "software engineer", "financial", "document", "pipeline", "intern", "current", "startup"],
-    "content": "Software Engineer Intern at Socratics.ai (Mar 2026 - Present). Socratics.ai is a startup — Marcus has direct startup experience here. Building a full-stack financial document processing pipeline supporting Excel ingestion, AI-suggested classifications, human-in-the-loop interface, and structured data export. Collaborating with cross-functional team and product stakeholders. Marcus originally consulted for Socratics.ai through the Business Impact Group and was invited back for a full internship based on his performance."
+    "keywords": ["socratics", "ai systems engineer", "software engineer", "financial", "document", "pipeline", "intern", "hitl", "startup"],
+    "content": "AI Systems Engineer Intern at Socratics.ai (Mar 2026 - May 2026) in Seattle, WA. Socratics.ai is a startup — Marcus has direct startup experience here. He engineered an AI document processing pipeline for financial data ingestion, model-driven classification, and human-in-the-loop (HITL) validation. He presented the AI workflow architecture to the executive team, defining automation strategy and feature priorities for production. Marcus originally consulted for Socratics.ai through the Business Impact Group and was invited back for a full internship based on his performance."
   },
   {
     "key": "experience_airplai",
@@ -22,17 +22,17 @@
   {
     "key": "experience_webimpact",
     "keywords": ["web impact", "full stack", "developer", "react", "shadcn", "client"],
-    "content": "Full Stack Developer at Web Impact UW (Jan 2026 - Present). Developing features across React frontend, API routes, and backend. Collaborating cross-functionally with design and product leads to deliver user-focused web solutions for external clients. Implementing UI components with shadcn and delivering maintainable code through GitHub workflows."
+    "content": "Full Stack Developer at Web Impact UW (Jan 2026 - Jun 2026). Developing features across React frontend, API routes, and backend. Collaborating cross-functionally with design and product leads to deliver user-focused web solutions for external clients. Implementing UI components with shadcn and delivering maintainable code through GitHub workflows."
   },
   {
     "key": "experience_costco",
     "keywords": ["costco", "customer", "service", "agent", "communication", "retention"],
-    "content": "Member Service Agent at Costco Wholesale (Feb 2024 - Present). On the College Retention Program since Sep 2025. Assisted customers through complex issues via chat/phone, translating technical processes into clear explanations. Consistently exceeded performance expectations by over 50% through strong communication and problem-solving."
+    "content": "Member Service Agent at Costco Wholesale (Feb 2024 - Jun 2026) in Issaquah, WA. On the College Retention Program since Sep 2025. Assisted customers through complex issues via chat/phone, translating technical processes into clear explanations. Consistently exceeded performance expectations by over 50% through strong communication and problem-solving."
   },
   {
     "key": "experience_everlane",
     "keywords": ["everlane", "landscaping", "data science", "tableau", "pipeline", "routing", "dashboards"],
-    "content": "Data Science Intern at Everlane Landscaping (Aug 2025 - Nov 2025). Built automated Python pipeline to process 100+ monthly logs, optimizing routing and reducing job-time by 15%. Developed Tableau dashboards that improved reporting accuracy by 25%. Conducted data modeling to identify high-value customer segments, leading to 12% increase in customer retention."
+    "content": "Data Science Intern at Everlane Landscaping (Jul 2025 - Sep 2025) in Kirkland, WA. Built automated Python pipeline to process 100+ monthly logs, optimizing routing and reducing job-time by 15%. Developed Tableau dashboards that improved reporting accuracy by 25%. Conducted data modeling to identify high-value customer segments, leading to 12% increase in customer retention."
   },
   {
     "key": "project_portfolio",
@@ -43,6 +43,11 @@
     "key": "chatbot_architecture",
     "keywords": ["chatbot", "chat", "ai chat", "rag", "retrieval", "how", "built", "made", "work", "haiku", "anthropic", "api", "streaming", "sse", "knowledge base", "architecture", "implemented"],
     "content": "The portfolio chatbot is powered by Claude Haiku 4.5 via the Anthropic API with RAG (Retrieval-Augmented Generation). It uses a structured JSON knowledge base with topic chunks covering Marcus's experience, projects, skills, and certifications. When a user sends a message, keyword-based retrieval scores each chunk against the query and injects the top 3 most relevant chunks into the system prompt for grounded, accurate responses. Responses are streamed in real time via Server-Sent Events (SSE) through a Vercel serverless function. The backend includes rate limiting, CORS validation, input sanitization, and security headers. The frontend features starter prompts, auto-scroll during streaming, and an info modal explaining the architecture. The entire implementation uses no frameworks — just vanilla JavaScript on the frontend and a single serverless function on the backend."
+  },
+  {
+    "key": "project_productivity_system",
+    "keywords": ["productivity", "obsidian", "dashboard", "whoop", "strava", "vault", "habit", "health", "training brief", "calendar", "mcp", "launchd", "oauth", "personal"],
+    "content": "Personal Productivity System — Custom Obsidian Dashboard (Apr 2026 - Jun 2026). Marcus built a custom dashboard aggregating task management, goal tracking, and live health metrics in a single view. He integrated the WHOOP and Strava REST APIs using OAuth 2.0 with automated token refresh, building a Python/Bash launchd pipeline to sync daily sleep, recovery, activities, and HRV metrics. He deployed a Dockerized MCP server to connect Claude AI to the vault, enabling natural language note management and file operations. He built an AI-generated daily training brief using the Claude API, synthesizing recovery scores, pace history, and weekly mileage into a personalized coaching summary delivered automatically each morning. He embedded a live Google Calendar day view by registering an OAuth 2.0 client in Google Cloud Console and configuring API scopes and redirect URIs. The projects page has an expandable screenshots folder showing the Home Base page, daily brief, schedule, sleep and recovery view, last run, to-do and goals, and a 28-day habit grid."
   },
   {
     "key": "project_nickblendz",
@@ -62,7 +67,7 @@
   {
     "key": "certifications",
     "keywords": ["certification", "certified", "aws", "azure", "cloud practitioner", "az-900", "exam"],
-    "content": "AWS Certifications: Cloud Practitioner (CLF-C02), AI Practitioner (AIF-C01), preparing for Solutions Architect Associate (SAA-C03). Azure Certifications: AZ-900 (Azure Fundamentals), AI-900 (Azure AI Fundamentals), DP-900 (Azure Data Fundamentals)."
+    "content": "AWS Certifications (3x): Solutions Architect Associate (SAA-C03), Cloud Practitioner (CLF-C02), AI Practitioner (AIF-C01). Azure Certifications (3x): AZ-900 (Azure Fundamentals), AI-900 (Azure AI Fundamentals), DP-900 (Azure Data Fundamentals). That is 6 cloud certifications total."
   },
   {
     "key": "tech_stack",
@@ -82,12 +87,17 @@
   {
     "key": "contact",
     "keywords": ["contact", "email", "reach", "linkedin", "connect", "hire", "touch"],
-    "content": "Email: mvcus8235@gmail.com. LinkedIn: linkedin.com/in/marcus-clement27."
+    "content": "Email: marcus20@uw.edu. LinkedIn: linkedin.com/in/marcus-clement27."
   },
   {
     "key": "community",
-    "keywords": ["community", "club", "organization", "volunteer", "fraternity", "extracurricular", "leadership"],
+    "keywords": ["community", "club", "organization", "fraternity", "extracurricular", "leadership"],
     "content": "Community involvement: Business Impact Group (Consultant, Jan-Mar 2026, collaborated with Socratics.ai and was invited back for internship), Web Impact UW (Full Stack Developer), NetworkAI (Director of Technology, leading AI workshops and all club tech events), Kappa Theta Pi (professional technology fraternity, worked in cross-functional team to create and deploy fraternity webpage), AWS Cloud Club (member, building projects and attending workshops/hackathons), Claude Builder Club (member, building projects and attending workshops/hackathons), Newman Center (Student Ministry Team Member since Sep 2025)."
+  },
+  {
+    "key": "volunteering",
+    "keywords": ["volunteer", "volunteering", "give back", "nonprofit", "charity", "ronald mcdonald", "rmhc", "hackathon", "basketball", "coach", "coaching", "upward", "liberty", "camp", "kids", "youth"],
+    "content": "Volunteering: Strategy Consultant at Ronald McDonald House (Jul 2026) — participated in the RMHC Bay Area x Proofpoint Hackathon to redesign the Comfort & Joy Holiday Drive, a program delivering 10,000+ toys annually to families of critically ill children across the Bay Area. Basketball Camp Counselor at Liberty Sr High School (Jun 2022) — assisted with the annual Liberty Select Basketball Camp for K-8 students. Basketball Coach at Upward Sports (Jan 2019 - Mar 2019) — coached a 5th-6th grade youth basketball team through a full season. These roles show Marcus gives back through both strategy/consulting work for nonprofits and hands-on youth mentorship and coaching."
   },
   {
     "key": "website_design",
@@ -102,17 +112,17 @@
   {
     "key": "internship",
     "keywords": ["internship", "looking", "seeking", "hiring", "job", "opportunity", "available", "open to", "full time"],
-    "content": "Marcus is currently looking for full-time roles following graduation across data, software, and product engineering where he can continue delivering value and learning. He has experience in full-stack development, data science, cloud architecture, and AI/LLM integration. He's currently interning at Socratics.ai while attending UW and previously interned at AirPLAi Sports, and has an incoming internship at Proofpoint for Summer 2026."
+    "content": "Marcus is currently looking for full-time roles following graduation across data, software, and product engineering where he can continue delivering value and learning. He has experience in applied AI, cloud architecture, business intelligence, automation, consulting, and product management. He interned at Proofpoint as an AI Integrations Engineer Intern in Summer 2026, and previously at Socratics.ai and AirPLAi Sports."
   },
   {
     "key": "experience_proofpoint",
-    "keywords": ["proofpoint", "cybersecurity", "security", "ai integration", "summer", "incoming", "2026"],
-    "content": "Incoming AI Integration Engineer Intern at Proofpoint (Jun 2026 - Sep 2026). Proofpoint is a leading cybersecurity and compliance company. Marcus will be joining their team for a summer internship focused on AI integration engineering."
+    "keywords": ["proofpoint", "cybersecurity", "security", "ai integration", "agentic", "quick", "amazon quick", "summer", "current", "2026"],
+    "content": "AI Integrations Engineer Intern at Proofpoint (Jun 2026 - Sep 2026), remote. Proofpoint is a leading cybersecurity and compliance company. Marcus built an agentic automation for sales reps that integrates siloed data to generate renewal narratives and improve renewal rates. He drove discovery, bug resolution, and AWS escalations for the enterprise-wide rollout of the AI tool Amazon Quick Desktop. He translated stakeholder needs into agentic AI workflows, owning delivery from discovery through deployment."
   },
   {
     "key": "startup_experience",
     "keywords": ["startup", "startups", "early stage", "founder", "entrepreneurial", "small company", "venture"],
-    "content": "Marcus has direct startup experience through two roles. AirPLAi Sports is a startup where he worked as an AI Product Engineer Intern, building AI chatbot systems and cloud data pipelines. Socratics.ai is a startup where he currently works as a Software Engineer Intern, building a full-stack financial document processing pipeline. He originally consulted for Socratics.ai through the Business Impact Group and was invited back for an internship. Working at startups has given Marcus experience wearing multiple hats, moving fast, collaborating closely with founders and stakeholders, and owning features end to end."
+    "content": "Marcus has direct startup experience through two roles. AirPLAi Sports is a startup where he worked as an AI Product Engineer Intern, building AI chatbot systems and cloud data pipelines. Socratics.ai is a startup where he worked as an AI Systems Engineer Intern, building an AI document processing pipeline for financial data. He originally consulted for Socratics.ai through the Business Impact Group and was invited back for an internship. Working at startups has given Marcus experience wearing multiple hats, moving fast, collaborating closely with founders and stakeholders, and owning features end to end."
   },
   {
     "key": "consulting",
@@ -127,17 +137,17 @@
   {
     "key": "ai_experience",
     "keywords": ["ai", "artificial intelligence", "machine learning", "ml", "llm", "large language model", "prompt", "nlp", "chatgpt", "claude", "gemini", "prompt engineering"],
-    "content": "Marcus has extensive AI/LLM experience across multiple roles and projects. At AirPLAi he tunes AI chatbot prompt workflows and data retrieval logic using LangGraph and FastAPI. At Socratics.ai he builds AI-suggested classification systems with human-in-the-loop interfaces. He built this portfolio's AI chatbot using Claude Haiku 4.5 with RAG (Retrieval-Augmented Generation) and streaming via SSE. He's working on Medi-Scribe, which uses AWS Bedrock and Transcribe Medical for AI-powered clinical summarization. He holds an AWS AI Practitioner certification and an Azure AI Fundamentals certification. He's proficient with LangGraph, MCP, RAG, Claude Code, Quick Suite, and Gemini Gems. He regularly uses ChatGPT, Claude, and Gemini as development tools."
+    "content": "Marcus has extensive applied AI and LLM experience across multiple roles and projects. At Proofpoint he built an agentic automation for sales reps and translated stakeholder needs into agentic AI workflows on Amazon Quick Desktop. At AirPLAi he tuned AI chatbot prompt workflows and data retrieval logic using LangGraph and FastAPI. At Socratics.ai he builds AI-suggested classification systems with human-in-the-loop interfaces. He built this portfolio's AI chatbot using Claude Haiku 4.5 with RAG (Retrieval-Augmented Generation) and streaming via SSE. He's working on Medi-Scribe, which uses AWS Bedrock and Transcribe Medical for AI-powered clinical summarization. He holds an AWS AI Practitioner certification and an Azure AI Fundamentals certification. He's proficient with LangGraph, MCP, RAG, Claude Code, Quick Suite, and Gemini Gems. He regularly uses ChatGPT, Claude, and Gemini as development tools."
   },
   {
     "key": "cloud_experience",
     "keywords": ["cloud", "aws", "azure", "gcp", "infrastructure", "deployment", "serverless", "lambda", "ec2", "s3", "devops"],
-    "content": "Marcus has hands-on cloud experience across AWS, Azure, and GCP. AWS: Built Nick-Blendz with EC2, S3, and RDS; building Medi-Scribe with S3, Lambda, Transcribe Medical, and Bedrock; holds Cloud Practitioner and AI Practitioner certifications, preparing for Solutions Architect Associate. Azure: Holds AZ-900, AI-900, and DP-900 certifications. GCP: Works with GCP and Docker at AirPLAi for CI/CD and cloud data pipelines. He also deploys projects on Vercel (this portfolio) and has experience with Docker containerization."
+    "content": "Marcus has hands-on cloud experience across AWS, Azure, and GCP. AWS: Built Nick-Blendz with EC2, S3, and RDS; building Medi-Scribe with S3, Lambda, Transcribe Medical, and Bedrock; holds Solutions Architect Associate, Cloud Practitioner, and AI Practitioner certifications. Azure: Holds AZ-900, AI-900, and DP-900 certifications. GCP: Works with GCP and Docker at AirPLAi for CI/CD and cloud data pipelines. He also deploys projects on Vercel (this portfolio) and has experience with Docker containerization."
   },
   {
     "key": "data_experience",
     "keywords": ["data", "analytics", "data science", "analysis", "visualization", "tableau", "power bi", "snowflake", "excel", "sql", "statistics", "modeling"],
-    "content": "Marcus has strong data science and analytics experience. At Everlane Landscaping he built automated Python pipelines processing 100+ monthly logs, developed Tableau dashboards improving reporting accuracy by 25%, and conducted data modeling that increased customer retention by 12%. At Socratics.ai he works on financial document processing with structured data export. He's proficient in SQL, Snowflake, Tableau, Power BI, and Excel. His degree at UW is a B.S. in Informatics with a Data Science focus (GPA 3.9)."
+    "content": "Marcus has strong data science and analytics experience. At Everlane Landscaping he built automated Python pipelines processing 100+ monthly logs, developed Tableau dashboards improving reporting accuracy by 25%, and conducted data modeling that increased customer retention by 12%. At Socratics.ai he works on financial document processing with structured data export. He's proficient in SQL, Snowflake, Tableau, Power BI, and Excel. His degree at UW is a B.S. in Informatics with a Data Science focus (GPA 3.93). Business Intelligence is one of his core skills."
   },
   {
     "key": "teamwork",
@@ -147,6 +157,6 @@
   {
     "key": "strengths",
     "keywords": ["why", "hire", "strengths", "strength", "stand out", "unique", "different", "best", "good at", "value", "bring"],
-    "content": "Marcus stands out because he combines software engineering, data science, cloud architecture, and AI/LLM skills — a rare intersection. He has a 3.9 GPA at UW, 6 cloud certifications across AWS and Azure, direct startup experience at two companies (AirPLAi and Socratics.ai), an incoming internship at Proofpoint, and leadership experience as Director of Technology at NetworkAI. He's built production systems used by real users (Nick-Blendz with 100+ users), automated pipelines that saved measurable time (15% job-time reduction, 80% less manual booking), and AI-powered tools (this portfolio chatbot, Medi-Scribe). He owns problems end to end and consistently gets invited back — his Socratics.ai internship came from a consulting engagement where he proved his value."
+    "content": "Marcus stands out because he combines applied AI, cloud architecture, business intelligence, automation, consulting, and product management — a rare intersection. He has a 3.93 GPA at UW, 6 cloud certifications across AWS and Azure, direct startup experience at two companies (AirPLAi and Socratics.ai), an AI Integrations Engineer internship at Proofpoint, and leadership experience as Director of Technology at NetworkAI. He's built production systems used by real users (Nick-Blendz with 100+ users), automated pipelines that saved measurable time (15% job-time reduction, 80% less manual booking), and AI-powered tools (this portfolio chatbot, Medi-Scribe). He owns problems end to end and consistently gets invited back — his Socratics.ai internship came from a consulting engagement where he proved his value."
   }
 ]

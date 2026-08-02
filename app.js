@@ -12,10 +12,12 @@ const FILES = {
       replaces something manual.
     </p>
     <p>
-      Most of what I do sits between software and analytics. I enjoy owning problems end
-      to end: understanding what someone needs, building a simple solution, then iterating
-      until it is reliable and actually useful. Lately, that has meant a lot of cloud and
-      data work, plus some LLM powered tooling where it makes sense.
+      Most of what I do sits between software, data, and the people who use it. I enjoy
+      owning problems end to end: sitting down with stakeholders to scope what they
+      actually need, shipping a simple version, then iterating until it is reliable and
+      genuinely useful. Lately that has meant applied AI and automation built on cloud
+      infrastructure, plus the analytics and product work that decides what gets built in
+      the first place.
     </p>
     <p>
       Outside of school and work, I'm into running, lifting, hiking, and golfing (even though I suck).
@@ -27,8 +29,8 @@ const FILES = {
     </p>
     <h2>Core Skills</h2>
     <ul>
-      <li>Cloud Architecture, Full Stack Development, Data</li>
-      <li>AI/LLM Integration, Consulting, Automation</li>
+      <li>Applied AI, Cloud Architecture, Business Intelligence</li>
+      <li>Automation, Consulting, Product Management</li>
     </ul>
   </div>
   <div class="about-media">
@@ -137,7 +139,7 @@ const FILES = {
 <h2>Education</h2>
 <p class="resume-edu">
   <img class="resume-logo" src="./uw.png" alt="University of Washington logo" />
-  <strong>University of Washington</strong> (GPA 3.9) — Seattle, WA
+  <strong>University of Washington</strong> (GPA 3.93) — Seattle, WA
 </p>
 <p>Pursuing B.S. Informatics (Data Science) (Sep 2025 - Jun 2027)</p>
 <p class="resume-edu">
@@ -160,9 +162,9 @@ const FILES = {
   <span class="resume-role">— AI Integrations Engineer Intern (Jun 2026 - Sep 2026)</span>
 </p>
 <ul>
-  <li>Analyzed agent behavior and user feedback to refine prompt and context strategies, hardening security guardrails.</li>
-  <li>Authored integration documentation and presented AI capabilities to cross-functional partners to align on goals.</li>
-  <li>Translated stakeholder needs into agentic AI workflows on Amazon Quick, informing feature scope and priorities.</li>
+  <li>Built an agentic automation for sales reps, integrating siloed data to generate renewal narratives and improve renewal rates.</li>
+  <li>Drove discovery, bug resolution, and AWS escalations for the enterprise-wide rollout of AI tool: Amazon Quick Desktop.</li>
+  <li>Translated stakeholder needs into agentic AI workflows, owning delivery from discovery through deployment.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Socratics.ai logo</span>
@@ -263,7 +265,7 @@ const FILES = {
     content: `
 <h1>My Resume</h1>
 <div class="pdf-link-wrap">
-  <a class="pdf-link" href="DS_RESUME.pdf" download rel="noreferrer" aria-label="Download resume PDF">
+  <a class="pdf-link" href="Marcus_Clement_Resume.pdf" download rel="noreferrer" aria-label="Download resume PDF">
     <img class="pdf-preview" src="./resume.png" alt="Preview of Marcus Clement resume" />
     <span class="pdf-text">Open resume.pdf</span>
   </a>
@@ -293,14 +295,66 @@ const FILES = {
 <h2>Personal Productivity System</h2>
 <p class="resume-company">
   <strong>Personal Productivity System</strong>
-  <span class="resume-role">— Custom Dashboard (Apr 2026)</span>
+  <span class="resume-role">— Custom Obsidian Dashboard (Apr 2026 - Jun 2026)</span>
 </p>
 <ul>
   <li>Built a custom dashboard aggregating task management, goal tracking, and live health metrics in a single view.</li>
-  <li>Integrated the WHOOP REST API using OAuth 2.0 with automated token refresh, building a Python/Bash launchd pipeline to sync daily sleep, recovery, and HRV metrics.</li>
+  <li>Integrated the WHOOP + Strava REST APIs using OAuth 2.0 with automated token refresh, building a Python/Bash launchd pipeline to sync daily sleep, recovery, activities, and HRV metrics.</li>
   <li>Deployed a Dockerized MCP server to connect Claude AI to the vault, enabling natural language note management and file operations.</li>
+  <li>Built an AI-generated daily training brief using the Claude API, synthesizing recovery scores, pace history, and weekly mileage into a personalized coaching summary delivered automatically each morning.</li>
   <li>Embedded a live Google Calendar day view by registering an OAuth 2.0 client in Google Cloud Console and configuring API scopes and redirect URIs.</li>
 </ul>
+<details class="shot-folder">
+  <summary class="shot-folder-summary">
+    <span class="shot-folder-caret" aria-hidden="true"></span>
+    <span class="shot-folder-name">screenshots/</span>
+    <span class="shot-folder-count">7 items</span>
+  </summary>
+  <div class="shot-grid">
+    <figure class="shot">
+      <span class="shot-frame">
+        <img src="./pps-homebase.png" alt="Home Base dashboard with quick nav and schedule" loading="lazy" />
+      </span>
+      <figcaption>Home Base — daily landing page with quick nav</figcaption>
+    </figure>
+    <figure class="shot">
+      <span class="shot-frame">
+        <img src="./pps-brief.png" alt="AI-generated daily training brief" loading="lazy" />
+      </span>
+      <figcaption>Daily Brief — coaching summary generated by the Claude API</figcaption>
+    </figure>
+    <figure class="shot">
+      <span class="shot-frame">
+        <img src="./pps-schedule.png" alt="Embedded Google Calendar day view" loading="lazy" />
+      </span>
+      <figcaption>Today's Schedule — embedded Google Calendar day view</figcaption>
+    </figure>
+    <figure class="shot">
+      <span class="shot-frame">
+        <img src="./pps-sleep.png" alt="Nightly WHOOP sleep and recovery metrics" loading="lazy" />
+      </span>
+      <figcaption>Sleep &amp; Recovery — nightly metrics synced from WHOOP</figcaption>
+    </figure>
+    <figure class="shot">
+      <span class="shot-frame">
+        <img src="./pps-run.png" alt="Most recent run synced from Strava" loading="lazy" />
+      </span>
+      <figcaption>Last Run — activity synced from Strava</figcaption>
+    </figure>
+    <figure class="shot">
+      <span class="shot-frame">
+        <img src="./pps-tasks.png" alt="To do list and long term goals" loading="lazy" />
+      </span>
+      <figcaption>To Do &amp; Goals — task and goal tracking</figcaption>
+    </figure>
+    <figure class="shot">
+      <span class="shot-frame">
+        <img src="./pps-habits.png" alt="28 day habit streak grid" loading="lazy" />
+      </span>
+      <figcaption>Habit Grid — 28-day streak tracking</figcaption>
+    </figure>
+  </div>
+</details>
 
 <h2>Nick-Blendz.com — Online Booking Application</h2>
 <p class="resume-company">
@@ -378,6 +432,7 @@ const FILES = {
     title: "community.md",
     content: `
 <h1>Community Engagement</h1>
+<h2>Clubs &amp; Organizations</h2>
 <p class="resume-company">
   <span class="resume-hint">// click on the Web Impact logo</span>
   <a
@@ -497,6 +552,55 @@ const FILES = {
 </p>
 <ul>
   <li>Helped lead and coordinate events for local Newman Center.</li>
+</ul>
+<h2>Volunteering</h2>
+<p class="resume-company">
+  <span class="resume-hint">// click on the Ronald McDonald House logo</span>
+  <a
+    class="resume-company-link"
+    href="https://rmhcbayarea.org/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img class="resume-logo" src="./RonaldMcDonaldHouse.jpeg" alt="Ronald McDonald House Charities logo" />
+    <strong>Ronald McDonald House</strong>
+  </a>
+  <span class="resume-role">— Strategy Consultant (Jul 2026)</span>
+</p>
+<ul>
+  <li>Participated in the RMHC Bay Area &times; Proofpoint Hackathon to redesign the Comfort &amp; Joy Holiday Drive, a program delivering 10,000+ toys annually to families of critically ill children across the Bay Area.</li>
+</ul>
+<p class="resume-company">
+  <span class="resume-hint">// click on the Liberty High School logo</span>
+  <a
+    class="resume-company-link"
+    href="https://libertyselectbasketball.com/about"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img class="resume-logo" src="./IssaquahSchoolDistrict.jpeg" alt="Issaquah School District logo" />
+    <strong>Liberty Sr High School</strong>
+  </a>
+  <span class="resume-role">— Basketball Camp Counselor (Jun 2022)</span>
+</p>
+<ul>
+  <li>Assisted with the annual Liberty Select Basketball Camp for K-8 students.</li>
+</ul>
+<p class="resume-company">
+  <span class="resume-hint">// click on the Upward Sports logo</span>
+  <a
+    class="resume-company-link"
+    href="https://www.upward.org/"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img class="resume-logo" src="./Upward.jpeg" alt="Upward Sports logo" />
+    <strong>Upward Sports</strong>
+  </a>
+  <span class="resume-role">— Basketball Coach (Jan 2019 - Mar 2019)</span>
+</p>
+<ul>
+  <li>Coached a 5th-6th grade youth basketball team through a full season.</li>
 </ul>
 `,
   },
@@ -857,6 +961,46 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape" && !infoModal.hidden) {
     infoModal.hidden = true;
   }
+});
+
+// --- Screenshot lightbox ---
+editorPane.addEventListener("click", (event) => {
+  const thumb = event.target.closest(".shot img");
+  if (!thumb) return;
+
+  const overlay = document.createElement("div");
+  overlay.className = "lightbox";
+
+  const full = document.createElement("img");
+  full.src = thumb.src;
+  full.alt = thumb.alt;
+  // Captures are low resolution, so cap the blow-up rather than letting a
+  // small image stretch across the whole viewport.
+  const sizeToNatural = () => {
+    const cap = Math.min(full.naturalWidth * 3, 1100);
+    full.style.width = `min(100%, ${cap}px)`;
+  };
+  if (full.complete && full.naturalWidth) sizeToNatural();
+  else full.addEventListener("load", sizeToNatural);
+
+  const caption = document.createElement("div");
+  caption.className = "lightbox-caption";
+  caption.textContent =
+    thumb.closest(".shot")?.querySelector("figcaption")?.textContent ?? "";
+
+  const close = () => {
+    overlay.remove();
+    document.removeEventListener("keydown", onKeydown);
+  };
+
+  const onKeydown = (e) => {
+    if (e.key === "Escape") close();
+  };
+
+  overlay.append(full, caption);
+  overlay.addEventListener("click", close);
+  document.addEventListener("keydown", onKeydown);
+  document.body.appendChild(overlay);
 });
 
 // --- Starter prompts ---
