@@ -6,7 +6,8 @@ const chunks = JSON.parse(
   readFileSync(join(process.cwd(), "knowledge-base.json"), "utf-8")
 );
 
-const anthropic = new Anthropic();
+const apiKey = process.env.ANTHROPIC_API_KEY;
+const anthropic = new Anthropic({ apiKey });
 
 // In-memory rate limiting (per-instance; sufficient for low traffic)
 const rateMap = new Map();
@@ -76,6 +77,26 @@ function setSecurityHeaders(res, origin) {
   res.setHeader("Referrer-Policy", "strict-origin-when-cross-origin");
 }
 
+const MESSAGES = {
+  auth: "The assistant is not configured right now.",
+  credit: "The assistant is temporarily unavailable.",
+  model: "The assistant is temporarily unavailable.",
+  overloaded: "The assistant is busy right now. Please try again in a moment.",
+  rate_limited: "Too many requests. Please wait a minute.",
+  unknown: "Something went wrong. Please try again.",
+};
+
+// Codes are returned to the client so a broken deploy can be identified
+// without exposing the upstream error text.
+function classifyError(status, message = "") {
+  if (status === 401 || /authentication/i.test(message)) return "auth";
+  if (/credit balance/i.test(message)) return "credit";
+  if (status === 404) return "model";
+  if (status === 429) return "rate_limited";
+  if (status === 529 || /overloaded/i.test(message)) return "overloaded";
+  return "unknown";
+}
+
 export default async function handler(req, res) {
   const origin = req.headers.origin;
 
@@ -122,6 +143,15 @@ export default async function handler(req, res) {
       .json({ error: "Message must be between 1 and 300 characters." });
   }
 
+  // The SDK no longer throws on a missing key at construction, so an
+  // unconfigured deploy would otherwise fail as a generic request error.
+  if (!apiKey) {
+    return res.status(503).json({
+      error: "The assistant is not configured right now.",
+      code: "missing_api_key",
+    });
+  }
+
   const relevantContent = findRelevantChunks(trimmed);
 
   let systemPrompt = SYSTEM_PROMPT;
@@ -129,9 +159,16 @@ export default async function handler(req, res) {
     systemPrompt += `\n\nRelevant context about Marcus:\n${relevantContent.join("\n\n")}`;
   }
 
-  res.setHeader("Content-Type", "text/event-stream");
-  res.setHeader("Cache-Control", "no-cache");
-  res.setHeader("Connection", "keep-alive");
+  // Held until the first chunk so that a failure before streaming can still
+  // be answered with a JSON error instead of an empty event stream.
+  let streaming = false;
+  const beginStream = () => {
+    if (streaming) return;
+    res.setHeader("Content-Type", "text/event-stream");
+    res.setHeader("Cache-Control", "no-cache");
+    res.setHeader("Connection", "keep-alive");
+    streaming = true;
+  };
 
   try {
     const stream = await anthropic.messages.stream({
@@ -147,16 +184,28 @@ export default async function handler(req, res) {
         event.type === "content_block_delta" &&
         event.delta.type === "text_delta"
       ) {
+        beginStream();
         res.write(`data: ${JSON.stringify({ text: event.delta.text })}\n\n`);
       }
     }
 
+    beginStream();
     res.write("data: [DONE]\n\n");
     res.end();
   } catch (err) {
-    console.error("Chat API error:", err);
+    const status = typeof err?.status === "number" ? err.status : null;
+    const code = classifyError(status, err?.message);
+    console.error("Chat API error:", {
+      status,
+      code,
+      name: err?.name,
+      message: err?.message,
+    });
+
     if (!res.headersSent) {
-      return res.status(500).json({ error: "Something went wrong." });
+      return res
+        .status(status === 429 ? 429 : 500)
+        .json({ error: MESSAGES[code], code });
     }
     res.write(`data: ${JSON.stringify({ error: "Stream interrupted." })}\n\n`);
     res.end();
