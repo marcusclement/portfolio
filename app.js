@@ -473,7 +473,7 @@ const FILES = {
   <span class="resume-hint">// click on the Kappa Theta Pi logo</span>
   <a
     class="resume-company-link"
-    href="https://www.kappathetapi.org/"
+    href="https://ktp-uw-website.vercel.app/homepage"
     target="_blank"
     rel="noreferrer"
   >
