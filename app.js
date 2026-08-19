@@ -15,9 +15,8 @@ const FILES = {
       Most of what I do sits between software, data, and the people who use it. I enjoy
       owning problems end to end: sitting down with stakeholders to scope what they
       actually need, shipping a simple version, then iterating until it is reliable and
-      genuinely useful. Lately that has meant applied AI and automation built on cloud
-      infrastructure, plus the analytics and product work that decides what gets built in
-      the first place.
+      genuinely useful. Lately that has meant architecting agentic AI systems on cloud
+      infrastructure, plus the enablement work that gets people actually using them.
     </p>
     <p>
       Outside of school and work, I'm into running, lifting, hiking, and golfing (even though I suck).
@@ -29,8 +28,8 @@ const FILES = {
     </p>
     <h2>Core Skills</h2>
     <ul>
-      <li>Applied AI, Cloud Architecture, Business Intelligence</li>
-      <li>Automation, Consulting, Product Management</li>
+      <li>Applied AI, Agentic Automation, Cloud Architecture</li>
+      <li>Solutions Engineering, Full-Stack Development, Consulting</li>
     </ul>
   </div>
   <div class="about-media">
@@ -159,12 +158,13 @@ const FILES = {
     <img class="resume-logo" src="./proofpoint.png" alt="Proofpoint logo" />
     <strong>Proofpoint</strong>
   </a>
-  <span class="resume-role">— AI Integrations Engineer Intern (Jun 2026 - Sep 2026)</span>
+  <span class="resume-role">— AI Systems Engineer Intern (Jun 2026 - Aug 2026)</span>
 </p>
 <ul>
-  <li>Built an agentic automation for sales reps, integrating siloed data to generate renewal narratives and improve renewal rates.</li>
-  <li>Drove discovery, bug resolution, and AWS escalations for the enterprise-wide rollout of AI tool: Amazon Quick Desktop.</li>
-  <li>Translated stakeholder needs into agentic AI workflows, owning delivery from discovery through deployment.</li>
+  <li>Built agentic automation for 300+ multi-service accounts, cutting report generation time 92% and protecting $762M ARR.</li>
+  <li>Drove cross-functional enablement and governance for enterprise rollout of agentic AI platform across Proofpoint.</li>
+  <li>Translated ambiguous stakeholder goals into agentic AI workflows, owning scoping and delivery from pilot to production.</li>
+  <li>Architected agentic pipelines integrating Salesforce and Totango APIs with multi-step LLM orchestration and guardrails.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Socratics.ai logo</span>
@@ -197,9 +197,9 @@ const FILES = {
   <span class="resume-role">— AI Product Engineer Intern (Jan 2026 - Mar 2026)</span>
 </p>
 <ul>
-  <li>Tuned AI chatbot prompt workflows and data retrieval logic in Python (FastAPI / LangGraph).</li>
-  <li>Created UI + backend features, debugged, ran tests, and resolved CI/Dev issues (GCP, Docker, React / Next.js).</li>
-  <li>Built cloud-based data pipelines and features that improved data reliability and operational workflows.</li>
+  <li>Engineered prompt and context strategies for production AI chatbot, implementing guardrails and scoping new features.</li>
+  <li>Built agent workflows and data retrieval logic in Python using LangGraph and FastAPI.</li>
+  <li>Implemented UI accessibility features for sports AI chatbot, adding inline tooltip overlays for key term definitions.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Web Impact logo</span>
@@ -215,8 +215,8 @@ const FILES = {
   <span class="resume-role">— Full Stack Developer (Jan 2026 - Jun 2026)</span>
 </p>
 <ul>
-  <li>Developing features across React frontend, API routes, and backend, owning implementation to deployment under deadlines.</li>
-  <li>Collaborating cross functionally with design and product leads to deliver user focused web solutions for external clients.</li>
+  <li>Developed features across React frontend, API routes, and backend, owning implementation to deployment under deadlines.</li>
+  <li>Collaborated cross functionally with design and product leads to deliver user focused web solutions for external clients.</li>
 </ul>
 <p class="resume-company">
   <img class="resume-logo" src="./costco.png" alt="Costco Wholesale logo" />
@@ -231,7 +231,7 @@ const FILES = {
 <p class="resume-company">
   <img class="resume-logo" src="./everlane.jpeg" alt="Everlane logo" />
 <strong>Everlane Landscaping</strong>
-  <span class="resume-role">— Data Science Intern (Jul 2025 - Sep 2025)</span>
+  <span class="resume-role">— Data Science Intern (Jun 2025 - Aug 2025)</span>
 </p>
 <ul>
   <li>Built automated Python pipeline to process 100+ monthly logs, optimizing routing, reducing job-time by 15%.</li>
@@ -246,6 +246,7 @@ const FILES = {
       <li>Solutions Architect Associate (SAA-C03)</li>
       <li>Cloud Practitioner (CLF-C02)</li>
       <li>AI Practitioner (AIF-C01)</li>
+      <li class="cert-pending">Preparing for Gen AI Developer</li>
     </ul>
   </div>
   <div class="cert-card">
@@ -373,11 +374,11 @@ const FILES = {
 <h2>Medi-Scribe — AI Medical Transcriber</h2>
 <p class="resume-company">
   <strong>Medi-Scribe</strong>
-  <span class="resume-role">— HIPAA-Compliant Transcription System</span>
+  <span class="resume-role">— HIPAA-Compliant Transcription System (Sep 2025 - Dec 2025)</span>
 </p>
 <ul>
-  <li>Developing a HIPAA-compliant transcription system using AWS (S3, Lambda, Transcribe Medical, Bedrock) and React.</li>
-  <li>Automates audio capture, transcription, and clinical summarization.</li>
+  <li>Architected a HIPAA-compliant medical transcription pipeline on AWS (S3, Lambda, Transcribe Medical, Bedrock) and React.</li>
+  <li>Automated clinical documentation workflows for doctor-patient interactions, improving transcription efficiency end to end.</li>
 </ul>
 
 <h2>Document Management System</h2>
@@ -444,12 +445,12 @@ const FILES = {
     <img class="resume-logo" src="./webimpact.jpeg" alt="Web Impact UW logo" />
     <strong>Web Impact UW</strong>
   </a>
-  <span class="resume-role">— Full Stack Developer (Jan 2026 - Present)</span>
+  <span class="resume-role">— Full Stack Developer (Jan 2026 - Jun 2026)</span>
 </p>
 <ul>
-  <li>Developing features across React frontend, API routes, and backend.</li>
-  <li>Collaborating with design and product leads for client solutions.</li>
-  <li>Implementing UI components with best practices via GitHub workflows.</li>
+  <li>Developed features across React frontend, API routes, and backend.</li>
+  <li>Collaborated with design and product leads for client solutions.</li>
+  <li>Implemented UI components with best practices via GitHub workflows.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the NetworkAI logo</span>
@@ -465,8 +466,7 @@ const FILES = {
   <span class="resume-role">— Director of Technology (Jan 2026 - Present)</span>
 </p>
 <ul>
-  <li>Directing workshops aimed to teach AI principles and development practices.</li>
-  <li>Leading all club workshop events tied to technology and AI.</li>
+  <li>Leading club-sponsored workshops to teach and enable AI skills and projects.</li>
   <li>Built, deployed, and maintained club website. <a href="https://uwnetworkai.com/" target="_blank" rel="noreferrer">uwnetworkai.com</a></li>
 </ul>
 <p class="resume-company">
@@ -483,7 +483,7 @@ const FILES = {
   <span class="resume-role">— Education Committee Director (Jan 2026 - Present)</span>
 </p>
 <ul>
-  <li>Created content for professional development and education for professional tech focused fraternity.</li>
+  <li>Directed career development content for members of a professional technology fraternity.</li>
 </ul>
 <p class="resume-company">
   <span class="resume-hint">// click on the Business Impact Group logo</span>

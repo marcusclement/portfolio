@@ -2,7 +2,7 @@
   {
     "key": "about",
     "keywords": ["about", "marcus", "who", "introduction", "bio", "background", "yourself", "tell me"],
-    "content": "Marcus Clement is a University of Washington Informatics student focused on data science. He builds practical things that make work easier — features, workflows, and automated systems. His work sits between software, data, and the people who use it. He enjoys owning problems end to end: sitting down with stakeholders to scope what they actually need, shipping a simple version, then iterating until it is reliable and genuinely useful. Lately that means applied AI and automation built on cloud infrastructure, plus the analytics and product work that decides what gets built in the first place. Outside school and work he enjoys running, lifting, hiking, and golfing. Core skills: Applied AI, Cloud Architecture, Business Intelligence, Automation, Consulting, Product Management."
+    "content": "Marcus Clement is a University of Washington Informatics student focused on data science. He builds practical things that make work easier — features, workflows, and automated systems. His work sits between software, data, and the people who use it. He enjoys owning problems end to end: sitting down with stakeholders to scope what they actually need, shipping a simple version, then iterating until it is reliable and genuinely useful. Lately that means architecting agentic AI systems on cloud infrastructure, plus the enablement work that gets people actually using them. Outside school and work he enjoys running, lifting, hiking, and golfing. Core skills: Applied AI, Agentic Automation, Cloud Architecture, Solutions Engineering, Full-Stack Development, Consulting. He also works in AI enablement and integration, solutions architecture, and prompt and context engineering."
   },
   {
     "key": "education",
@@ -16,13 +16,13 @@
   },
   {
     "key": "experience_airplai",
-    "keywords": ["airplai", "ai product", "chatbot", "langraph", "fastapi", "gcp", "docker", "sports", "startup"],
-    "content": "AI Product Engineer Intern at AirPLAi Sports (Jan 2026 - Mar 2026). AirPLAi is a startup — Marcus has direct startup experience here. Tuning AI chatbot prompt workflows and data retrieval logic in Python (FastAPI / LangGraph). Creating UI and backend features, debugging, running tests, resolving CI/Dev issues (GCP, Docker, React / Next.js). Building cloud-based data pipelines that improve data reliability and operational workflows."
+    "keywords": ["airplai", "ai product", "chatbot", "langgraph", "langraph", "fastapi", "guardrails", "accessibility", "tooltip", "prompt", "sports", "startup"],
+    "content": "AI Product Engineer Intern at AirPLAi Sports (Jan 2026 - Mar 2026) in Seattle, WA. AirPLAi is a startup — Marcus has direct startup experience here. He engineered prompt and context strategies for a production AI chatbot, implementing guardrails and scoping new features. He built agent workflows and data retrieval logic in Python using LangGraph and FastAPI. He also implemented UI accessibility features for the sports AI chatbot, adding inline tooltip overlays for key term definitions."
   },
   {
     "key": "experience_webimpact",
     "keywords": ["web impact", "full stack", "developer", "react", "shadcn", "client"],
-    "content": "Full Stack Developer at Web Impact UW (Jan 2026 - Jun 2026). Developing features across React frontend, API routes, and backend. Collaborating cross-functionally with design and product leads to deliver user-focused web solutions for external clients. Implementing UI components with shadcn and delivering maintainable code through GitHub workflows."
+    "content": "Full Stack Developer at Web Impact UW (Jan 2026 - Jun 2026) in Seattle, WA. Developed features across React frontend, API routes, and backend, owning implementation to deployment under deadlines. Collaborated cross-functionally with design and product leads to deliver user-focused web solutions for external clients. Implemented UI components with shadcn and delivered maintainable code through GitHub workflows."
   },
   {
     "key": "experience_costco",
@@ -32,7 +32,7 @@
   {
     "key": "experience_everlane",
     "keywords": ["everlane", "landscaping", "data science", "tableau", "pipeline", "routing", "dashboards"],
-    "content": "Data Science Intern at Everlane Landscaping (Jul 2025 - Sep 2025) in Kirkland, WA. Built automated Python pipeline to process 100+ monthly logs, optimizing routing and reducing job-time by 15%. Developed Tableau dashboards that improved reporting accuracy by 25%. Conducted data modeling to identify high-value customer segments, leading to 12% increase in customer retention."
+    "content": "Data Science Intern at Everlane Landscaping (Jun 2025 - Aug 2025) in Kirkland, WA. Built automated Python pipeline to process 100+ monthly logs, optimizing routing and reducing job-time by 15%. Developed Tableau dashboards that improved reporting accuracy by 25%. Conducted data modeling to identify high-value customer segments, leading to 12% increase in customer retention."
   },
   {
     "key": "project_portfolio",
@@ -57,7 +57,7 @@
   {
     "key": "project_mediscribe",
     "keywords": ["medi", "scribe", "medical", "transcription", "hipaa", "aws", "health"],
-    "content": "Medi-Scribe — AI Medical Transcriber (Sep 2025 - Present). Developing a HIPAA-compliant transcription system using AWS (S3, Lambda, Transcribe Medical, Bedrock) and React. Automates audio capture, transcription, and clinical summarization."
+    "content": "Medi-Scribe — AI Medical Transcription System (Sep 2025 - Dec 2025). Architected a HIPAA-compliant medical transcription pipeline on AWS (S3, Lambda, Transcribe Medical, Bedrock) and React. Automated clinical documentation workflows for doctor-patient interactions, improving transcription efficiency end to end."
   },
   {
     "key": "project_dms",
@@ -67,7 +67,7 @@
   {
     "key": "certifications",
     "keywords": ["certification", "certified", "aws", "azure", "cloud practitioner", "az-900", "exam"],
-    "content": "AWS Certifications (3x): Solutions Architect Associate (SAA-C03), Cloud Practitioner (CLF-C02), AI Practitioner (AIF-C01). Azure Certifications (3x): AZ-900 (Azure Fundamentals), AI-900 (Azure AI Fundamentals), DP-900 (Azure Data Fundamentals). That is 6 cloud certifications total."
+    "content": "AWS Certifications (3x): Solutions Architect Associate (SAA-C03), Cloud Practitioner (CLF-C02), AI Practitioner (AIF-C01). Azure Certifications (3x): AZ-900 (Azure Fundamentals), AI-900 (Azure AI Fundamentals), DP-900 (Azure Data Fundamentals). That is 6 cloud certifications total. He is currently preparing for the AWS Gen AI Developer certification."
   },
   {
     "key": "tech_stack",
@@ -112,12 +112,12 @@
   {
     "key": "internship",
     "keywords": ["internship", "looking", "seeking", "hiring", "job", "opportunity", "available", "open to", "full time"],
-    "content": "Marcus is currently looking for full-time roles following graduation across data, software, and product engineering where he can continue delivering value and learning. He has experience in applied AI, cloud architecture, business intelligence, automation, consulting, and product management. He interned at Proofpoint as an AI Integrations Engineer Intern in Summer 2026, and previously at Socratics.ai and AirPLAi Sports."
+    "content": "Marcus is currently looking for full-time roles following graduation across data, software, and product engineering where he can continue delivering value and learning. He has experience in applied AI, agentic automation, cloud architecture, solutions engineering, full-stack development, and consulting. He interned at Proofpoint as an AI Systems Engineer Intern in Summer 2026 (Jun - Aug 2026), and previously at Socratics.ai and AirPLAi Sports."
   },
   {
     "key": "experience_proofpoint",
-    "keywords": ["proofpoint", "cybersecurity", "security", "ai integration", "agentic", "quick", "amazon quick", "summer", "current", "2026"],
-    "content": "AI Integrations Engineer Intern at Proofpoint (Jun 2026 - Sep 2026), remote. Proofpoint is a leading cybersecurity and compliance company. Marcus built an agentic automation for sales reps that integrates siloed data to generate renewal narratives and improve renewal rates. He drove discovery, bug resolution, and AWS escalations for the enterprise-wide rollout of the AI tool Amazon Quick Desktop. He translated stakeholder needs into agentic AI workflows, owning delivery from discovery through deployment."
+    "keywords": ["proofpoint", "cybersecurity", "security", "ai systems", "agentic", "salesforce", "totango", "arr", "enablement", "governance", "summer", "2026"],
+    "content": "AI Systems Engineer Intern at Proofpoint (Jun 2026 - Aug 2026), remote. Proofpoint is a leading cybersecurity and compliance company. Marcus built agentic automation for 300+ multi-service accounts, cutting report generation time by 92% and protecting $762M in ARR. He drove cross-functional enablement and governance for the enterprise rollout of an agentic AI platform across Proofpoint. He translated ambiguous stakeholder goals into agentic AI workflows, owning scoping and delivery from pilot to production. He architected agentic pipelines integrating Salesforce and Totango APIs with multi-step LLM orchestration and guardrails. This is his most significant and highest-impact role to date."
   },
   {
     "key": "startup_experience",
@@ -132,12 +132,12 @@
   {
     "key": "leadership",
     "keywords": ["leadership", "leader", "lead", "director", "manage", "mentor", "teach", "workshop"],
-    "content": "Marcus holds leadership roles in multiple organizations. He is the Director of Technology at NetworkAI (Jan 2026 - Present), where he directs workshops teaching AI principles and development practices and leads all club technology and AI events. He is also a Full Stack Developer at Web Impact UW, where he collaborates cross-functionally with design and product leads. At Kappa Theta Pi, he created content for professional development and education. These roles demonstrate his ability to lead teams, teach technical concepts, and drive initiatives."
+    "content": "Marcus holds leadership roles in multiple organizations. He is the Director of Technology at NetworkAI (Jan 2026 - Present), where he directs workshops teaching AI principles and development practices and leads all club technology and AI events. He was a Full Stack Developer at Web Impact UW, where he collaborated cross-functionally with design and product leads. At Kappa Theta Pi, he directed career development content for members of a professional technology fraternity. At Proofpoint he drove cross-functional enablement and governance for an enterprise agentic AI rollout. These roles demonstrate his ability to lead teams, teach technical concepts, and drive initiatives."
   },
   {
     "key": "ai_experience",
     "keywords": ["ai", "artificial intelligence", "machine learning", "ml", "llm", "large language model", "prompt", "nlp", "chatgpt", "claude", "gemini", "prompt engineering"],
-    "content": "Marcus has extensive applied AI and LLM experience across multiple roles and projects. At Proofpoint he built an agentic automation for sales reps and translated stakeholder needs into agentic AI workflows on Amazon Quick Desktop. At AirPLAi he tuned AI chatbot prompt workflows and data retrieval logic using LangGraph and FastAPI. At Socratics.ai he builds AI-suggested classification systems with human-in-the-loop interfaces. He built this portfolio's AI chatbot using Claude Haiku 4.5 with RAG (Retrieval-Augmented Generation) and streaming via SSE. He's working on Medi-Scribe, which uses AWS Bedrock and Transcribe Medical for AI-powered clinical summarization. He holds an AWS AI Practitioner certification and an Azure AI Fundamentals certification. He's proficient with LangGraph, MCP, RAG, Claude Code, Quick Suite, and Gemini Gems. He regularly uses ChatGPT, Claude, and Gemini as development tools."
+    "content": "Marcus has extensive applied AI and LLM experience across multiple roles and projects. At Proofpoint he architected agentic pipelines with multi-step LLM orchestration and guardrails, integrating Salesforce and Totango APIs, and drove enablement and governance for an enterprise agentic AI rollout. At AirPLAi he engineered prompt and context strategies for a production chatbot and built agent workflows with LangGraph and FastAPI. At Socratics.ai he built AI-suggested classification systems with human-in-the-loop interfaces. He built this portfolio's AI chatbot using Claude Haiku 4.5 with RAG (Retrieval-Augmented Generation) and streaming via SSE. He's working on Medi-Scribe, which uses AWS Bedrock and Transcribe Medical for AI-powered clinical summarization. He holds an AWS AI Practitioner certification and an Azure AI Fundamentals certification. He's proficient with LangGraph, MCP, RAG, Claude Code, Quick Suite, and Gemini Gems. He regularly uses ChatGPT, Claude, and Gemini as development tools."
   },
   {
     "key": "cloud_experience",
@@ -147,7 +147,7 @@
   {
     "key": "data_experience",
     "keywords": ["data", "analytics", "data science", "analysis", "visualization", "tableau", "power bi", "snowflake", "excel", "sql", "statistics", "modeling"],
-    "content": "Marcus has strong data science and analytics experience. At Everlane Landscaping he built automated Python pipelines processing 100+ monthly logs, developed Tableau dashboards improving reporting accuracy by 25%, and conducted data modeling that increased customer retention by 12%. At Socratics.ai he works on financial document processing with structured data export. He's proficient in SQL, Snowflake, Tableau, Power BI, and Excel. His degree at UW is a B.S. in Informatics with a Data Science focus (GPA 3.93). Business Intelligence is one of his core skills."
+    "content": "Marcus has strong data science and analytics experience. At Everlane Landscaping he built automated Python pipelines processing 100+ monthly logs, developed Tableau dashboards improving reporting accuracy by 25%, and conducted data modeling that increased customer retention by 12%. At Socratics.ai he works on financial document processing with structured data export. He's proficient in SQL, Snowflake, Tableau, Power BI, and Excel. His degree at UW is a B.S. in Informatics with a Data Science focus (GPA 3.93)."
   },
   {
     "key": "teamwork",
@@ -157,6 +157,6 @@
   {
     "key": "strengths",
     "keywords": ["why", "hire", "strengths", "strength", "stand out", "unique", "different", "best", "good at", "value", "bring"],
-    "content": "Marcus stands out because he combines applied AI, cloud architecture, business intelligence, automation, consulting, and product management — a rare intersection. He has a 3.93 GPA at UW, 6 cloud certifications across AWS and Azure, direct startup experience at two companies (AirPLAi and Socratics.ai), an AI Integrations Engineer internship at Proofpoint, and leadership experience as Director of Technology at NetworkAI. He's built production systems used by real users (Nick-Blendz with 100+ users), automated pipelines that saved measurable time (15% job-time reduction, 80% less manual booking), and AI-powered tools (this portfolio chatbot, Medi-Scribe). He owns problems end to end and consistently gets invited back — his Socratics.ai internship came from a consulting engagement where he proved his value."
+    "content": "Marcus stands out because he combines applied AI, agentic automation, cloud architecture, solutions engineering, full-stack development, and consulting — a rare intersection. He has a 3.93 GPA at UW, 6 cloud certifications across AWS and Azure, direct startup experience at two companies (AirPLAi and Socratics.ai), and an AI Systems Engineer internship at Proofpoint where his agentic automation cut report generation time 92% across 300+ accounts and protected $762M in ARR. He also has leadership experience as Director of Technology at NetworkAI. He's built production systems used by real users (Nick-Blendz with 100+ users), automated pipelines that saved measurable time (15% job-time reduction, 80% less manual booking), and AI-powered tools (this portfolio chatbot, Medi-Scribe). He owns problems end to end and consistently gets invited back — his Socratics.ai internship came from a consulting engagement where he proved his value."
   }
 ]

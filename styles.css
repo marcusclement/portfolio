@@ -381,6 +381,11 @@ body {
   line-height: 1.4;
 }
 
+.cert-card li.cert-pending {
+  color: var(--muted);
+  font-style: italic;
+}
+
 .pdf-link-wrap {
   display: flex;
   justify-content: center;
