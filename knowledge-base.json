@@ -72,7 +72,7 @@
   {
     "key": "tech_stack",
     "keywords": ["tech", "stack", "technologies", "tools", "languages", "skills", "programming", "framework"],
-    "content": "Languages & backend: Python, R, JavaScript, TypeScript, Java, FastAPI. Frontend: React, Next.js, Tailwind CSS, HTML & CSS. Tools: Git, GitHub, Docker, Vercel. Cloud: AWS, Azure, GCP. Data & analytics: SQL, Snowflake, Tableau, Power BI, Excel. AI: Amazon Q Business, Quick Suite, Gemini Gems, LangGraph, MCP, RAG, Claude Code. LLMs: ChatGPT, Claude, Gemini."
+    "content": "Languages & backend: Python, R, JavaScript, TypeScript, Java, FastAPI. Frontend: React, Next.js, Tailwind CSS, HTML & CSS. Tools: Git, GitHub, Docker, Vercel. Cloud: AWS, Azure, GCP. Data & analytics: SQL, Snowflake, Tableau, Power BI, Excel. AI: Amazon Q Business, Quick Suite, Gemini Gems, LangGraph, MCP, RAG, Claude Code, Cursor. AI techniques: Multi-Agent Orchestration, Prompt & Context Engineering, Guardrails."
   },
   {
     "key": "quicksuite",
@@ -137,7 +137,7 @@
   {
     "key": "ai_experience",
     "keywords": ["ai", "artificial intelligence", "machine learning", "ml", "llm", "large language model", "prompt", "nlp", "chatgpt", "claude", "gemini", "prompt engineering"],
-    "content": "Marcus has extensive applied AI and LLM experience across multiple roles and projects. At Proofpoint he architected agentic pipelines with multi-step LLM orchestration and guardrails, integrating Salesforce and Totango APIs, and drove enablement and governance for an enterprise agentic AI rollout. At AirPLAi he engineered prompt and context strategies for a production chatbot and built agent workflows with LangGraph and FastAPI. At Socratics.ai he built AI-suggested classification systems with human-in-the-loop interfaces. He built this portfolio's AI chatbot using Claude Haiku 4.5 with RAG (Retrieval-Augmented Generation) and streaming via SSE. He's working on Medi-Scribe, which uses AWS Bedrock and Transcribe Medical for AI-powered clinical summarization. He holds an AWS AI Practitioner certification and an Azure AI Fundamentals certification. He's proficient with LangGraph, MCP, RAG, Claude Code, Quick Suite, and Gemini Gems. He regularly uses ChatGPT, Claude, and Gemini as development tools."
+    "content": "Marcus has extensive applied AI and LLM experience across multiple roles and projects. At Proofpoint he architected agentic pipelines with multi-step LLM orchestration and guardrails, integrating Salesforce and Totango APIs, and drove enablement and governance for an enterprise agentic AI rollout. At AirPLAi he engineered prompt and context strategies for a production chatbot and built agent workflows with LangGraph and FastAPI. At Socratics.ai he built AI-suggested classification systems with human-in-the-loop interfaces. He built this portfolio's AI chatbot using Claude Haiku 4.5 with RAG (Retrieval-Augmented Generation) and streaming via SSE. He's working on Medi-Scribe, which uses AWS Bedrock and Transcribe Medical for AI-powered clinical summarization. He holds an AWS AI Practitioner certification and an Azure AI Fundamentals certification. He's proficient with LangGraph, MCP, RAG, Claude Code, Cursor, Quick Suite, and Gemini Gems, and works hands-on with multi-agent orchestration, prompt and context engineering, and guardrails."
   },
   {
     "key": "cloud_experience",

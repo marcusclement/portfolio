@@ -120,20 +120,18 @@ const FILES = {
       <div class="tech-item"><img src="./gems.png" alt="Gemini Gems" /><span class="tech-label">Gemini Gems</span></div>
       <div class="tech-item"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="LangGraph" /><span class="tech-label">LangGraph</span></div>
       <div class="tech-item tech-item--light-bg"><img src="https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/mcp.svg" alt="MCP" /><span class="tech-label">MCP</span></div>
+      <div class="tech-item"><img src="./RAG.png" alt="RAG" /><span class="tech-label">RAG</span></div>
       <div class="tech-item tech-item--claude-code"><img src="./claudecode.png" alt="Claude Code" /><span class="tech-label">Claude Code</span></div>
+      <div class="tech-item tech-item--cursor"><img src="./cursor.png" alt="Cursor" /><span class="tech-label">Cursor</span></div>
     </div>
   </div>
   <div class="tech-row">
-    <span class="tech-row-label">LLMs</span>
-    <div class="tech-grid">
-      <div class="tech-item tech-item--group">
-        <div class="tech-group-icons">
-          <img src="./gpt.png" alt="ChatGPT" />
-          <img src="./claude.png" alt="Claude" />
-          <img src="./gemini.png" alt="Gemini" />
-        </div>
-      </div>
-    </div>
+    <span class="tech-row-label">AI techniques</span>
+    <ul class="tech-chips">
+      <li class="tech-chip">Multi-Agent Orchestration</li>
+      <li class="tech-chip">Prompt &amp; Context Engineering</li>
+      <li class="tech-chip">Guardrails</li>
+    </ul>
   </div>
 </div>
 `,

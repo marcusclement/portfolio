@@ -529,11 +529,6 @@ body {
   transform: scale(1.08);
 }
 
-.tech-item--group {
-  min-width: 120px;
-  max-width: 130px;
-}
-
 .tech-item--claude-code .tech-label {
   max-width: 85px;
 }
@@ -551,24 +546,28 @@ body {
   white-space: nowrap;
 }
 
-.tech-item--group .tech-group-icons {
+/* Chips for concepts that have no logo, sharing the Core Skills pill styling
+   but scaled down to sit alongside the tech-grid rows. */
+.file-panel ul.tech-chips {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.file-panel ul.tech-chips li.tech-chip {
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 6px;
-}
-
-.tech-item--group .tech-group-icons img {
-  height: 32px;
-  width: auto;
-  max-width: 36px;
-  object-fit: contain;
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25));
-  transition: transform 0.15s ease;
-}
-
-.tech-item--group .tech-group-icons img:hover {
-  transform: scale(1.06);
+  border: 1px solid rgba(76, 139, 245, 0.3);
+  background: rgba(76, 139, 245, 0.1);
+  color: var(--text);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.3;
 }
 
 .tech-item--light-bg {
