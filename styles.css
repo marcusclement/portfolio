@@ -195,12 +195,10 @@ body {
   align-items: start;
 }
 
-.about-right ul {
-  margin: 10px 0 0;
-  padding-left: 18px;
+.about-skills {
+  margin: 24px 0 22px;
 }
 
-.about-right ul.skill-tags,
 .file-panel ul.skill-tags {
   list-style: none;
   margin: 10px 0 0;
@@ -210,7 +208,6 @@ body {
   gap: 8px;
 }
 
-.about-right ul.skill-tags li.skill-tag,
 .file-panel ul.skill-tags li.skill-tag {
   display: inline-flex;
   align-items: center;
@@ -226,7 +223,6 @@ body {
   white-space: nowrap;
 }
 
-.about-right ul.skill-tags li.skill-tag .skill-tag-icon,
 .file-panel ul.skill-tags li.skill-tag .skill-tag-icon {
   flex: 0 0 auto;
   width: 16px;
