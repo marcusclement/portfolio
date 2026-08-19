@@ -13,8 +13,14 @@
   </head>
   <body>
     <div class="app">
-      <aside class="sidebar">
-        <div class="sidebar-header">EXPLORER</div>
+      <div class="drawer-backdrop" id="drawerBackdrop"></div>
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+          EXPLORER
+          <button class="icon-button drawer-close" id="explorerClose" type="button" aria-label="Close file explorer">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          </button>
+        </div>
         <div class="sidebar-section">MARCUS CLEMENT'S PORTFOLIO</div>
         <ul class="file-list" id="fileList" aria-label="File list">
           <li class="file-item" data-file="about">
@@ -50,6 +56,10 @@
 
       <main class="editor">
         <div class="editor-titlebar">
+          <button class="explorer-toggle" id="explorerToggle" type="button" aria-expanded="false" aria-controls="sidebar" title="Toggle file explorer">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/></svg>
+            <span>Files</span>
+          </button>
           <div class="title-left">Marcus Clement — Portfolio</div>
           <div class="title-right">Cursor UI Mock</div>
         </div>
@@ -79,9 +89,12 @@
             <button class="icon-button" aria-label="New chat">＋</button>
             <button class="icon-button" aria-label="History">⟳</button>
             <button class="icon-button" aria-label="Settings">⚙</button>
+            <button class="icon-button chat-toggle" id="chatToggle" type="button" aria-expanded="false" aria-controls="aiPane" aria-label="Expand AI chat">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+            </button>
           </div>
         </div>
-        <div class="ai-pane">
+        <div class="ai-pane" id="aiPane">
           <div class="ai-messages" id="aiMessages">
             <div class="ai-message ai-message--bot">
               <div class="ai-label">CURSOR</div>

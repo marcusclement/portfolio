@@ -1017,3 +1017,60 @@ starterPrompts.addEventListener("click", (e) => {
   aiForm.requestSubmit();
 });
 
+// --- Mobile explorer drawer and collapsible chat ---
+// Everything here is a class on .app; the CSS that reacts to it lives entirely
+// inside the 900px media query, so desktop is unaffected.
+const sidebar = document.getElementById("sidebar");
+const explorerToggle = document.getElementById("explorerToggle");
+const explorerClose = document.getElementById("explorerClose");
+const drawerBackdrop = document.getElementById("drawerBackdrop");
+const chatToggle = document.getElementById("chatToggle");
+const mobileLayout = window.matchMedia("(max-width: 900px)");
+
+const isDrawerOpen = () => appEl.classList.contains("drawer-open");
+
+const setDrawer = (open) => {
+  if (open === isDrawerOpen()) return;
+  appEl.classList.toggle("drawer-open", open);
+  explorerToggle.setAttribute("aria-expanded", open ? "true" : "false");
+
+  if (open) {
+    // The drawer is visibility: hidden when closed, and Chrome keeps refusing
+    // focus() for a frame after that flips — computed visibility is already
+    // "visible" and a forced reflow doesn't help, so wait out two frames.
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() => explorerClose.focus())
+    );
+  } else if (sidebar.contains(document.activeElement)) {
+    explorerToggle.focus();
+  }
+};
+
+explorerToggle.addEventListener("click", () => setDrawer(!isDrawerOpen()));
+explorerClose.addEventListener("click", () => setDrawer(false));
+drawerBackdrop.addEventListener("click", () => setDrawer(false));
+
+// Separate from the openFile listener above so picking a file still works
+// exactly as before; this only dismisses the drawer afterwards.
+fileList.addEventListener("click", (event) => {
+  if (event.target.closest(".file-item")) setDrawer(false);
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") setDrawer(false);
+});
+
+// Dropping back to desktop mid-drawer would leave a stale aria-expanded on a
+// control that is no longer rendered.
+mobileLayout.addEventListener("change", (e) => {
+  if (!e.matches) setDrawer(false);
+});
+
+chatToggle.addEventListener("click", () => {
+  const open = !appEl.classList.contains("chat-open");
+  appEl.classList.toggle("chat-open", open);
+  chatToggle.setAttribute("aria-expanded", open ? "true" : "false");
+  chatToggle.setAttribute("aria-label", open ? "Collapse AI chat" : "Expand AI chat");
+  if (open) scrollToBottom(false);
+});
+

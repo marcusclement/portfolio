@@ -39,6 +39,15 @@ body {
   min-width: 0;
 }
 
+/* Drawer machinery is inert above the breakpoint: the sidebar is a real grid
+   column there, so every control and the backdrop stay out of the layout. */
+.drawer-backdrop,
+.explorer-toggle,
+.drawer-close,
+.chat-toggle {
+  display: none;
+}
+
 .sidebar {
   background: var(--panel);
   border-right: 1px solid var(--border);
@@ -1105,17 +1114,125 @@ body.resizing video {
 }
 
 @media (max-width: 900px) {
+  /* Two explicit rows. The sidebar is lifted out of flow into a drawer, so the
+     editor owns the 1fr and the chat panel is only as tall as its collapsed
+     titlebar. Leaving these rows implicit gave the sidebar the lone 1fr and
+     starved the editor down to ~250px. */
   .app {
     grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr) auto;
   }
 
   .shot-folder {
     max-width: 100%;
   }
 
+  /* position: fixed takes the sidebar out of the grid entirely, so it no longer
+     consumes a row, and it escapes .app's overflow: hidden (no ancestor
+     transform means .app isn't a containing block for fixed children). */
   .sidebar {
-    border-right: none;
-    border-bottom: 1px solid var(--border);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: min(80vw, 300px);
+    z-index: 40;
+    overflow-y: auto;
+    border-right: 1px solid var(--border);
+    border-bottom: none;
+    box-shadow: 8px 0 32px rgba(0, 0, 0, 0.55);
+    transform: translateX(-100%);
+    /* visibility, so the closed drawer's close button is neither focusable nor
+       announced; the delay holds it visible until the slide-out finishes. */
+    visibility: hidden;
+    transition: transform 0.22s ease, visibility 0s linear 0.22s;
+  }
+
+  .app.drawer-open .sidebar {
+    transform: translateX(0);
+    visibility: visible;
+    transition: transform 0.22s ease, visibility 0s linear 0s;
+  }
+
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .drawer-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 30;
+    background: rgba(4, 7, 12, 0.62);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.22s ease;
+  }
+
+  .app.drawer-open .drawer-backdrop {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .explorer-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    flex: 0 0 auto;
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: #101622;
+    color: var(--muted);
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+    transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  }
+
+  .explorer-toggle:hover,
+  .app.drawer-open .explorer-toggle {
+    color: var(--text);
+    border-color: #2d3850;
+    background: #151b26;
+  }
+
+  .explorer-toggle svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .editor-titlebar {
+    gap: 10px;
+    justify-content: flex-start;
+  }
+
+  .editor-titlebar .title-right {
+    margin-left: auto;
+  }
+
+  .drawer-close,
+  .chat-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+  }
+
+  .drawer-close svg,
+  .chat-toggle svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .chat-toggle svg {
+    transition: transform 0.2s ease;
+  }
+
+  .app.chat-open .chat-toggle svg {
+    transform: rotate(180deg);
   }
 
   .resize-handle {
@@ -1127,6 +1244,23 @@ body.resizing video {
     border-top: 1px solid var(--border);
     min-width: unset;
     max-width: unset;
+  }
+
+  /* Collapsed by default: the chat is decorative, so it shows as a titlebar
+     launcher and only claims real height once the visitor opens it. */
+  .ai-pane {
+    display: none;
+    min-height: 0;
+  }
+
+  /* Expanded, the chat still gets the smaller share — it is decorative, so the
+     file being read should not lose the majority of the viewport to it. */
+  .app.chat-open {
+    grid-template-rows: minmax(140px, 1fr) 45vh;
+  }
+
+  .app.chat-open .ai-pane {
+    display: flex;
   }
 
   .about-layout {
