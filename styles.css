@@ -508,6 +508,15 @@ body {
   max-width: 85px;
 }
 
+/* Spans two tracks so the label fits on two lines without overflowing its cell. */
+.tech-item--q-business {
+  grid-column: span 2;
+}
+
+.tech-item--q-business .tech-label {
+  max-width: 120px;
+}
+
 .tech-item--cursor .tech-label {
   white-space: nowrap;
 }

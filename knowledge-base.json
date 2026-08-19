@@ -72,12 +72,12 @@
   {
     "key": "tech_stack",
     "keywords": ["tech", "stack", "technologies", "tools", "languages", "skills", "programming", "framework"],
-    "content": "Languages & backend: Python, R, JavaScript, TypeScript, Java, FastAPI. Frontend: React, Next.js, Tailwind CSS, HTML & CSS. Tools: Git, GitHub, Docker, Vercel. Cloud: AWS, Azure, GCP. Data & analytics: SQL, Snowflake, Tableau, Power BI, Excel. AI: Quick Suite, Gemini Gems, LangGraph, MCP, RAG, Claude Code. LLMs: ChatGPT, Claude, Gemini."
+    "content": "Languages & backend: Python, R, JavaScript, TypeScript, Java, FastAPI. Frontend: React, Next.js, Tailwind CSS, HTML & CSS. Tools: Git, GitHub, Docker, Vercel. Cloud: AWS, Azure, GCP. Data & analytics: SQL, Snowflake, Tableau, Power BI, Excel. AI: Amazon Q Business, Quick Suite, Gemini Gems, LangGraph, MCP, RAG, Claude Code. LLMs: ChatGPT, Claude, Gemini."
   },
   {
     "key": "quicksuite",
-    "keywords": ["quicksuite", "quick suite", "quick", "suite", "servicenow"],
-    "content": "Marcus has done extensive research on Quick Suite and studied many demos on best practices. He knows how to create workflows, custom chatbots, and how to leverage features like connectors, MCP, and best practices in agentic workflows."
+    "keywords": ["amazon q", "amazon q business", "q business", "quicksuite", "quick suite", "quick", "suite", "servicenow"],
+    "content": "Marcus has done extensive research on Amazon Q Business and Quick Suite (two distinct AWS products) and studied many demos on best practices for both. With Amazon Q Business he knows how to build custom chatbots grounded in enterprise data using connectors, and with Quick Suite he knows how to create workflows and agentic experiences. Across both he understands how to leverage features like connectors, MCP, and best practices in agentic workflows."
   },
   {
     "key": "gemini_gems",
