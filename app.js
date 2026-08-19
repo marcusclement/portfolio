@@ -27,9 +27,13 @@ const FILES = {
       Feel free to browse through my portfolio using the files on the left!
     </p>
     <h2>Core Skills</h2>
-    <ul>
-      <li>Applied AI, Agentic Automation, Cloud Architecture</li>
-      <li>Solutions Engineering, Full-Stack Development, Consulting</li>
+    <ul class="skill-tags">
+      <li class="skill-tag">Applied AI</li>
+      <li class="skill-tag">Agentic Automation</li>
+      <li class="skill-tag">Cloud Architecture</li>
+      <li class="skill-tag">Solutions Engineering</li>
+      <li class="skill-tag">Full-Stack Development</li>
+      <li class="skill-tag">Consulting</li>
     </ul>
   </div>
   <div class="about-media">
