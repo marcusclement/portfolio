@@ -19,9 +19,10 @@ const FILES = {
       infrastructure, plus the enablement work that gets people actually using them.
     </p>
     <p>
-      Outside of school and work, I'm into running, lifting, hiking, and golfing (even though I suck).
-      I'm currently looking for full time roles following graduation across data, software, and product
-      engineering where I can continue delivering value and learning.
+      Outside of school and work, I'm into running marathons, lifting, hiking around Washington,
+      mountain biking, and golfing (even though I suck). I follow the NBA closely and I'm a
+      Seahawks fan. I'm currently looking for full time roles following graduation across data,
+      software, and product engineering where I can continue delivering value and learning.
     </p>
     <p>
       Feel free to browse through my portfolio using the files on the left!
@@ -133,6 +134,14 @@ const FILES = {
       <li class="tech-chip">Guardrails</li>
     </ul>
   </div>
+</div>
+<div class="about-skills">
+    <h2>Spoken Languages</h2>
+    <ul class="tech-chips">
+      <li class="tech-chip">English &mdash; Native</li>
+      <li class="tech-chip">Spanish &mdash; Intermediate</li>
+      <li class="tech-chip">Tamil &mdash; Beginner</li>
+    </ul>
 </div>
 `,
   },

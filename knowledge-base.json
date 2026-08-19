@@ -2,7 +2,7 @@
   {
     "key": "about",
     "keywords": ["about", "marcus", "who", "introduction", "bio", "background", "yourself", "tell me"],
-    "content": "Marcus Clement is a University of Washington Informatics student focused on data science. He builds practical things that make work easier — features, workflows, and automated systems. His work sits between software, data, and the people who use it. He enjoys owning problems end to end: sitting down with stakeholders to scope what they actually need, shipping a simple version, then iterating until it is reliable and genuinely useful. Lately that means architecting agentic AI systems on cloud infrastructure, plus the enablement work that gets people actually using them. Outside school and work he enjoys running, lifting, hiking, and golfing. Core skills: Applied AI, Agentic Automation, Cloud Architecture, Solutions Engineering, Full-Stack Development, Consulting. He also works in AI enablement and integration, solutions architecture, and prompt and context engineering."
+    "content": "Marcus Clement is a University of Washington Informatics student focused on data science. He builds practical things that make work easier — features, workflows, and automated systems. His work sits between software, data, and the people who use it. He enjoys owning problems end to end: sitting down with stakeholders to scope what they actually need, shipping a simple version, then iterating until it is reliable and genuinely useful. Lately that means architecting agentic AI systems on cloud infrastructure, plus the enablement work that gets people actually using them. Outside school and work he enjoys running marathons, lifting, hiking in Washington, mountain biking, and golfing, and he follows the NBA and the Seattle Seahawks. He speaks English (native), Spanish (intermediate), and Tamil (beginner). Core skills: Applied AI, Agentic Automation, Cloud Architecture, Solutions Engineering, Full-Stack Development, Consulting. He also works in AI enablement and integration, solutions architecture, and prompt and context engineering."
   },
   {
     "key": "education",
@@ -56,7 +56,7 @@
   },
   {
     "key": "project_mediscribe",
-    "keywords": ["medi", "scribe", "medical", "transcription", "hipaa", "aws", "health"],
+    "keywords": ["medi", "scribe", "medi-scribe", "mediscribe", "medical", "transcription", "hipaa", "aws", "health"],
     "content": "Medi-Scribe — AI Medical Transcription System (Sep 2025 - Dec 2025). Architected a HIPAA-compliant medical transcription pipeline on AWS (S3, Lambda, Transcribe Medical, Bedrock) and React. Automated clinical documentation workflows for doctor-patient interactions, improving transcription efficiency end to end."
   },
   {
@@ -91,8 +91,8 @@
   },
   {
     "key": "community",
-    "keywords": ["community", "club", "organization", "fraternity", "extracurricular", "leadership"],
-    "content": "Community involvement: Business Impact Group (Consultant, Jan-Mar 2026, collaborated with Socratics.ai and was invited back for internship), Web Impact UW (Full Stack Developer), NetworkAI (Director of Technology, leading AI workshops and all club tech events), Kappa Theta Pi (professional technology fraternity, worked in cross-functional team to create and deploy fraternity webpage), AWS Cloud Club (member, building projects and attending workshops/hackathons), Claude Builder Club (member, building projects and attending workshops/hackathons), Newman Center (Student Ministry Team Member since Sep 2025)."
+    "keywords": ["community", "club", "organization", "fraternity", "kappa theta pi", "ktp", "extracurricular", "leadership"],
+    "content": "Community involvement: Business Impact Group (Consultant, Jan-Mar 2026, collaborated with Socratics.ai and was invited back for internship), Web Impact UW (Full Stack Developer), NetworkAI (Director of Technology, leading AI workshops and all club tech events), Kappa Theta Pi (Education Committee Director since Jan 2026 — directs career development content for members of this professional technology fraternity; he also worked in a cross-functional team to create and deploy the fraternity webpage), AWS Cloud Club (member, building projects and attending workshops/hackathons), Claude Builder Club (member, building projects and attending workshops/hackathons), Newman Center (Student Ministry Team Member since Sep 2025)."
   },
   {
     "key": "volunteering",
@@ -106,8 +106,13 @@
   },
   {
     "key": "hobbies",
-    "keywords": ["hobby", "hobbies", "fun", "free time", "interests", "outside", "personal", "running", "hiking", "golf", "lifting"],
-    "content": "Outside of school and work, Marcus enjoys running, lifting, hiking, and golfing (even though he admits he's not great at it yet). He's active and outdoorsy, and balances his technical work with physical activities."
+    "keywords": ["hobby", "hobbies", "fun", "free time", "interests", "outside", "personal", "running", "marathon", "marathons", "hiking", "golf", "lifting", "weightlifting", "mountain biking", "biking", "nba", "basketball", "seahawks", "sports"],
+    "content": "Outside of school and work, Marcus enjoys running (he trains for marathons), weightlifting, hiking in Washington, mountain biking, and golfing (even though he admits he's not great at it yet). He's also a big sports fan — he follows the NBA and roots for the Seattle Seahawks. He's active and outdoorsy, and balances his technical work with physical activities."
+  },
+  {
+    "key": "languages",
+    "keywords": ["languages", "language", "speak", "spoken", "spanish", "tamil", "english", "bilingual", "multilingual", "fluent", "native"],
+    "content": "Languages Marcus speaks: English (native), Spanish (intermediate), and Tamil (beginner). These are spoken languages — for programming languages see his tech stack (Python, JavaScript, TypeScript, Java, R, SQL)."
   },
   {
     "key": "internship",
@@ -131,18 +136,18 @@
   },
   {
     "key": "leadership",
-    "keywords": ["leadership", "leader", "lead", "director", "manage", "mentor", "teach", "workshop"],
-    "content": "Marcus holds leadership roles in multiple organizations. He is the Director of Technology at NetworkAI (Jan 2026 - Present), where he directs workshops teaching AI principles and development practices and leads all club technology and AI events. He was a Full Stack Developer at Web Impact UW, where he collaborated cross-functionally with design and product leads. At Kappa Theta Pi, he directed career development content for members of a professional technology fraternity. At Proofpoint he drove cross-functional enablement and governance for an enterprise agentic AI rollout. These roles demonstrate his ability to lead teams, teach technical concepts, and drive initiatives."
+    "keywords": ["leadership", "leader", "lead", "director", "manage", "mentor", "teach", "workshop", "kappa theta pi", "ktp"],
+    "content": "Marcus holds leadership roles in multiple organizations. He is the Director of Technology at NetworkAI (Jan 2026 - Present), where he directs workshops teaching AI principles and development practices and leads all club technology and AI events. He was a Full Stack Developer at Web Impact UW, where he collaborated cross-functionally with design and product leads. He is the Education Committee Director at Kappa Theta Pi (Jan 2026 - Present), where he directs career development content for members of this professional technology fraternity. At Proofpoint he drove cross-functional enablement and governance for an enterprise agentic AI rollout. These roles demonstrate his ability to lead teams, teach technical concepts, and drive initiatives."
   },
   {
     "key": "ai_experience",
-    "keywords": ["ai", "artificial intelligence", "machine learning", "ml", "llm", "large language model", "prompt", "nlp", "chatgpt", "claude", "gemini", "prompt engineering"],
-    "content": "Marcus has extensive applied AI and LLM experience across multiple roles and projects. At Proofpoint he architected agentic pipelines with multi-step LLM orchestration and guardrails, integrating Salesforce and Totango APIs, and drove enablement and governance for an enterprise agentic AI rollout. At AirPLAi he engineered prompt and context strategies for a production chatbot and built agent workflows with LangGraph and FastAPI. At Socratics.ai he built AI-suggested classification systems with human-in-the-loop interfaces. He built this portfolio's AI chatbot using Claude Haiku 4.5 with RAG (Retrieval-Augmented Generation) and streaming via SSE. He's working on Medi-Scribe, which uses AWS Bedrock and Transcribe Medical for AI-powered clinical summarization. He holds an AWS AI Practitioner certification and an Azure AI Fundamentals certification. He's proficient with LangGraph, MCP, RAG, Claude Code, Cursor, Quick Suite, and Gemini Gems, and works hands-on with multi-agent orchestration, prompt and context engineering, and guardrails."
+    "keywords": ["ai", "artificial intelligence", "machine learning", "ml", "llm", "large language model", "prompt", "nlp", "chatgpt", "claude", "gemini", "prompt engineering", "medi-scribe", "mediscribe"],
+    "content": "Marcus has extensive applied AI and LLM experience across multiple roles and projects. At Proofpoint he architected agentic pipelines with multi-step LLM orchestration and guardrails, integrating Salesforce and Totango APIs, and drove enablement and governance for an enterprise agentic AI rollout. At AirPLAi he engineered prompt and context strategies for a production chatbot and built agent workflows with LangGraph and FastAPI. At Socratics.ai he built AI-suggested classification systems with human-in-the-loop interfaces. He built this portfolio's AI chatbot using Claude Haiku 4.5 with RAG (Retrieval-Augmented Generation) and streaming via SSE. He built Medi-Scribe (Sep 2025 - Dec 2025, completed), which used AWS Bedrock and Transcribe Medical for AI-powered clinical summarization. He holds an AWS AI Practitioner certification and an Azure AI Fundamentals certification. He's proficient with LangGraph, MCP, RAG, Claude Code, Cursor, Quick Suite, and Gemini Gems, and works hands-on with multi-agent orchestration, prompt and context engineering, and guardrails."
   },
   {
     "key": "cloud_experience",
-    "keywords": ["cloud", "aws", "azure", "gcp", "infrastructure", "deployment", "serverless", "lambda", "ec2", "s3", "devops"],
-    "content": "Marcus has hands-on cloud experience across AWS, Azure, and GCP. AWS: Built Nick-Blendz with EC2, S3, and RDS; building Medi-Scribe with S3, Lambda, Transcribe Medical, and Bedrock; holds Solutions Architect Associate, Cloud Practitioner, and AI Practitioner certifications. Azure: Holds AZ-900, AI-900, and DP-900 certifications. GCP: Works with GCP and Docker at AirPLAi for CI/CD and cloud data pipelines. He also deploys projects on Vercel (this portfolio) and has experience with Docker containerization."
+    "keywords": ["cloud", "aws", "azure", "gcp", "infrastructure", "deployment", "serverless", "lambda", "ec2", "s3", "devops", "medi-scribe", "mediscribe"],
+    "content": "Marcus has hands-on cloud experience across AWS, Azure, and GCP. AWS: Built Nick-Blendz with EC2, S3, and RDS; built Medi-Scribe (Sep 2025 - Dec 2025, completed) with S3, Lambda, Transcribe Medical, and Bedrock; holds Solutions Architect Associate, Cloud Practitioner, and AI Practitioner certifications. Azure: Holds AZ-900, AI-900, and DP-900 certifications. GCP: Works with GCP and Docker at AirPLAi for CI/CD and cloud data pipelines. He also deploys projects on Vercel (this portfolio) and has experience with Docker containerization."
   },
   {
     "key": "data_experience",
