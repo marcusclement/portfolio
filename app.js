@@ -162,7 +162,7 @@ const FILES = {
     <img class="resume-logo" src="./proofpoint.png" alt="Proofpoint logo" />
     <strong>Proofpoint</strong>
   </a>
-  <span class="resume-role">— AI Systems Engineer Intern (Jun 2026 - Aug 2026)</span>
+  <span class="resume-role">— AI Integrations Engineer Intern (Jun 2026 - Aug 2026)</span>
 </p>
 <ul>
   <li>Built agentic automation for 300+ multi-service accounts, cutting report generation time 92% and protecting $762M ARR.</li>
