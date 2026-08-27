@@ -174,7 +174,7 @@ const FILES = {
   <span class="resume-role">— AI Integrations Engineer Intern (Jun 2026 - Aug 2026)</span>
 </p>
 <ul>
-  <li>Built agentic automation for 300+ multi-service accounts, cutting report generation time 92% and protecting $762M ARR.</li>
+  <li>Built agentic automation for 400+ multi-service accounts, cutting report generation time 92% and protecting $762M ARR.</li>
   <li>Drove cross-functional enablement and governance for enterprise rollout of agentic AI platform across Proofpoint.</li>
   <li>Translated ambiguous stakeholder goals into agentic AI workflows, owning scoping and delivery from pilot to production.</li>
   <li>Architected agentic pipelines integrating Salesforce and Totango APIs with multi-step LLM orchestration and guardrails.</li>
@@ -225,7 +225,7 @@ const FILES = {
     <img class="resume-logo" src="./webimpact.jpeg" alt="Web Impact UW logo" />
     <strong>Web Impact UW</strong>
   </a>
-  <span class="resume-role">— Full Stack Developer (Jan 2026 - Jun 2026)</span>
+  <span class="resume-role">— Software Engineer (Jan 2026 - Jun 2026)</span>
 </p>
 <ul>
   <li>Developed features across React frontend, API routes, and backend, owning implementation to deployment under deadlines.</li>
@@ -458,7 +458,7 @@ const FILES = {
     <img class="resume-logo" src="./webimpact.jpeg" alt="Web Impact UW logo" />
     <strong>Web Impact UW</strong>
   </a>
-  <span class="resume-role">— Full Stack Developer (Jan 2026 - Jun 2026)</span>
+  <span class="resume-role">— Software Engineer (Jan 2026 - Jun 2026)</span>
 </p>
 <ul>
   <li>Developed features across React frontend, API routes, and backend.</li>
