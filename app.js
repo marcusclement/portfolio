@@ -171,29 +171,27 @@ const FILES = {
     <img class="resume-logo" src="./proofpoint.png" alt="Proofpoint logo" />
     <strong>Proofpoint</strong>
   </a>
-  <span class="resume-role">— AI Integration Engineer (Contract) (Sep 2026 - Present)</span>
+  <span class="resume-role">— Jun 2026 - Present</span>
 </p>
-<ul>
-  <li>Returning part-time by manager request to continue agentic AI integrations work during the academic year.</li>
-</ul>
-<p class="resume-company">
-  <a
-    class="resume-company-link"
-    href="https://www.proofpoint.com"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img class="resume-logo" src="./proofpoint.png" alt="Proofpoint logo" />
-    <strong>Proofpoint</strong>
-  </a>
-  <span class="resume-role">— AI Integration Engineer Intern (Jun 2026 - Aug 2026)</span>
-</p>
-<ul>
-  <li>Built agentic automation for 400+ multi-service accounts, cutting report generation time 92% and protecting $762M ARR.</li>
-  <li>Drove cross-functional enablement and governance for enterprise rollout of agentic AI platform across Proofpoint.</li>
-  <li>Translated ambiguous stakeholder goals into agentic AI workflows, owning scoping and delivery from pilot to production.</li>
-  <li>Architected agentic pipelines integrating Salesforce and Totango APIs with multi-step LLM orchestration and guardrails.</li>
-</ul>
+<div class="resume-role-group">
+  <div class="resume-subrole">
+    <div class="resume-subrole-title">AI Integration Engineer (Contract)</div>
+    <div class="resume-subrole-dates">Sep 2026 - Present</div>
+    <ul>
+      <li>Returning part-time by manager request to continue agentic AI integrations work during the academic year.</li>
+    </ul>
+  </div>
+  <div class="resume-subrole">
+    <div class="resume-subrole-title">AI Integration Engineer Intern</div>
+    <div class="resume-subrole-dates">Jun 2026 - Aug 2026</div>
+    <ul>
+      <li>Built agentic automation for 400+ multi-service accounts, cutting report generation time 92% and protecting $762M ARR.</li>
+      <li>Drove cross-functional enablement and governance for enterprise rollout of agentic AI platform across Proofpoint.</li>
+      <li>Translated ambiguous stakeholder goals into agentic AI workflows, owning scoping and delivery from pilot to production.</li>
+      <li>Architected agentic pipelines integrating Salesforce and Totango APIs with multi-step LLM orchestration and guardrails.</li>
+    </ul>
+  </div>
+</div>
 <p class="resume-company">
 <span class="resume-hint">// click on the Socratics.ai logo</span>
   <a
@@ -251,7 +249,6 @@ const FILES = {
   <strong>Costco Wholesale</strong>
   <span class="resume-role">— Member Service Agent (Feb 2024 - Jun 2026)</span>
 </p>
-<p style="font-style: italic; margin-top: 2px; font-size: 13px; color: #8a8f98;">College Retention Program since Sep 2025</p>
 <ul>
   <li>Assisted customers through complex issues via chat/phone, translating technical processes into clear explanations.</li>
   <li>Consistently exceeded performance expectations by over 50% through strong communication and problem-solving.</li>

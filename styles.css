@@ -369,6 +369,45 @@ body {
   color: var(--muted);
 }
 
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-role-group {
+  border-left: 2px solid var(--border);
+  margin: 12px auto 0;
+  padding-left: 16px;
+  max-width: 80%;
+  text-align: center;
+}
+
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-subrole {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-subrole::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 8px;
+  width: 10px;
+  height: 2px;
+  background: var(--border);
+}
+
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-subrole-title {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-subrole-dates {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.file-panel:is([data-file="experience"], [data-file="community"], [data-file="projects"]) .resume-subrole ul {
+  margin-top: 4px;
+}
+
 .tab.dragging,
 .file-item.dragging {
   opacity: 0.5;
