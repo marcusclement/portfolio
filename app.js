@@ -57,12 +57,12 @@ const FILES = {
 <div class="about-skills">
     <h2>Core Skills</h2>
     <ul class="skill-tags">
-      <li class="skill-tag"><svg class="skill-tag-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/><path d="M20 2v4"/><path d="M22 4h-4"/><circle cx="4" cy="20" r="2"/></svg>Applied AI</li>
       <li class="skill-tag"><svg class="skill-tag-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>Agentic Automation</li>
-      <li class="skill-tag"><svg class="skill-tag-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>Cloud Architecture</li>
-      <li class="skill-tag"><svg class="skill-tag-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"/><rect x="14" y="2" width="8" height="8" rx="1"/></svg>Solutions Engineering</li>
+      <li class="skill-tag"><svg class="skill-tag-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/><path d="M20 2v4"/><path d="M22 4h-4"/><circle cx="4" cy="20" r="2"/></svg>AI Enablement and Integration</li>
+      <li class="skill-tag"><svg class="skill-tag-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>Amazon Web Services</li>
+      <li class="skill-tag"><svg class="skill-tag-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"/><rect x="14" y="2" width="8" height="8" rx="1"/></svg>Solutions Architecture and Solutions Engineering</li>
       <li class="skill-tag"><svg class="skill-tag-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>Full-Stack Development</li>
-      <li class="skill-tag"><svg class="skill-tag-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg>Consulting</li>
+      <li class="skill-tag"><svg class="skill-tag-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>Prompt and Context Engineering</li>
     </ul>
 </div>
 <h2>Tech Stack</h2>
@@ -158,7 +158,7 @@ const FILES = {
   <img class="resume-logo" src="./bc.png" alt="Bellevue College logo" />
   <strong>Bellevue College</strong> — Bellevue, WA
 </p>
-<p>Associate's in Arts and Sciences (Sep 2023 - Jun 2025)</p>
+<p>Completed Associate's in Arts and Sciences (Sep 2023 - Jun 2025)</p>
 <h2>Experience</h2>
 <p class="resume-company">
 <span class="resume-hint">// click on the Proofpoint logo</span>
@@ -171,7 +171,22 @@ const FILES = {
     <img class="resume-logo" src="./proofpoint.png" alt="Proofpoint logo" />
     <strong>Proofpoint</strong>
   </a>
-  <span class="resume-role">— AI Integrations Engineer Intern (Jun 2026 - Aug 2026)</span>
+  <span class="resume-role">— AI Integration Engineer (Contract) (Sep 2026 - Present)</span>
+</p>
+<ul>
+  <li>Returning part-time by manager request to continue agentic AI integrations work during the academic year.</li>
+</ul>
+<p class="resume-company">
+  <a
+    class="resume-company-link"
+    href="https://www.proofpoint.com"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <img class="resume-logo" src="./proofpoint.png" alt="Proofpoint logo" />
+    <strong>Proofpoint</strong>
+  </a>
+  <span class="resume-role">— AI Integration Engineer Intern (Jun 2026 - Aug 2026)</span>
 </p>
 <ul>
   <li>Built agentic automation for 400+ multi-service accounts, cutting report generation time 92% and protecting $762M ARR.</li>
@@ -232,19 +247,10 @@ const FILES = {
   <li>Collaborated cross functionally with design and product leads to deliver user focused web solutions for external clients.</li>
 </ul>
 <p class="resume-company">
-  <img class="resume-logo" src="./costco.png" alt="Costco Wholesale logo" />
-  <strong>Costco Wholesale</strong>
-  <span class="resume-role">— Member Service Agent (Feb 2024 - Jun 2026)</span>
-</p>
-<p style="font-style: italic; margin-top: 2px; font-size: 13px; color: #8a8f98;">College Retention Program since Sep 2025</p>
-<ul>
-  <li>Assisted customers through complex issues via chat/phone, translating technical processes into clear explanations.</li>
-  <li>Consistently exceeded performance expectations by over 50% through strong communication and problem-solving.</li>
-</ul>
-<p class="resume-company">
   <img class="resume-logo" src="./everlane.jpeg" alt="Everlane logo" />
 <strong>Everlane Landscaping</strong>
   <span class="resume-role">— Data Science Intern (Jun 2025 - Aug 2025)</span>
+
 </p>
 <ul>
   <li>Built automated Python pipeline to process 100+ monthly logs, optimizing routing, reducing job-time by 15%.</li>
@@ -259,7 +265,7 @@ const FILES = {
       <li>Solutions Architect Associate (SAA-C03)</li>
       <li>Cloud Practitioner (CLF-C02)</li>
       <li>AI Practitioner (AIF-C01)</li>
-      <li class="cert-pending">Preparing for Gen AI Developer</li>
+      <li class="cert-pending">Preparing for Generative AI Developer &mdash; Professional (AIP-C01) and Certified AI Business Strategist (AIB-C01)</li>
     </ul>
   </div>
   <div class="cert-card">
@@ -294,29 +300,15 @@ const FILES = {
     content: `
 <h1>Projects</h1>
 
-<h2>Cursor-Inspired Portfolio</h2>
-<p class="resume-company">
-  <strong>https://marcusclementportfolio.vercel.app/</strong>
-  <span class="resume-role">— Personal Portfolio</span>
-</p>
-<ul>
-  <li>This website! A personal portfolio that makes browsing feel familiar and intuitive to developers.</li>
-  <li>Built with HTML, CSS, JavaScript, and deployed on Vercel, designed to mimic my current favorite IDE, Cursor.</li>
-  <li>Implemented a fully functional AI chatbar powered by Claude Haiku 4.5 via the Anthropic API, using RAG (Retrieval-Augmented Generation) to ground responses in a structured JSON knowledge base with my experience.</li>
-  <li>Built keyword-based retrieval to score and inject relevant chunks into the system prompt, streamed responses in real time via SSE through a Vercel serverless function.</li>
-</ul>
-
 <h2>Personal Productivity System</h2>
 <p class="resume-company">
   <strong>Personal Productivity System</strong>
-  <span class="resume-role">— Custom Obsidian Dashboard (Apr 2026 - Jun 2026)</span>
+  <span class="resume-role">— Custom Obsidian Dashboard (April 2026)</span>
 </p>
 <ul>
   <li>Built a custom dashboard aggregating task management, goal tracking, and live health metrics in a single view.</li>
-  <li>Integrated the WHOOP + Strava REST APIs using OAuth 2.0 with automated token refresh, building a Python/Bash launchd pipeline to sync daily sleep, recovery, activities, and HRV metrics.</li>
-  <li>Deployed a Dockerized MCP server to connect Claude AI to the vault, enabling natural language note management and file operations.</li>
-  <li>Built an AI-generated daily training brief using the Claude API, synthesizing recovery scores, pace history, and weekly mileage into a personalized coaching summary delivered automatically each morning.</li>
-  <li>Embedded a live Google Calendar day view by registering an OAuth 2.0 client in Google Cloud Console and configuring API scopes and redirect URIs.</li>
+  <li>Integrated the WHOOP REST API using OAuth 2.0 with automated token refresh, pipeline to sync daily health metrics.</li>
+  <li>Deployed Dockerized MCP server to connect Claude AI to vault, enabling natural language application management.</li>
 </ul>
 <details class="shot-folder">
   <summary class="shot-folder-summary">
@@ -370,39 +362,27 @@ const FILES = {
   </div>
 </details>
 
-<h2>Nick-Blendz.com — Online Booking Application</h2>
+<h2>Marcus's Portfolio</h2>
 <p class="resume-company">
-  <span class="resume-company-link">
-    <img class="resume-logo" src="./nickblendz.webp" alt="Nick-Blendz logo" />
-    <strong>Nick-Blendz.com</strong>
-  </span>
-  <span class="resume-role">— Full-Stack Booking Platform</span>
+  <strong>https://marcusclementportfolio.vercel.app/</strong>
+  <span class="resume-role">— Online Portfolio (January 2026)</span>
 </p>
 <ul>
-  <li>Built and deployed a full-stack booking platform with Next.js, TypeScript, and AWS (EC2, S3, RDS) supporting 100+ users.</li>
-  <li>Designed the database schema and backend to manage scheduling and client data, cutting manual booking work by 80%.</li>
-  <li>Integrated scheduling API and analytics dashboards.</li>
+  <li>Built a developer portfolio styled as an IDE with file explorer, tabbed editor, and drag-and-drop UI using HTML/CSS/JS.</li>
+  <li>Integrated a real-time AI chatbot powered by Claude Haiku via Vercel serverless functions and SSE streaming.</li>
+  <li>Connected structured JSON knowledge base with metadata to Haiku integration using RAG to ground responses.</li>
 </ul>
 
-<h2>Medi-Scribe — AI Medical Transcriber</h2>
+<h2>Mediscribe — AI Medical Transcription System</h2>
 <p class="resume-company">
-  <strong>Medi-Scribe</strong>
-  <span class="resume-role">— HIPAA-Compliant Transcription System (Sep 2025 - Dec 2025)</span>
+  <strong>Mediscribe</strong>
+  <span class="resume-role">— AI Medical Transcription System (Sep 2025 - Dec 2025)</span>
 </p>
 <ul>
-  <li>Architected a HIPAA-compliant medical transcription pipeline on AWS (S3, Lambda, Transcribe Medical, Bedrock) and React.</li>
+  <li>Architected HIPAA-compliant medical transcription pipeline on AWS (S3, Lambda, Transcribe Medical, Bedrock).</li>
   <li>Automated clinical documentation workflows for doctor-patient interactions, improving transcription efficiency end to end.</li>
 </ul>
 
-<h2>Document Management System</h2>
-<p class="resume-company">
-  <strong>Document Management System</strong>
-  <span class="resume-role">— PostgreSQL Backend</span>
-</p>
-<ul>
-  <li>Built a PostgreSQL-based document management system for a real estate investor.</li>
-  <li>Designed a relational schema and SQL backend using JSON to streamline property and record management.</li>
-</ul>
 `,
   },
   contact: {
@@ -448,22 +428,20 @@ const FILES = {
 <h1>Community Engagement</h1>
 <h2>Clubs &amp; Organizations</h2>
 <p class="resume-company">
-  <span class="resume-hint">// click on the Web Impact logo</span>
+  <span class="resume-hint">// click on the Kappa Theta Pi logo</span>
   <a
     class="resume-company-link"
-    href="https://webimpactuw.org/"
+    href="https://ktp-uw-website.vercel.app/homepage"
     target="_blank"
     rel="noreferrer"
   >
-    <img class="resume-logo" src="./webimpact.jpeg" alt="Web Impact UW logo" />
-    <strong>Web Impact UW</strong>
+  <img class="resume-logo" src="./ktp.jpg" alt="Kappa Theta Pi logo" />
+  <strong>Kappa Theta Pi</strong>
   </a>
-  <span class="resume-role">— Software Engineer (Jan 2026 - Jun 2026)</span>
+  <span class="resume-role">— Education Committee Director (Jan 2026 - Present)</span>
 </p>
 <ul>
-  <li>Developed features across React frontend, API routes, and backend.</li>
-  <li>Collaborated with design and product leads for client solutions.</li>
-  <li>Implemented UI components with best practices via GitHub workflows.</li>
+  <li>Directed career development content for professional tech fraternity members.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the NetworkAI logo</span>
@@ -480,23 +458,6 @@ const FILES = {
 </p>
 <ul>
   <li>Leading club-sponsored workshops to teach and enable AI skills and projects.</li>
-  <li>Built, deployed, and maintained club website. <a href="https://uwnetworkai.com/" target="_blank" rel="noreferrer">uwnetworkai.com</a></li>
-</ul>
-<p class="resume-company">
-  <span class="resume-hint">// click on the Kappa Theta Pi logo</span>
-  <a
-    class="resume-company-link"
-    href="https://ktp-uw-website.vercel.app/homepage"
-    target="_blank"
-    rel="noreferrer"
-  >
-  <img class="resume-logo" src="./ktp.jpg" alt="Kappa Theta Pi logo" />
-  <strong>Kappa Theta Pi</strong>
-  </a>
-  <span class="resume-role">— Education Committee Director (Jan 2026 - Present)</span>
-</p>
-<ul>
-  <li>Directed career development content for members of a professional technology fraternity.</li>
 </ul>
 <p class="resume-company">
   <span class="resume-hint">// click on the Business Impact Group logo</span>
@@ -514,57 +475,12 @@ const FILES = {
 <ul>
   <li>Collaborated with client <a href="https://socratics.ai" target="_blank" rel="noreferrer">Socratics.ai</a>. Was invited to return after engagement for internship.</li>
 </ul>
-<p class="resume-company">
-  <span class="resume-hint">// click on the AWS Cloud Club logo</span>
-  <a
-    class="resume-company-link"
-    href="https://builder.aws.com/community/cloud-clubs"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img class="resume-logo" src="./aws.gif" alt="AWS Cloud Club logo" />
-    <strong>AWS Cloud Club</strong>
-  </a>
-  <span class="resume-role">— Member (Jan 2026 - Present)</span>
-</p>
-<ul>
-  <li>
-    Attended and participated in building projects, attending workshops, and hackathons.
-  </li>
-</ul>
-<p class="resume-company">
-  <span class="resume-hint">// click on the Claude Builder Club logo</span>
-  <a
-    class="resume-company-link"
-    href="https://claude.com/programs/campus"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img class="resume-logo" src="./claude.png" alt="Claude Builder Club logo" />
-    <strong>Claude Builder Club</strong>
-  </a>
-  <span class="resume-role">— Member (Jan 2026 - Present)</span>
-</p>
-<ul>
-  <li>
-    Attended and participated in building projects, attending workshops, and hackathons.
-  </li>
-</ul>
-<p class="resume-company">
-  <span class="resume-hint">// click on the Newman Center logo</span>
-  <a
-    class="resume-company-link"
-    href="https://uwnewman.org/"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img class="resume-logo" src="./newman.jpeg" alt="Newman Center logo" />
-    <strong>Newman Center</strong>
-  </a>
-  <span class="resume-role">— Student Ministry Team Member (Sep 2025 - Present)</span>
-</p>
-<ul>
-  <li>Helped lead and coordinate events for local Newman Center.</li>
+<h2>Other Campus Involvement</h2>
+<ul class="other-involvement">
+  <li><a href="https://builder.aws.com/community/cloud-clubs" target="_blank" rel="noreferrer">AWS Cloud Club</a></li>
+  <li><a href="https://claude.com/programs/campus" target="_blank" rel="noreferrer">Claude Builder Club</a></li>
+  <li><a href="https://webimpactuw.org/" target="_blank" rel="noreferrer">Web Impact UW</a></li>
+  <li><a href="https://uwnewman.org/" target="_blank" rel="noreferrer">UW Newman Center</a></li>
 </ul>
 <h2>Volunteering</h2>
 <p class="resume-company">
