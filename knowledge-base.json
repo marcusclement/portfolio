@@ -25,6 +25,11 @@
     "content": "Software Engineer at Web Impact UW (Jan 2026 - Jun 2026) in Seattle, WA. Developed features across React frontend, API routes, and backend, owning implementation to deployment under deadlines. Collaborated cross-functionally with design and product leads to deliver user-focused web solutions for external clients."
   },
   {
+    "key": "experience_costco",
+    "keywords": ["costco", "customer", "service", "agent", "communication", "retention"],
+    "content": "Member Service Agent at Costco Wholesale (Feb 2024 - Jun 2026) in Issaquah, WA. On the College Retention Program since Sep 2025. Assisted customers through complex issues via chat/phone, translating technical processes into clear explanations. Consistently exceeded performance expectations by over 50% through strong communication and problem-solving."
+  },
+  {
     "key": "experience_everlane",
     "keywords": ["everlane", "landscaping", "data science", "tableau", "pipeline", "routing", "dashboards"],
     "content": "Data Science Intern at Everlane Landscaping (Jun 2025 - Aug 2025) in Kirkland, WA. Built automated Python pipeline to process 100+ monthly logs, optimizing routing and reducing job-time by 15%. Conducted data modeling to identify high-value customer segments, leading to 12% increase in customer retention."
@@ -43,6 +48,11 @@
     "key": "project_productivity_system",
     "keywords": ["productivity", "obsidian", "dashboard", "whoop", "strava", "vault", "habit", "health", "training brief", "calendar", "mcp", "launchd", "oauth", "personal"],
     "content": "Personal Productivity System — Custom Obsidian Dashboard (Apr 2026). Marcus built a custom dashboard aggregating task management, goal tracking, and live health metrics in a single view. He integrated the WHOOP REST API using OAuth 2.0 with automated token refresh, building a pipeline to sync daily health metrics. He deployed a Dockerized MCP server to connect Claude AI to the vault, enabling natural language application management. The projects page has an expandable screenshots folder showing the Home Base page, daily brief, schedule, sleep and recovery view, last run, to-do and goals, and a 28-day habit grid."
+  },
+  {
+    "key": "project_nickblendz",
+    "keywords": ["nick", "blendz", "booking", "next.js", "aws", "scheduling", "barber"],
+    "content": "Nick-Blendz.com — Online Booking Application (Jun 2025 - Jul 2025). Built and deployed a full-stack booking platform with Next.js, TypeScript, and AWS (EC2, S3, RDS) supporting 100+ users. Designed the database schema and backend to manage scheduling and client data, cutting manual booking work by 80%. Integrated scheduling API and analytics dashboards."
   },
   {
     "key": "project_mediscribe",
@@ -132,7 +142,7 @@
   {
     "key": "cloud_experience",
     "keywords": ["cloud", "aws", "azure", "gcp", "infrastructure", "deployment", "serverless", "lambda", "ec2", "s3", "devops", "medi-scribe", "mediscribe"],
-    "content": "Marcus has hands-on cloud experience across AWS, Azure, and GCP. AWS: Built Mediscribe (Sep 2025 - Dec 2025, completed) with S3, Lambda, Transcribe Medical, and Bedrock; holds Solutions Architect Associate, Cloud Practitioner, and AI Practitioner certifications. Azure: Holds AZ-900, AI-900, and DP-900 certifications. GCP: Works with GCP and Docker at AirPLAi for CI/CD and cloud data pipelines. He also deploys projects on Vercel (this portfolio) and has experience with Docker containerization."
+    "content": "Marcus has hands-on cloud experience across AWS, Azure, and GCP. AWS: Built Nick-Blendz with EC2, S3, and RDS; built Mediscribe (Sep 2025 - Dec 2025, completed) with S3, Lambda, Transcribe Medical, and Bedrock; holds Solutions Architect Associate, Cloud Practitioner, and AI Practitioner certifications. Azure: Holds AZ-900, AI-900, and DP-900 certifications. GCP: Works with GCP and Docker at AirPLAi for CI/CD and cloud data pipelines. He also deploys projects on Vercel (this portfolio) and has experience with Docker containerization."
   },
   {
     "key": "data_experience",
@@ -142,11 +152,11 @@
   {
     "key": "teamwork",
     "keywords": ["teamwork", "team", "collaboration", "collaborate", "cross-functional", "communication", "group", "together", "work with"],
-    "content": "Marcus consistently works in cross-functional team environments. At Socratics.ai he collaborates with cross-functional teams and product stakeholders on a financial document pipeline. At AirPLAi he works across frontend, backend, and DevOps in a startup setting. At Web Impact UW he collaborates with design and product leads to deliver client web solutions. As a consultant at the Business Impact Group, he worked directly with a startup client. As Director of Technology at NetworkAI, he leads and coordinates with club members on workshops and events."
+    "content": "Marcus consistently works in cross-functional team environments. At Socratics.ai he collaborates with cross-functional teams and product stakeholders on a financial document pipeline. At AirPLAi he works across frontend, backend, and DevOps in a startup setting. At Web Impact UW he collaborates with design and product leads to deliver client web solutions. At Costco he translates technical processes into clear explanations for customers. As a consultant at the Business Impact Group, he worked directly with a startup client. As Director of Technology at NetworkAI, he leads and coordinates with club members on workshops and events."
   },
   {
     "key": "strengths",
     "keywords": ["why", "hire", "strengths", "strength", "stand out", "unique", "different", "best", "good at", "value", "bring"],
-    "content": "Marcus stands out because he combines agentic automation, AI enablement and integration, AWS, solutions architecture and solutions engineering, full-stack development, and prompt and context engineering — a rare intersection. He has a 3.93 GPA at UW, 6 cloud certifications across AWS and Azure, direct startup experience at two companies (AirPLAi and Socratics.ai), and an AI Integration Engineer internship at Proofpoint where his agentic automation cut report generation time 92% across 400+ accounts and protected $762M in ARR — he was invited back part-time as an AI Integration Engineer (Contract) in Sep 2026. He also has leadership experience as Director of Technology at NetworkAI. He's built automated pipelines that saved measurable time (15% job-time reduction at Everlane), and AI-powered tools (this portfolio chatbot, Mediscribe). He owns problems end to end and consistently gets invited back — his Socratics.ai internship came from a consulting engagement where he proved his value."
+    "content": "Marcus stands out because he combines agentic automation, AI enablement and integration, AWS, solutions architecture and solutions engineering, full-stack development, and prompt and context engineering — a rare intersection. He has a 3.93 GPA at UW, 6 cloud certifications across AWS and Azure, direct startup experience at two companies (AirPLAi and Socratics.ai), and an AI Integration Engineer internship at Proofpoint where his agentic automation cut report generation time 92% across 400+ accounts and protected $762M in ARR — he was invited back part-time as an AI Integration Engineer (Contract) in Sep 2026. He also has leadership experience as Director of Technology at NetworkAI. He's built production systems used by real users (Nick-Blendz with 100+ users), automated pipelines that saved measurable time (15% job-time reduction, 80% less manual booking), and AI-powered tools (this portfolio chatbot, Mediscribe). He owns problems end to end and consistently gets invited back — his Socratics.ai internship came from a consulting engagement where he proved his value."
   }
 ]

@@ -247,6 +247,16 @@ const FILES = {
   <li>Collaborated cross functionally with design and product leads to deliver user focused web solutions for external clients.</li>
 </ul>
 <p class="resume-company">
+  <img class="resume-logo" src="./costco.png" alt="Costco Wholesale logo" />
+  <strong>Costco Wholesale</strong>
+  <span class="resume-role">— Member Service Agent (Feb 2024 - Jun 2026)</span>
+</p>
+<p style="font-style: italic; margin-top: 2px; font-size: 13px; color: #8a8f98;">College Retention Program since Sep 2025</p>
+<ul>
+  <li>Assisted customers through complex issues via chat/phone, translating technical processes into clear explanations.</li>
+  <li>Consistently exceeded performance expectations by over 50% through strong communication and problem-solving.</li>
+</ul>
+<p class="resume-company">
   <img class="resume-logo" src="./everlane.jpeg" alt="Everlane logo" />
 <strong>Everlane Landscaping</strong>
   <span class="resume-role">— Data Science Intern (Jun 2025 - Aug 2025)</span>
@@ -371,6 +381,20 @@ const FILES = {
   <li>Built a developer portfolio styled as an IDE with file explorer, tabbed editor, and drag-and-drop UI using HTML/CSS/JS.</li>
   <li>Integrated a real-time AI chatbot powered by Claude Haiku via Vercel serverless functions and SSE streaming.</li>
   <li>Connected structured JSON knowledge base with metadata to Haiku integration using RAG to ground responses.</li>
+</ul>
+
+<h2>Nick-Blendz.com — Online Booking Application</h2>
+<p class="resume-company">
+  <span class="resume-company-link">
+    <img class="resume-logo" src="./nickblendz.webp" alt="Nick-Blendz logo" />
+    <strong>Nick-Blendz.com</strong>
+  </span>
+  <span class="resume-role">— Full-Stack Booking Platform</span>
+</p>
+<ul>
+  <li>Built and deployed a full-stack booking platform with Next.js, TypeScript, and AWS (EC2, S3, RDS) supporting 100+ users.</li>
+  <li>Designed the database schema and backend to manage scheduling and client data, cutting manual booking work by 80%.</li>
+  <li>Integrated scheduling API and analytics dashboards.</li>
 </ul>
 
 <h2>Mediscribe — AI Medical Transcription System</h2>
