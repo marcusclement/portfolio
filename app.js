@@ -178,7 +178,8 @@ const FILES = {
     <div class="resume-subrole-title">AI Integration Engineer (Contract)</div>
     <div class="resume-subrole-dates">Sep 2026 - Present</div>
     <ul>
-      <li>Returning part-time by manager request to continue agentic AI integrations work during the academic year.</li>
+      <li>Designed AI governance controls, including a Deny by Default permission model and approval workflows for skills + agents.</li>
+      <li>Defined data prioritization plan for agentic renewal justification automation, outlining priorities and next steps for rollout.</li>
     </ul>
   </div>
   <div class="resume-subrole">
@@ -313,9 +314,9 @@ const FILES = {
   <span class="resume-role">— Custom Obsidian Dashboard (April 2026)</span>
 </p>
 <ul>
-  <li>Built a custom dashboard aggregating task management, goal tracking, and live health metrics in a single view.</li>
-  <li>Integrated the WHOOP REST API using OAuth 2.0 with automated token refresh, pipeline to sync daily health metrics.</li>
-  <li>Deployed Dockerized MCP server to connect Claude AI to vault, enabling natural language application management.</li>
+  <li>Built a full-stack Obsidian dashboard unifying tasks and live data from WHOOP, Strava, and Google Calendar APIs.</li>
+  <li>Built an OAuth 2.0 pipeline (Python, launchd) syncing WHOOP and Strava sleep, recovery, and HRV data daily.</li>
+  <li>Deployed a Dockerized MCP server linking Claude to Obsidian for AI-driven notes, file management, and daily briefs.</li>
 </ul>
 <details class="shot-folder">
   <summary class="shot-folder-summary">
