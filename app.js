@@ -248,7 +248,7 @@ const FILES = {
 <p class="resume-company">
   <img class="resume-logo" src="./costco.png" alt="Costco Wholesale logo" />
   <strong>Costco Wholesale</strong>
-  <span class="resume-role">— Member Service Agent (Feb 2024 - Jun 2026)</span>
+  <span class="resume-role">— Member Service Agent (Feb 2024 - Jan 2026)</span>
 </p>
 <ul>
   <li>Assisted customers through complex issues via chat/phone, translating technical processes into clear explanations.</li>
@@ -270,19 +270,19 @@ const FILES = {
     <img class="cert-logo cert-logo--aws" src="./awsreal.webp" alt="AWS logo" />
     <div class="cert-label">AWS</div>
     <ul>
-      <li>Solutions Architect Associate (SAA-C03)</li>
-      <li>Cloud Practitioner (CLF-C02)</li>
-      <li>AI Practitioner (AIF-C01)</li>
-      <li class="cert-pending">Preparing for Generative AI Developer &mdash; Professional (AIP-C01) and Certified AI Business Strategist (AIB-C01)</li>
+      <li><img class="cert-badge" src="./saa.webp" alt="AWS Certified Solutions Architect Associate badge" /><span>Solutions Architect Associate (SAA-C03)</span></li>
+      <li><img class="cert-badge" src="./ccp.webp" alt="AWS Certified Cloud Practitioner badge" /><span>Cloud Practitioner (CLF-C02)</span></li>
+      <li><img class="cert-badge" src="./AIP.webp" alt="AWS Certified AI Practitioner badge" /><span>AI Practitioner (AIF-C01)</span></li>
+      <li><img class="cert-badge" src="./aib.png" alt="AWS Certified AI Business Strategist badge" /><span>AI Business Strategist (AIB-C01)</span></li>
     </ul>
   </div>
   <div class="cert-card">
     <img class="cert-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure logo" />
     <div class="cert-label">Azure</div>
     <ul>
-      <li>AZ-900 — Azure Fundamentals</li>
-      <li>AI-900 — Azure AI Fundamentals</li>
-      <li>DP-900 — Azure Data Fundamentals</li>
+      <li><img class="cert-badge" src="./AZ900.png" alt="Microsoft Certified Azure Fundamentals badge" /><span>AZ-900 — Azure Fundamentals</span></li>
+      <li><img class="cert-badge" src="./AI900.png" alt="Microsoft Certified Azure AI Fundamentals badge" /><span>AI-900 — Azure AI Fundamentals</span></li>
+      <li><img class="cert-badge" src="./DP900.png" alt="Microsoft Certified Azure Data Fundamentals badge" /><span>DP-900 — Azure Data Fundamentals</span></li>
     </ul>
   </div>
 </div>
