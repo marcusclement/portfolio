@@ -16,8 +16,8 @@
   },
   {
     "key": "experience_airplai",
-    "keywords": ["airplai", "ai product", "chatbot", "langgraph", "langraph", "fastapi", "guardrails", "prompt", "sports", "startup"],
-    "content": "AI Product Engineer Intern at AirPLAi Sports (Jan 2026 - Mar 2026) in Seattle, WA. AirPLAi is a startup — Marcus has direct startup experience here. He engineered prompt and context strategies for a production AI chatbot, implementing guardrails and scoping new features. He built agent workflows and data retrieval logic in Python using LangGraph and FastAPI."
+    "keywords": ["airplai", "ai product", "chatbot", "langgraph", "langraph", "fastapi", "guardrails", "accessibility", "tooltip", "prompt", "sports", "startup"],
+    "content": "AI Product Engineer Intern at AirPLAi Sports (Jan 2026 - Mar 2026) in Seattle, WA. AirPLAi is a startup — Marcus has direct startup experience here. He engineered prompt and context strategies for a production AI chatbot, implementing guardrails and scoping new features. He built agent workflows and data retrieval logic in Python using LangGraph and FastAPI. He also implemented UI accessibility features for the sports AI chatbot, adding inline tooltip overlays for key term definitions."
   },
   {
     "key": "experience_webimpact",
