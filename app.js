@@ -180,6 +180,7 @@ const FILES = {
     <ul>
       <li>Designed AI governance controls, including a Deny by Default permission model and approval workflows for skills + agents.</li>
       <li>Defined data prioritization plan for agentic renewal justification automation, outlining priorities and next steps for rollout.</li>
+      <li>Audited 30k+ hours of AI usage across 16 teams; analyzed adoption and data gaps, and fixed reporting accuracy via RLS.</li>
     </ul>
   </div>
   <div class="resume-subrole">
@@ -226,7 +227,6 @@ const FILES = {
 <ul>
   <li>Engineered prompt and context strategies for production AI chatbot, implementing guardrails and scoping new features.</li>
   <li>Built agent workflows and data retrieval logic in Python using LangGraph and FastAPI.</li>
-  <li>Implemented UI accessibility features for sports AI chatbot, adding inline tooltip overlays for key term definitions.</li>
 </ul>
 <p class="resume-company">
 <span class="resume-hint">// click on the Web Impact logo</span>
